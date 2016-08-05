@@ -1,27 +1,17 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
+import Menu from './components/Menu.jsx'
+import injectTapEventPlugin from 'react-tap-event-plugin'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 require('./content/index.styl')
+injectTapEventPlugin()
 
 export default class App extends Component {
   render () {
     return (
-      <Menu />
-    )
-  }
-}
-
-class Menu extends Component {
-  render () {
-    return (
-      <div className="menu">
-        <ul className="menu-ul">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="/cn">繁体中文</a></li>
-        </ul>
-      </div>
+      <MuiThemeProvider>
+        <Menu />
+      </MuiThemeProvider>
     )
   }
 }
