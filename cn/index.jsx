@@ -1,13 +1,16 @@
-let App = React.createClass({
-  render: function () {
+import React, { Component } from 'react'
+import { render } from 'react-dom'
+
+export default class App extends Component {
+  render () {
     return (
       <Menu />
     )
   }
-})
+}
 
-let Menu = React.createClass({
-  render: function () {
+class Menu extends Component {
+  render () {
     return (
       <div className="menu">
         <ul className="menu-ul">
@@ -20,9 +23,9 @@ let Menu = React.createClass({
       </div>
     )
   }
-})
+}
 
-ReactDOM.render(
+render(
   <App />,
   document.getElementById('app')
 )
