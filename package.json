@@ -1,0 +1,19 @@
+{
+  "name": "react-dual-lang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesGu14/react-dual-lang.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesGu14/react-dual-lang/issues"
+  },
+  "homepage": "https://github.com/JamesGu14/react-dual-lang#readme"
+}
