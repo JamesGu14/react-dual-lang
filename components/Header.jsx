@@ -1,20 +1,19 @@
 import React, { Component } from 'react'
-import { render } from 'react-dom'
+
 import TopBar from './TopBar.jsx'
 import NavBar from './NavBar.jsx' 
+import Home from '../pages/Home.jsx'
 
-class Header extends Component {
+export default class Header extends Component {
   render() {
     return (
-      <header className="trd-header">
-        <TopBar />
-        <NavBar />
-      </header>
+      <div>
+        <header className="trd-header">
+          <TopBar />
+          <NavBar />
+        </header>
+        {this.props.children || <Home/>}
+      </div>
     )
   }
 }
-
-render(
-  <Header />,
-  document.getElementById('app-header')
-)

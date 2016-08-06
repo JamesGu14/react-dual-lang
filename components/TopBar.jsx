@@ -10,7 +10,7 @@ export default class TopBar extends Component {
               <ul>
                 <li className="trd-header-info-phn">03 8888 8888</li>
                 <li className="trd-header-info-location">
-                  <a href="https://www.google.com.au/maps/@-37.8119092,144.960909,15.99z" target="_blank">King Street, VIC 3000</a>
+                  <a href="#" target="_blank">North Terrace, SA 5000</a>
                 </li>
               </ul>
             </div>

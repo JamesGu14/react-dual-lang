@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { Link, IndexLink } from 'react-router'
+import NavLink from './NavLink.jsx'
 
 export default class NavBar extends Component {
   render () {
@@ -22,27 +24,27 @@ export default class NavBar extends Component {
               <div id="nav-menu" className="navbar-collapse trd-menu-wrapper collapse" role="navigation" style={{maxHeight: '846px'}}>
                 <ul className="nav navbar-nav trd-menus">
                   <li className="active">
-                    <a href="index.html">Home</a>
+                    <IndexLink to="/" activeClassName="active">Home</IndexLink>
                   </li>
                   <li>
-                    <a href="about-us.html">About</a>
+                    <NavLink to="/about">About</NavLink>
                   </li>
                   <li>
-                    <a href="products.html">Products</a>
+                    <NavLink to="/products">Products</NavLink>
                   </li>
                   <li>
-                    <a href="#">Services</a>
+                    <NavLink to="/services">Services</NavLink>
                     <ul className="trd-dropdown-menu">
                       <li>
-                        <a href="financial-service.html">Pay Online</a>
+                        <NavLink to="/payment">Pay Online</NavLink>
                       </li>
                       <li>
-                        <a href="business-plan.html">Parcel Tracking</a>
+                        <NavLink to="/tracking">Parcel Tracking</NavLink>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="contact-us.html">Contact Us</a>
+                    <NavLink to="/contact">Contact Us</NavLink>
                   </li>
                   <li>
                     <a href="/cn">繁體中文</a>
