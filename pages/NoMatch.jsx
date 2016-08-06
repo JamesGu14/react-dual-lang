@@ -6,12 +6,12 @@ const divStyle = {
   textAlign: 'center'
 }
 
-export default class Contact extends Component {
+export default class NoMatch extends Component {
   render() {
     return (
       <div style={divStyle}>
-        <h1>Contact Us</h1>
-        <h2>Page is under constructing, please come back later.</h2>
+        <h2>Sorry, the page you are visiting does not exist.</h2>
+        <br /><br />
       </div>
     )
   }

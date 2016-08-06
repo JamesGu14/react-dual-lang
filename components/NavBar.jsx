@@ -23,7 +23,7 @@ export default class NavBar extends Component {
 
               <div id="nav-menu" className="navbar-collapse trd-menu-wrapper collapse" role="navigation" style={{maxHeight: '846px'}}>
                 <ul className="nav navbar-nav trd-menus">
-                  <li className="active">
+                  <li>
                     <IndexLink to="/" activeClassName="active">Home</IndexLink>
                   </li>
                   <li>
@@ -33,7 +33,7 @@ export default class NavBar extends Component {
                     <NavLink to="/products">Products</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/services">Services</NavLink>
+                    <NavLink to="/payment">Services</NavLink>
                     <ul className="trd-dropdown-menu">
                       <li>
                         <NavLink to="/payment">Pay Online</NavLink>
