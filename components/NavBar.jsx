@@ -33,7 +33,7 @@ export default class NavBar extends Component {
                     <NavLink to="/products">Products</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/services">Services</NavLink>
+                    <NavLink to="/payment">Services</NavLink>
                     <ul className="trd-dropdown-menu">
                       <li>
                         <NavLink to="/payment">Pay Online</NavLink>

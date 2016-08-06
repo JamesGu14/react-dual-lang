@@ -89,10 +89,16 @@
 
 
 	var style = {
-	  margin: '100px auto 0 auto'
-	};
-	var style2 = {
+	  margin: '100px auto 0 auto',
+	  width: '400px',
 	  textAlign: 'center'
+	};
+	var h1Style = {
+	  textAlign: 'center'
+	};
+	var aStyle = {
+	  color: '#337ab7',
+	  textDecoration: 'none'
 	};
 
 	var Menu = function (_Component2) {
@@ -112,8 +118,15 @@
 	        { style: style },
 	        _react2.default.createElement(
 	          'h1',
-	          { style: style2 },
-	          '站点建设中, 请耐心等待'
+	          { style: h1Style },
+	          '站點建設中，請耐心等待'
+	        ),
+	        _react2.default.createElement('br', null),
+	        _react2.default.createElement('br', null),
+	        _react2.default.createElement(
+	          'a',
+	          { href: '/', style: aStyle },
+	          '返回英文站 | Go Back to English Site'
 	        )
 	      );
 	    }
