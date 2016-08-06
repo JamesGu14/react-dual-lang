@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
-import { Router, Route, browserHistory, IndexRoute, NoMatch } from 'react-router'
+import { Router, Route, browserHistory, IndexRoute } from 'react-router'
 
-import Header from './components/Header.jsx'
+import App from './components/App.jsx'
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
 import Products from './pages/Products.jsx'
@@ -10,10 +10,11 @@ import Services from './pages/Services.jsx'
 import Payment from './pages/Payment.jsx'
 import Tracking from './pages/Tracking.jsx'
 import Contact from './pages/Contact.jsx'
+import NoMatch from './pages/NoMatch.jsx' 
 
 render((
   <Router history={browserHistory}>
-    <Route path="/" component={Header}>
+    <Route path="/" component={App}>
       
       <IndexRoute component={Home} />
 

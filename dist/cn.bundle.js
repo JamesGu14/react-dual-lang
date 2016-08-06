@@ -87,6 +87,14 @@
 
 	exports.default = App;
 
+
+	var style = {
+	  margin: '100px auto 0 auto'
+	};
+	var style2 = {
+	  textAlign: 'center'
+	};
+
 	var Menu = function (_Component2) {
 	  _inherits(Menu, _Component2);
 
@@ -101,55 +109,11 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'menu' },
+	        { style: style },
 	        _react2.default.createElement(
-	          'ul',
-	          { className: 'menu-ul' },
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            _react2.default.createElement(
-	              'a',
-	              { href: '#' },
-	              '首页'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            _react2.default.createElement(
-	              'a',
-	              { href: '#' },
-	              '关于我们'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            _react2.default.createElement(
-	              'a',
-	              { href: '#' },
-	              '产品'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            _react2.default.createElement(
-	              'a',
-	              { href: '#' },
-	              '联系我们'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            _react2.default.createElement(
-	              'a',
-	              { href: '/' },
-	              'English'
-	            )
-	          )
+	          'h1',
+	          { style: style2 },
+	          '站点建设中, 请耐心等待'
 	        )
 	      );
 	    }

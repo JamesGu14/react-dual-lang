@@ -9,17 +9,18 @@ export default class App extends Component {
   }
 }
 
+const style = {
+  margin: '100px auto 0 auto',
+}
+const style2 = {
+  textAlign: 'center'
+}
+
 class Menu extends Component {
   render () {
     return (
-      <div className="menu">
-        <ul className="menu-ul">
-          <li><a href="#">首页</a></li>
-          <li><a href="#">关于我们</a></li>
-          <li><a href="#">产品</a></li>
-          <li><a href="#">联系我们</a></li>
-          <li><a href="/">English</a></li>
-        </ul>
+      <div style={style}>
+        <h1 style={style2}>站点建设中, 请耐心等待</h1>
       </div>
     )
   }

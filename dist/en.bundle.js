@@ -54,9 +54,9 @@
 
 	var _reactRouter = __webpack_require__(175);
 
-	var _Header = __webpack_require__(238);
+	var _App = __webpack_require__(252);
 
-	var _Header2 = _interopRequireDefault(_Header);
+	var _App2 = _interopRequireDefault(_App);
 
 	var _Home = __webpack_require__(242);
 
@@ -86,6 +86,10 @@
 
 	var _Contact2 = _interopRequireDefault(_Contact);
 
+	var _NoMatch = __webpack_require__(249);
+
+	var _NoMatch2 = _interopRequireDefault(_NoMatch);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	(0, _reactDom.render)(_react2.default.createElement(
@@ -93,7 +97,7 @@
 	  { history: _reactRouter.browserHistory },
 	  _react2.default.createElement(
 	    _reactRouter.Route,
-	    { path: '/', component: _Header2.default },
+	    { path: '/', component: _App2.default },
 	    _react2.default.createElement(_reactRouter.IndexRoute, { component: _Home2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/about', component: _About2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/products', component: _Products2.default }),
@@ -101,7 +105,7 @@
 	    _react2.default.createElement(_reactRouter.Route, { path: '/payment', component: _Payment2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/tracking', component: _Tracking2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/contact', component: _Contact2.default }),
-	    _react2.default.createElement(_reactRouter.Route, { path: '*', component: _reactRouter.NoMatch })
+	    _react2.default.createElement(_reactRouter.Route, { path: '*', component: _NoMatch2.default })
 	  )
 	), document.getElementById('app'));
 
@@ -27102,73 +27106,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 238 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _TopBar = __webpack_require__(239);
-
-	var _TopBar2 = _interopRequireDefault(_TopBar);
-
-	var _NavBar = __webpack_require__(240);
-
-	var _NavBar2 = _interopRequireDefault(_NavBar);
-
-	var _Home = __webpack_require__(242);
-
-	var _Home2 = _interopRequireDefault(_Home);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-	var Header = function (_Component) {
-	  _inherits(Header, _Component);
-
-	  function Header() {
-	    _classCallCheck(this, Header);
-
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Header).apply(this, arguments));
-	  }
-
-	  _createClass(Header, [{
-	    key: 'render',
-	    value: function render() {
-	      return _react2.default.createElement(
-	        'div',
-	        null,
-	        _react2.default.createElement(
-	          'header',
-	          { className: 'trd-header' },
-	          _react2.default.createElement(_TopBar2.default, null),
-	          _react2.default.createElement(_NavBar2.default, null)
-	        ),
-	        this.props.children || _react2.default.createElement(_Home2.default, null)
-	      );
-	    }
-	  }]);
-
-	  return Header;
-	}(_react.Component);
-
-	exports.default = Header;
-
-/***/ },
+/* 238 */,
 /* 239 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -27530,6 +27468,14 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
+	var _Banner = __webpack_require__(250);
+
+	var _Banner2 = _interopRequireDefault(_Banner);
+
+	var _BannerCard = __webpack_require__(251);
+
+	var _BannerCard2 = _interopRequireDefault(_BannerCard);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27553,7 +27499,8 @@
 	      return _react2.default.createElement(
 	        'div',
 	        null,
-	        'Home Page'
+	        _react2.default.createElement(_Banner2.default, null),
+	        _react2.default.createElement(_BannerCard2.default, null)
 	      );
 	    }
 	  }]);
@@ -27880,6 +27827,773 @@
 	}(_react.Component);
 
 	exports.default = Contact;
+
+/***/ },
+/* 249 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var NoMatch = function (_Component) {
+	  _inherits(NoMatch, _Component);
+
+	  function NoMatch() {
+	    _classCallCheck(this, NoMatch);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(NoMatch).apply(this, arguments));
+	  }
+
+	  _createClass(NoMatch, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'h1',
+	          null,
+	          'Page Not Found'
+	        ),
+	        _react2.default.createElement(
+	          'h1',
+	          null,
+	          'Page Not Found'
+	        ),
+	        _react2.default.createElement(
+	          'h1',
+	          null,
+	          'Page Not Found'
+	        ),
+	        _react2.default.createElement(
+	          'h1',
+	          null,
+	          'Page Not Found'
+	        )
+	      );
+	    }
+	  }]);
+
+	  return NoMatch;
+	}(_react.Component);
+
+	exports.default = NoMatch;
+
+/***/ },
+/* 250 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Banner = function (_Component) {
+	  _inherits(Banner, _Component);
+
+	  function Banner() {
+	    _classCallCheck(this, Banner);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Banner).apply(this, arguments));
+	  }
+
+	  _createClass(Banner, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "section",
+	        { className: "trd-hero-slider-section" },
+	        _react2.default.createElement(
+	          "div",
+	          { className: "slider-pro trd-hero-slider sp-horizontal", id: "trd-hero-slider", style: { margin: '0px', width: '1293px' } },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "sp-slides-container" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "sp-mask sp-grab", style: { width: '1293px', height: '928px' } },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "sp-slides", style: { transform: 'translate3d(-1303px, 0px, 0px)' } },
+	                _react2.default.createElement(
+	                  "div",
+	                  { className: "sp-slide trd-main-slides", "data-index": "0", "data-init": "true", "data-loaded": "true", style: { width: '1293px', height: '928px', left: '0px', top: '0px' } },
+	                  _react2.default.createElement(
+	                    "div",
+	                    { className: "sp-image-container", style: { width: '1293px', height: '928px' } },
+	                    _react2.default.createElement("img", { className: "sp-image", src: "images/slider-img-1.jpg", alt: "Slider Image", "data-default": "images/slider-img-1.jpg",
+	                      style: { width: 'auto', height: '100%', marginLeft: '-396px', marginTop: '0px' } })
+	                  ),
+	                  _react2.default.createElement(
+	                    "div",
+	                    { className: "sp-layer trd-slider-img trd-mac-img", "data-position": "bottomCenter", "data-vertical": "-25", "data-horizontal": "125", "data-show-delay": "500",
+	                      "data-hide-delay": "200", "data-show-transition": "left", "data-hide-transition": "right", "data-layer-init": "true", style: { visibility: 'hidden', whiteSpace: 'nowrap', width: '1013px', marginLeft: 'auto', marginRight: 'auto', left: '125px', right: '0px', bottom: '-25px', transformOrigin: 'center bottom 0px', transform: 'scale(1) translate3d(50px, 0px, 0px)', opacity: '0' } },
+	                    _react2.default.createElement("img", { src: "images/shape.png", alt: "Triangle Shape", "data-default": "images/shape.png" })
+	                  ),
+	                  _react2.default.createElement(
+	                    "h1",
+	                    { className: "sp-layer trd-slider-text-big", "data-position": "center", "data-vertical": "-130", "data-horizontal": "150", "data-show-transition": "left",
+	                      "data-hide-transition": "up", "data-show-delay": "1000", "data-hide-delay": "200", "data-layer-init": "true", style: { visibility: 'hidden', whiteSpace: 'nowrap', width: '346px', margin: 'auto', left: '150px', right: '0px', height: '124px', top: '-130px', bottom: '0px', transformOrigin: 'center center 0px', transform: 'scale(1) translate3d(0px, -50px, 0px)', opacity: '0' } },
+	                    "Proper ",
+	                    _react2.default.createElement(
+	                      "span",
+	                      { className: "trd-highlight-text" },
+	                      "Business"
+	                    ),
+	                    _react2.default.createElement("br", null),
+	                    " for success"
+	                  ),
+	                  _react2.default.createElement(
+	                    "p",
+	                    { className: "sp-layer trd-slider-text-small", "data-position": "center", "data-vertical": "90", "data-horizontal": "315", "data-show-delay": "1500",
+	                      "data-hide-delay": "200", "data-show-transition": "down", "data-hide-transition": "down", "data-layer-init": "true", style: { visibility: 'hidden', whiteSpace: 'nowrap', width: '505px', margin: 'auto', left: '315px', right: '0px', height: '60px', top: '90px', bottom: '0px', transformOrigin: 'center center 0px', transform: 'scale(1) translate3d(0px, 50px, 0px)', opacity: '0' } },
+	                    "Checkout and enjoy the biggest limited free explan ",
+	                    _react2.default.createElement("br", null),
+	                    "to you how all this mistaken idea"
+	                  ),
+	                  _react2.default.createElement(
+	                    "div",
+	                    { className: "sp-layer trd-hero-header-btns", "data-position": "center", "data-vertical": "260", "data-horizontal": "-45", "data-show-delay": "2000",
+	                      "data-hide-delay": "200", "data-show-transition": "down", "data-hide-transition": "up", "data-layer-init": "true", style: { visibility: 'hidden', whiteSpace: 'nowrap', width: '137px', margin: 'auto', left: '-45px', right: '0px', height: '45px', top: '260px', bottom: '0px', transformOrigin: 'center center 0px', transform: 'scale(1) translate3d(0px, -50px, 0px)', opacity: '0' } },
+	                    _react2.default.createElement(
+	                      "a",
+	                      { href: "#", className: "trd-btn" },
+	                      "Details"
+	                    )
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  "div",
+	                  { className: "sp-slide trd-main-slides sp-selected", "data-index": "1", "data-init": "true", "data-loaded": "true", style: { width: '1293px', height: '928px', left: '1303px', top: '0px' } },
+	                  _react2.default.createElement(
+	                    "div",
+	                    { className: "sp-image-container", style: { width: '1293px', height: '928px' } },
+	                    _react2.default.createElement("img", { className: "sp-image", src: "images/slider-img-2.jpg", alt: "Slider Image", "data-default": "images/slider-img-2.jpg",
+	                      style: { width: 'auto', height: '100%', marginLeft: '-490.5px', marginTop: '0px' } })
+	                  ),
+	                  _react2.default.createElement(
+	                    "div",
+	                    { className: "sp-layer trd-slider-img trd-mac-img", "data-position": "bottomCenter", "data-vertical": "-25", "data-horizontal": "125", "data-show-delay": "500",
+	                      "data-hide-delay": "200", "data-show-transition": "left", "data-hide-transition": "right", "data-layer-init": "true", style: { visibility: 'visible', whiteSpace: 'nowrap', width: '1013px', marginLeft: 'auto', marginRight: 'auto', left: '125px', right: '0px', bottom: '-25px', transformOrigin: 'center bottom 0px', transform: 'scale(1) translate3d(0px, 0px, 0px)', opacity: 1 } },
+	                    _react2.default.createElement("img", { src: "images/shape.png", alt: "Triangle Shape", "data-default": "images/shape.png" })
+	                  ),
+	                  _react2.default.createElement(
+	                    "h1",
+	                    { className: "sp-layer trd-slider-text-big", "data-position": "center", "data-vertical": "-130", "data-horizontal": "310", "data-show-transition": "left",
+	                      "data-hide-transition": "up", "data-show-delay": "1000", "data-hide-delay": "200", "data-layer-init": "true", style: { visibility: 'visible', whiteSpace: 'nowrap', width: '346px', margin: 'auto', left: '310px', right: '0px', height: '124px', top: '-130px', bottom: '0px', transformOrigin: 'center center 0px', transform: 'scale(1) translate3d(0px, 0px, 0px)', opacity: 1, transition: 'opacity 0.4s, transform 0.4s' } },
+	                    "Proper ",
+	                    _react2.default.createElement(
+	                      "span",
+	                      { className: "trd-highlight-text" },
+	                      "Business"
+	                    ),
+	                    _react2.default.createElement("br", null),
+	                    " for success"
+	                  ),
+	                  _react2.default.createElement(
+	                    "p",
+	                    { className: "sp-layer trd-slider-text-small", "data-position": "center", "data-vertical": "90", "data-horizontal": "470", "data-show-delay": "1500",
+	                      "data-hide-delay": "200", "data-show-transition": "down", "data-hide-transition": "down", "data-layer-init": "true", style: { visibility: 'visible', whiteSpace: 'nowrap', width: '505px', margin: 'auto', left: '470px', right: '0px', height: '60px', top: '90px', bottom: '0px', transformOrigin: 'center center 0px', transform: 'scale(1) translate3d(0px, 0px, 0px)', opacity: 1, transition: 'opacity 0.4s, transform 0.4s' } },
+	                    "Checkout and enjoy the biggest limited free explan ",
+	                    _react2.default.createElement("br", null),
+	                    "to you how all this mistaken idea"
+	                  ),
+	                  _react2.default.createElement(
+	                    "div",
+	                    { className: "sp-layer trd-hero-header-btns", "data-position": "center", "data-vertical": "260", "data-horizontal": "100", "data-show-delay": "2000",
+	                      "data-hide-delay": "200", "data-show-transition": "down", "data-hide-transition": "up", "data-layer-init": "true", style: { visibility: 'visible', whiteSpace: 'nowrap', width: '137px', margin: 'auto', left: '100px', right: '0px', height: '45px', top: '260px', bottom: '0px', transformOrigin: 'center center 0px', transform: 'scale(1) translate3d(0px, 0px, 0px)', opacity: 1 } },
+	                    _react2.default.createElement(
+	                      "a",
+	                      { href: "#", className: "trd-btn" },
+	                      "Details"
+	                    )
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "sp-arrows sp-fade-arrows" },
+	              _react2.default.createElement("div", { className: "sp-arrow sp-previous-arrow", style: { display: 'block' } }),
+	              _react2.default.createElement("div", { className: "sp-arrow sp-next-arrow", style: { display: 'none' } })
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Banner;
+	}(_react.Component);
+
+	exports.default = Banner;
+
+/***/ },
+/* 251 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Banner = function (_Component) {
+	  _inherits(Banner, _Component);
+
+	  function Banner() {
+	    _classCallCheck(this, Banner);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Banner).apply(this, arguments));
+	  }
+
+	  _createClass(Banner, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "section",
+	        { className: "trd-cta-section" },
+	        _react2.default.createElement(
+	          "div",
+	          { className: "container" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "row" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "trd-cta-wrapper" },
+	              _react2.default.createElement(
+	                "h3",
+	                null,
+	                "We help you to create the best ",
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "trd-highlight-text" },
+	                  "business"
+	                ),
+	                " plan , resource & execution"
+	              ),
+	              _react2.default.createElement(
+	                "a",
+	                { href: "#", className: "trd-btn trd-btn-alt" },
+	                "Get a Quote"
+	              )
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Banner;
+	}(_react.Component);
+
+	exports.default = Banner;
+
+/***/ },
+/* 252 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _TopBar = __webpack_require__(239);
+
+	var _TopBar2 = _interopRequireDefault(_TopBar);
+
+	var _NavBar = __webpack_require__(240);
+
+	var _NavBar2 = _interopRequireDefault(_NavBar);
+
+	var _Home = __webpack_require__(242);
+
+	var _Home2 = _interopRequireDefault(_Home);
+
+	var _Footer = __webpack_require__(253);
+
+	var _Footer2 = _interopRequireDefault(_Footer);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var App = function (_Component) {
+	  _inherits(App, _Component);
+
+	  function App() {
+	    _classCallCheck(this, App);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(App).apply(this, arguments));
+	  }
+
+	  _createClass(App, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'header',
+	          { className: 'trd-header' },
+	          _react2.default.createElement(_TopBar2.default, null),
+	          _react2.default.createElement(_NavBar2.default, null)
+	        ),
+	        this.props.children || _react2.default.createElement(_Home2.default, null),
+	        _react2.default.createElement(_Footer2.default, null)
+	      );
+	    }
+	  }]);
+
+	  return App;
+	}(_react.Component);
+
+	exports.default = App;
+
+/***/ },
+/* 253 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactRouter = __webpack_require__(175);
+
+	var _NavLink = __webpack_require__(241);
+
+	var _NavLink2 = _interopRequireDefault(_NavLink);
+
+	var _TopBar = __webpack_require__(239);
+
+	var _TopBar2 = _interopRequireDefault(_TopBar);
+
+	var _NavBar = __webpack_require__(240);
+
+	var _NavBar2 = _interopRequireDefault(_NavBar);
+
+	var _Home = __webpack_require__(242);
+
+	var _Home2 = _interopRequireDefault(_Home);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Header = function (_Component) {
+	  _inherits(Header, _Component);
+
+	  function Header() {
+	    _classCallCheck(this, Header);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Header).apply(this, arguments));
+	  }
+
+	  _createClass(Header, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'footer',
+	        null,
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'container' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'row' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'trd-footer-top' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'col-md-3 col-sm-6 col-xs-12 trd-footer-widget trd-about-widget' },
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'trd-logo-wrapper' },
+	                  _react2.default.createElement('img', { src: '/content/images/logo-footer.png', alt: 'Trade' })
+	                ),
+	                _react2.default.createElement(
+	                  'p',
+	                  null,
+	                  'Checkout and enjoy the biggest eco free explain you how an mistaken even some others me people expect better for proper management system are good idea ever made'
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'col-md-3 col-sm-6 col-xs-12 trd-footer-widget trd-useful-link-widget' },
+	                _react2.default.createElement(
+	                  'h3',
+	                  { className: 'trd-footer-widget-title' },
+	                  'Useful Link'
+	                ),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'trd-footer-widget-content' },
+	                  _react2.default.createElement(
+	                    'ul',
+	                    null,
+	                    _react2.default.createElement(
+	                      'li',
+	                      null,
+	                      _react2.default.createElement(
+	                        'a',
+	                        { href: '#' },
+	                        'About Us'
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      'li',
+	                      null,
+	                      _react2.default.createElement(
+	                        'a',
+	                        { href: '#' },
+	                        'Recent term'
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      'li',
+	                      null,
+	                      _react2.default.createElement(
+	                        'a',
+	                        { href: '#' },
+	                        'History'
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      'li',
+	                      null,
+	                      _react2.default.createElement(
+	                        'a',
+	                        { href: '#' },
+	                        'History'
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      'li',
+	                      null,
+	                      _react2.default.createElement(
+	                        'a',
+	                        { href: '#' },
+	                        'Career goal'
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      'li',
+	                      null,
+	                      _react2.default.createElement(
+	                        'a',
+	                        { href: '#' },
+	                        'Management'
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      'li',
+	                      null,
+	                      _react2.default.createElement(
+	                        'a',
+	                        { href: '#' },
+	                        'Company info'
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      'li',
+	                      null,
+	                      _react2.default.createElement(
+	                        'a',
+	                        { href: '#' },
+	                        'Company'
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      'li',
+	                      null,
+	                      _react2.default.createElement(
+	                        'a',
+	                        { href: '#' },
+	                        'Process'
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      'li',
+	                      null,
+	                      _react2.default.createElement(
+	                        'a',
+	                        { href: '#' },
+	                        'Marketing'
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      'li',
+	                      null,
+	                      _react2.default.createElement(
+	                        'a',
+	                        { href: '#' },
+	                        'Account'
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      'li',
+	                      null,
+	                      _react2.default.createElement(
+	                        'a',
+	                        { href: '#' },
+	                        'Contact'
+	                      )
+	                    )
+	                  )
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'col-md-3 col-sm-6 col-xs-12 trd-footer-widget trd-recent-post-widget' },
+	                _react2.default.createElement(
+	                  'h3',
+	                  { className: 'trd-footer-widget-title' },
+	                  'Recent Post'
+	                ),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'trd-footer-widget-content' },
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'trd-recent-post-wrapper' },
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'trd-recent-post-item' },
+	                      _react2.default.createElement(
+	                        'h3',
+	                        { className: 'trd-post-title' },
+	                        _react2.default.createElement(
+	                          'a',
+	                          { href: '#' },
+	                          'Financial express anounced the share list from candites'
+	                        )
+	                      ),
+	                      _react2.default.createElement(
+	                        'span',
+	                        { className: 'trd-post-date' },
+	                        'April 25, 2016'
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'trd-recent-post-item' },
+	                      _react2.default.createElement(
+	                        'h3',
+	                        { className: 'trd-post-title' },
+	                        _react2.default.createElement(
+	                          'a',
+	                          { href: '#' },
+	                          'Financial express anounced the share list from candites'
+	                        )
+	                      ),
+	                      _react2.default.createElement(
+	                        'span',
+	                        { className: 'trd-post-date' },
+	                        'April 25, 2016'
+	                      )
+	                    )
+	                  )
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'col-md-3 col-sm-6 col-xs-12 trd-footer-widget trd-subscribe-widget' },
+	                _react2.default.createElement(
+	                  'h3',
+	                  { className: 'trd-footer-widget-title' },
+	                  'Subscribe'
+	                ),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'trd-footer-widget-content' },
+	                  _react2.default.createElement(
+	                    'p',
+	                    null,
+	                    'Checkout and enjoy the biggest eco free explain you how '
+	                  ),
+	                  _react2.default.createElement(
+	                    'form',
+	                    { action: '#' },
+	                    _react2.default.createElement('input', { type: 'email', name: 'trd-subscription', id: 'trd-subscription', placeholder: 'Your email' }),
+	                    _react2.default.createElement(
+	                      'button',
+	                      { type: 'submit', className: 'trd-btn' },
+	                      'Submit'
+	                    )
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'trd-footer-bottom' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'trd-footer-menu' },
+	                _react2.default.createElement(
+	                  'ul',
+	                  null,
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      _reactRouter.IndexLink,
+	                      { to: '/', activeClassName: 'active' },
+	                      'Home'
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      _NavLink2.default,
+	                      { to: '/about' },
+	                      'About'
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      _NavLink2.default,
+	                      { to: '/products' },
+	                      'Products'
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      _NavLink2.default,
+	                      { to: '/payment' },
+	                      'Pay Online'
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      _NavLink2.default,
+	                      { to: '/tracking' },
+	                      'Parcel Tracking'
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      _NavLink2.default,
+	                      { to: '/contact' },
+	                      'Contact Us'
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      'a',
+	                      { href: '/cn' },
+	                      '繁體中文'
+	                    )
+	                  )
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'trd-copyright-info' },
+	                _react2.default.createElement(
+	                  'p',
+	                  null,
+	                  'Copyright © 2016 by ',
+	                  _react2.default.createElement(
+	                    'a',
+	                    { href: '#', className: 'trd-author-link' },
+	                    'James Gu'
+	                  )
+	                )
+	              )
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Header;
+	}(_react.Component);
+
+	exports.default = Header;
 
 /***/ }
 /******/ ]);
