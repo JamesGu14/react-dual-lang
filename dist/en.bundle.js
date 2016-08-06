@@ -27504,6 +27504,7 @@
 	        null,
 	        _react2.default.createElement(_Banner2.default, null),
 	        _react2.default.createElement(_BannerCard2.default, null),
+	        _react2.default.createElement(_SectionOne2.default, null),
 	        _react2.default.createElement(_SectionTwo2.default, null)
 	      );
 	    }
@@ -27893,117 +27894,45 @@
 	        { className: "trd-hero-slider-section" },
 	        _react2.default.createElement(
 	          "div",
-	          { className: "slider-pro trd-hero-slider sp-horizontal", id: "trd-hero-slider", style: { margin: '0px', width: '1293px' } },
+	          { id: "carousel-example-generic", className: "carousel slide", "data-ride": "carousel" },
+	          _react2.default.createElement(
+	            "ol",
+	            { className: "carousel-indicators" },
+	            _react2.default.createElement("li", { "data-target": "#carousel-example-generic", "data-slide-to": "0", className: "active" }),
+	            _react2.default.createElement("li", { "data-target": "#carousel-example-generic", "data-slide-to": "1" })
+	          ),
 	          _react2.default.createElement(
 	            "div",
-	            { className: "sp-slides-container" },
+	            { className: "carousel-inner", role: "listbox" },
 	            _react2.default.createElement(
 	              "div",
-	              { className: "sp-mask sp-grab", style: { width: '1293px', height: '928px' } },
-	              _react2.default.createElement(
-	                "div",
-	                { className: "sp-slides", style: { transform: 'translate3d(-1303px, 0px, 0px)' } },
-	                _react2.default.createElement(
-	                  "div",
-	                  { className: "sp-slide trd-main-slides", "data-index": "0", "data-init": "true", "data-loaded": "true", style: { width: '1293px', height: '928px', left: '0px', top: '0px' } },
-	                  _react2.default.createElement(
-	                    "div",
-	                    { className: "sp-image-container", style: { width: '1293px', height: '928px' } },
-	                    _react2.default.createElement("img", { className: "sp-image", src: "images/slider-img-1.jpg", alt: "Slider Image", "data-default": "images/slider-img-1.jpg",
-	                      style: { width: 'auto', height: '100%', marginLeft: '-396px', marginTop: '0px' } })
-	                  ),
-	                  _react2.default.createElement(
-	                    "div",
-	                    { className: "sp-layer trd-slider-img trd-mac-img", "data-position": "bottomCenter", "data-vertical": "-25", "data-horizontal": "125", "data-show-delay": "500",
-	                      "data-hide-delay": "200", "data-show-transition": "left", "data-hide-transition": "right", "data-layer-init": "true", style: { visibility: 'hidden', whiteSpace: 'nowrap', width: '1013px', marginLeft: 'auto', marginRight: 'auto', left: '125px', right: '0px', bottom: '-25px', transformOrigin: 'center bottom 0px', transform: 'scale(1) translate3d(50px, 0px, 0px)', opacity: '0' } },
-	                    _react2.default.createElement("img", { src: "images/shape.png", alt: "Triangle Shape", "data-default": "images/shape.png" })
-	                  ),
-	                  _react2.default.createElement(
-	                    "h1",
-	                    { className: "sp-layer trd-slider-text-big", "data-position": "center", "data-vertical": "-130", "data-horizontal": "150", "data-show-transition": "left",
-	                      "data-hide-transition": "up", "data-show-delay": "1000", "data-hide-delay": "200", "data-layer-init": "true", style: { visibility: 'hidden', whiteSpace: 'nowrap', width: '346px', margin: 'auto', left: '150px', right: '0px', height: '124px', top: '-130px', bottom: '0px', transformOrigin: 'center center 0px', transform: 'scale(1) translate3d(0px, -50px, 0px)', opacity: '0' } },
-	                    "Proper ",
-	                    _react2.default.createElement(
-	                      "span",
-	                      { className: "trd-highlight-text" },
-	                      "Business"
-	                    ),
-	                    _react2.default.createElement("br", null),
-	                    " for success"
-	                  ),
-	                  _react2.default.createElement(
-	                    "p",
-	                    { className: "sp-layer trd-slider-text-small", "data-position": "center", "data-vertical": "90", "data-horizontal": "315", "data-show-delay": "1500",
-	                      "data-hide-delay": "200", "data-show-transition": "down", "data-hide-transition": "down", "data-layer-init": "true", style: { visibility: 'hidden', whiteSpace: 'nowrap', width: '505px', margin: 'auto', left: '315px', right: '0px', height: '60px', top: '90px', bottom: '0px', transformOrigin: 'center center 0px', transform: 'scale(1) translate3d(0px, 50px, 0px)', opacity: '0' } },
-	                    "Checkout and enjoy the biggest limited free explan ",
-	                    _react2.default.createElement("br", null),
-	                    "to you how all this mistaken idea"
-	                  ),
-	                  _react2.default.createElement(
-	                    "div",
-	                    { className: "sp-layer trd-hero-header-btns", "data-position": "center", "data-vertical": "260", "data-horizontal": "-45", "data-show-delay": "2000",
-	                      "data-hide-delay": "200", "data-show-transition": "down", "data-hide-transition": "up", "data-layer-init": "true", style: { visibility: 'hidden', whiteSpace: 'nowrap', width: '137px', margin: 'auto', left: '-45px', right: '0px', height: '45px', top: '260px', bottom: '0px', transformOrigin: 'center center 0px', transform: 'scale(1) translate3d(0px, -50px, 0px)', opacity: '0' } },
-	                    _react2.default.createElement(
-	                      "a",
-	                      { href: "#", className: "trd-btn" },
-	                      "Details"
-	                    )
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  "div",
-	                  { className: "sp-slide trd-main-slides sp-selected", "data-index": "1", "data-init": "true", "data-loaded": "true", style: { width: '1293px', height: '928px', left: '1303px', top: '0px' } },
-	                  _react2.default.createElement(
-	                    "div",
-	                    { className: "sp-image-container", style: { width: '1293px', height: '928px' } },
-	                    _react2.default.createElement("img", { className: "sp-image", src: "images/slider-img-2.jpg", alt: "Slider Image", "data-default": "images/slider-img-2.jpg",
-	                      style: { width: 'auto', height: '100%', marginLeft: '-490.5px', marginTop: '0px' } })
-	                  ),
-	                  _react2.default.createElement(
-	                    "div",
-	                    { className: "sp-layer trd-slider-img trd-mac-img", "data-position": "bottomCenter", "data-vertical": "-25", "data-horizontal": "125", "data-show-delay": "500",
-	                      "data-hide-delay": "200", "data-show-transition": "left", "data-hide-transition": "right", "data-layer-init": "true", style: { visibility: 'visible', whiteSpace: 'nowrap', width: '1013px', marginLeft: 'auto', marginRight: 'auto', left: '125px', right: '0px', bottom: '-25px', transformOrigin: 'center bottom 0px', transform: 'scale(1) translate3d(0px, 0px, 0px)', opacity: 1 } },
-	                    _react2.default.createElement("img", { src: "images/shape.png", alt: "Triangle Shape", "data-default": "images/shape.png" })
-	                  ),
-	                  _react2.default.createElement(
-	                    "h1",
-	                    { className: "sp-layer trd-slider-text-big", "data-position": "center", "data-vertical": "-130", "data-horizontal": "310", "data-show-transition": "left",
-	                      "data-hide-transition": "up", "data-show-delay": "1000", "data-hide-delay": "200", "data-layer-init": "true", style: { visibility: 'visible', whiteSpace: 'nowrap', width: '346px', margin: 'auto', left: '310px', right: '0px', height: '124px', top: '-130px', bottom: '0px', transformOrigin: 'center center 0px', transform: 'scale(1) translate3d(0px, 0px, 0px)', opacity: 1, transition: 'opacity 0.4s, transform 0.4s' } },
-	                    "Proper ",
-	                    _react2.default.createElement(
-	                      "span",
-	                      { className: "trd-highlight-text" },
-	                      "Business"
-	                    ),
-	                    _react2.default.createElement("br", null),
-	                    " for success"
-	                  ),
-	                  _react2.default.createElement(
-	                    "p",
-	                    { className: "sp-layer trd-slider-text-small", "data-position": "center", "data-vertical": "90", "data-horizontal": "470", "data-show-delay": "1500",
-	                      "data-hide-delay": "200", "data-show-transition": "down", "data-hide-transition": "down", "data-layer-init": "true", style: { visibility: 'visible', whiteSpace: 'nowrap', width: '505px', margin: 'auto', left: '470px', right: '0px', height: '60px', top: '90px', bottom: '0px', transformOrigin: 'center center 0px', transform: 'scale(1) translate3d(0px, 0px, 0px)', opacity: 1, transition: 'opacity 0.4s, transform 0.4s' } },
-	                    "Checkout and enjoy the biggest limited free explan ",
-	                    _react2.default.createElement("br", null),
-	                    "to you how all this mistaken idea"
-	                  ),
-	                  _react2.default.createElement(
-	                    "div",
-	                    { className: "sp-layer trd-hero-header-btns", "data-position": "center", "data-vertical": "260", "data-horizontal": "100", "data-show-delay": "2000",
-	                      "data-hide-delay": "200", "data-show-transition": "down", "data-hide-transition": "up", "data-layer-init": "true", style: { visibility: 'visible', whiteSpace: 'nowrap', width: '137px', margin: 'auto', left: '100px', right: '0px', height: '45px', top: '260px', bottom: '0px', transformOrigin: 'center center 0px', transform: 'scale(1) translate3d(0px, 0px, 0px)', opacity: 1 } },
-	                    _react2.default.createElement(
-	                      "a",
-	                      { href: "#", className: "trd-btn" },
-	                      "Details"
-	                    )
-	                  )
-	                )
-	              )
+	              { className: "item active" },
+	              _react2.default.createElement("img", { src: "/content/images/slider-img-1.jpg", alt: "Banner1" })
 	            ),
 	            _react2.default.createElement(
 	              "div",
-	              { className: "sp-arrows sp-fade-arrows" },
-	              _react2.default.createElement("div", { className: "sp-arrow sp-previous-arrow", style: { display: 'block' } }),
-	              _react2.default.createElement("div", { className: "sp-arrow sp-next-arrow", style: { display: 'none' } })
+	              { className: "item" },
+	              _react2.default.createElement("img", { src: "/content/images/slider-img-2.jpg", alt: "Banner2" })
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { className: "left carousel-control", href: "#carousel-example-generic", role: "button", "data-slide": "prev" },
+	            _react2.default.createElement("span", { className: "glyphicon glyphicon-chevron-left", "aria-hidden": "true" }),
+	            _react2.default.createElement(
+	              "span",
+	              { className: "sr-only" },
+	              "Previous"
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { className: "right carousel-control", href: "#carousel-example-generic", role: "button", "data-slide": "next" },
+	            _react2.default.createElement("span", { className: "glyphicon glyphicon-chevron-right", "aria-hidden": "true" }),
+	            _react2.default.createElement(
+	              "span",
+	              { className: "sr-only" },
+	              "Next"
 	            )
 	          )
 	        )
