@@ -3,7 +3,7 @@ var poststylus = require('poststylus')
 
 module.exports = {
   entry: {
-    en: './index.jsx',
+    en: ['./components/Header.jsx'],
     cn: './cn/index.jsx'
   },
   output: {
