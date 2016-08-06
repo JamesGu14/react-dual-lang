@@ -23,7 +23,7 @@ export default class NavBar extends Component {
 
               <div id="nav-menu" className="navbar-collapse trd-menu-wrapper collapse" role="navigation" style={{maxHeight: '846px'}}>
                 <ul className="nav navbar-nav trd-menus">
-                  <li className="active">
+                  <li>
                     <IndexLink to="/" activeClassName="active">Home</IndexLink>
                   </li>
                   <li>

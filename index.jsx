@@ -14,7 +14,9 @@ import Contact from './pages/Contact.jsx'
 render((
   <Router history={browserHistory}>
     <Route path="/" component={Header}>
+      
       <IndexRoute component={Home} />
+
       <Route path="/about" component={About}></Route>
       <Route path="/products" component={Products}></Route>
       <Route path="/services" component={Services}></Route>
