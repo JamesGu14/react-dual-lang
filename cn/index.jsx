@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
-require('../content/index.styl')
 
 export default class App extends Component {
   render () {
