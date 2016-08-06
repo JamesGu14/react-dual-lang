@@ -27155,7 +27155,7 @@
 	                _react2.default.createElement(
 	                  "li",
 	                  { className: "trd-header-info-phn" },
-	                  "03 8888 8888"
+	                  "08 8888 8888"
 	                ),
 	                _react2.default.createElement(
 	                  "li",
@@ -27539,6 +27539,12 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+	var divStyle = {
+	  width: '600px',
+	  margin: '200px auto 200px auto',
+	  textAlign: 'center'
+	};
+
 	var About = function (_Component) {
 	  _inherits(About, _Component);
 
@@ -27553,31 +27559,16 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        null,
+	        { style: divStyle },
 	        _react2.default.createElement(
 	          'h1',
 	          null,
-	          'About us'
+	          'About Us'
 	        ),
 	        _react2.default.createElement(
-	          'h1',
+	          'h2',
 	          null,
-	          'About us'
-	        ),
-	        _react2.default.createElement(
-	          'h1',
-	          null,
-	          'About us'
-	        ),
-	        _react2.default.createElement(
-	          'h1',
-	          null,
-	          'About us'
-	        ),
-	        _react2.default.createElement(
-	          'h1',
-	          null,
-	          'About us'
+	          'Page is under constructing, please come back later.'
 	        )
 	      );
 	    }
@@ -27612,6 +27603,12 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+	var divStyle = {
+	  width: '600px',
+	  margin: '200px auto 200px auto',
+	  textAlign: 'center'
+	};
+
 	var Products = function (_Component) {
 	  _inherits(Products, _Component);
 
@@ -27626,8 +27623,17 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        null,
-	        'Our Products'
+	        { style: divStyle },
+	        _react2.default.createElement(
+	          'h1',
+	          null,
+	          'Products'
+	        ),
+	        _react2.default.createElement(
+	          'h2',
+	          null,
+	          'Page is under constructing, please come back later.'
+	        )
 	      );
 	    }
 	  }]);
@@ -27662,6 +27668,12 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+	var divStyle = {
+	  width: '600px',
+	  margin: '200px auto 200px auto',
+	  textAlign: 'center'
+	};
+
 	var Payment = function (_Component) {
 	  _inherits(Payment, _Component);
 
@@ -27676,8 +27688,17 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        null,
-	        'Payment Here'
+	        { style: divStyle },
+	        _react2.default.createElement(
+	          'h1',
+	          null,
+	          'Payment Online'
+	        ),
+	        _react2.default.createElement(
+	          'h2',
+	          null,
+	          'Page is under constructing, please come back later.'
+	        )
 	      );
 	    }
 	  }]);
@@ -27711,6 +27732,12 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+	var divStyle = {
+	  width: '600px',
+	  margin: '200px auto 200px auto',
+	  textAlign: 'center'
+	};
+
 	var Tracking = function (_Component) {
 	  _inherits(Tracking, _Component);
 
@@ -27725,8 +27752,12 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        null,
-	        'Tracking Parcel'
+	        { style: divStyle },
+	        _react2.default.createElement(
+	          'h2',
+	          null,
+	          'Page is under constructing, please come back later.'
+	        )
 	      );
 	    }
 	  }]);
@@ -27760,6 +27791,12 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+	var divStyle = {
+	  width: '600px',
+	  margin: '200px auto 200px auto',
+	  textAlign: 'center'
+	};
+
 	var Contact = function (_Component) {
 	  _inherits(Contact, _Component);
 
@@ -27774,8 +27811,17 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        null,
-	        'Contact us'
+	        { style: divStyle },
+	        _react2.default.createElement(
+	          'h1',
+	          null,
+	          'Contact Us'
+	        ),
+	        _react2.default.createElement(
+	          'h2',
+	          null,
+	          'Page is under constructing, please come back later.'
+	        )
 	      );
 	    }
 	  }]);
@@ -27809,6 +27855,12 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+	var divStyle = {
+	  width: '600px',
+	  margin: '200px auto 200px auto',
+	  textAlign: 'center'
+	};
+
 	var NoMatch = function (_Component) {
 	  _inherits(NoMatch, _Component);
 
@@ -27823,27 +27875,14 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        null,
+	        { style: divStyle },
 	        _react2.default.createElement(
-	          'h1',
+	          'h2',
 	          null,
-	          'Page Not Found'
+	          'Sorry, the page you are visiting does not exist.'
 	        ),
-	        _react2.default.createElement(
-	          'h1',
-	          null,
-	          'Page Not Found'
-	        ),
-	        _react2.default.createElement(
-	          'h1',
-	          null,
-	          'Page Not Found'
-	        ),
-	        _react2.default.createElement(
-	          'h1',
-	          null,
-	          'Page Not Found'
-	        )
+	        _react2.default.createElement('br', null),
+	        _react2.default.createElement('br', null)
 	      );
 	    }
 	  }]);

@@ -8,7 +8,7 @@ export default class TopBar extends Component {
           <div className="row">
             <div className="trd-contact-infos">
               <ul>
-                <li className="trd-header-info-phn">03 8888 8888</li>
+                <li className="trd-header-info-phn">08 8888 8888</li>
                 <li className="trd-header-info-location">
                   <a href="#" target="_blank">North Terrace, SA 5000</a>
                 </li>

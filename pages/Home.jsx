@@ -11,6 +11,7 @@ export default class Home extends Component {
       <div>
         <Banner />
         <BannerCard />
+        <SectionOne />
         <SectionTwo />
       </div>
     )
