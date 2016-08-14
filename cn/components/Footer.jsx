@@ -18,20 +18,20 @@ export default class Header extends Component {
                   <img src="/content/images/logo-footer.png" alt="Trade" />
                 </div>
 
-                <p>Checkout and enjoy the biggest eco free explain you how an mistaken even some others me people expect better for
-                  proper management system are good idea ever made</p>
+                <p>澳洲飛揚投資有限公司（For Young Investments  Pty  Ltd， ACN 609 081 932 )是位於澳大利亞南澳州首府阿德萊德（Adelaide）的著名公司。</p>
               </div>
 
               <div className="col-md-3 col-sm-6 col-xs-12 trd-footer-widget trd-useful-link-widget">
-                <h3 className="trd-footer-widget-title">Useful Link</h3>
+                <h3 className="trd-footer-widget-title">常用鏈接</h3>
 
                 <div className="trd-footer-widget-content">
                   <ul>
-                    <li><NavLink to="/about">About</NavLink></li>
-                    <li><NavLink to="/products">Products</NavLink></li>
-                    <li><NavLink to="/payment">Pay Online</NavLink></li>
-                    <li><NavLink to="/contact">Contact Us</NavLink></li>
-                    <li><NavLink to="/tracking">Parcel Tracking</NavLink></li>
+                    <li><NavLink to="/cn">首頁</NavLink></li>
+                    <li><NavLink to="/cn/about">關於我們</NavLink></li>
+                    <li><NavLink to="/cn/products">產品</NavLink></li>
+                    <li><NavLink to="/cn/payment">在線支付</NavLink></li>
+                    <li><NavLink to="/cn/tracking">包裹追蹤</NavLink></li>
+                    <li><NavLink to="/cn/contact">聯繫我們</NavLink></li>
                   </ul>
                 </div>
               </div>
@@ -61,14 +61,14 @@ export default class Header extends Component {
               </div>
 
               <div className="col-md-3 col-sm-6 col-xs-12 trd-footer-widget trd-subscribe-widget">
-                <h3 className="trd-footer-widget-title">Subscribe</h3>
+                <h3 className="trd-footer-widget-title">訂閱我們</h3>
 
                 <div className="trd-footer-widget-content">
-                  <p>Checkout and enjoy the biggest eco free explain you how </p>
+                  <p>訂閱我們的最新消息，以及各種優惠的商業活動 </p>
 
                   <form action="#">
-                    <input type="email" name="trd-subscription" id="trd-subscription" placeholder="Your email" />
-                    <button type="submit" className="trd-btn">Submit</button>
+                    <input type="email" name="trd-subscription" id="trd-subscription" placeholder="您的郵箱" />
+                    <button type="submit" className="trd-btn">訂閱郵件</button>
                   </form>
                 </div>
               </div>
@@ -78,25 +78,25 @@ export default class Header extends Component {
               <div className="trd-footer-menu">
                 <ul>
                   <li>
-                    <IndexLink to="/" activeClassName="active">Home</IndexLink>
+                    <IndexLink to="/cn/" activeClassName="active">首頁</IndexLink>
                   </li>
                   <li>
-                    <NavLink to="/about">About</NavLink>
+                    <NavLink to="/cn/about">關於我們</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/products">Products</NavLink>
+                    <NavLink to="/cn/products">產品</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/payment">Pay Online</NavLink>
+                    <NavLink to="/cn/payment">在線支付</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/tracking">Parcel Tracking</NavLink>
+                    <NavLink to="/cn/tracking">包裹追蹤</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/contact">Contact Us</NavLink>
+                    <NavLink to="/cn/contact">聯繫我們</NavLink>
                   </li>
                   <li>
-                    <a href="/cn">繁體中文</a>
+                    <a href="/">English</a>
                   </li>
                 </ul>
               </div>

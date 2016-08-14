@@ -1,40 +1,29 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
+import { Router, Route, browserHistory, IndexRoute } from 'react-router'
 
-export default class App extends Component {
-  render () {
-    return (
-      <Menu />
-    )
-  }
-}
+import App from './components/App.jsx'
+import Home from './pages/Home.jsx'
+import About from './pages/About.jsx'
+import Products from './pages/Products.jsx'
+import Payment from './pages/Payment.jsx'
+import Tracking from './pages/Tracking.jsx'
+import Contact from './pages/Contact.jsx'
+import NoMatch from './pages/NoMatch.jsx' 
 
-const style = {
-  margin: '100px auto 0 auto',
-  width: '400px',
-  textAlign: 'center'
-}
-const h1Style = {
-  textAlign: 'center'
-}
-const aStyle = {
-  color: '#337ab7',
-  textDecoration: 'none'
-}
+render((
+  <Router history={browserHistory}>
+    <Route path="/cn/" component={App}>
+      
+      <IndexRoute component={Home} />
 
-class Menu extends Component {
-  render () {
-    return (
-      <div style={style}>
-        <h1 style={h1Style}>站點建設中，請耐心等待</h1>
-        <br /><br />
-        <a href="/" style={aStyle}>返回英文站 | Go Back to English Site</a>
-      </div>
-    )
-  }
-}
-
-render(
-  <App />,
-  document.getElementById('app')
-)
+      <Route path="/cn/about" component={About}></Route>
+      <Route path="/cn/products" component={Products}></Route>
+      <Route path="/cn/payment" component={Payment}></Route>
+      <Route path="/cn/tracking" component={Tracking}></Route>
+      <Route path="/cn/contact" component={Contact}></Route>
+      <Route path="*" component={NoMatch}/>
+    </Route>
+   
+  </Router> 
+), document.getElementById('app'))
