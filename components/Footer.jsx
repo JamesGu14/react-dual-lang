@@ -27,18 +27,11 @@ export default class Header extends Component {
 
                 <div className="trd-footer-widget-content">
                   <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Recent term</a></li>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Career goal</a></li>
-                    <li><a href="#">Management</a></li>
-                    <li><a href="#">Company info</a></li>
-                    <li><a href="#">Company</a></li>
-                    <li><a href="#">Process</a></li>
-                    <li><a href="#">Marketing</a></li>
-                    <li><a href="#">Account</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><NavLink to="/about">About</NavLink></li>
+                    <li><NavLink to="/products">Products</NavLink></li>
+                    <li><NavLink to="/payment">Pay Online</NavLink></li>
+                    <li><NavLink to="/contact">Contact Us</NavLink></li>
+                    <li><NavLink to="/tracking">Parcel Tracking</NavLink></li>
                   </ul>
                 </div>
               </div>
