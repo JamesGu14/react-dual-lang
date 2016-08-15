@@ -35,27 +35,27 @@ export default class NavBar extends Component {
                     <IndexLink to="/cn/" activeClassName="active" onClick={this.scrollToTop}>首頁</IndexLink>
                   </li>
                   <li>
-                    <NavLink to="/cn/about" onClick={this.scrollToTop}>關於我們</NavLink>
+                    <NavLink to="/cn/about">關於我們</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/cn/products#app" onClick={this.scrollToTop}>產品</NavLink>
+                    <NavLink to="/cn/products#app">產品</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/cn/partner#app" onClick={this.scrollToTop}>合作商家</NavLink>
+                    <NavLink to="/cn/partner#app">合作商家</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/cn/payment#app" onClick={this.scrollToTop}>服務</NavLink>
+                    <NavLink to="/cn/payment#app">服務</NavLink>
                     <ul className="trd-dropdown-menu">
                       <li>
-                        <NavLink to="/cn/payment#app" onClick={this.scrollToTop}>在線支付</NavLink>
+                        <NavLink to="/cn/payment#app">在線支付</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/cn/tracking#app" onClick={this.scrollToTop}>包裹追蹤</NavLink>
+                        <NavLink to="/cn/tracking#app">包裹追蹤</NavLink>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <NavLink to="/cn/contact#app" onClick={this.scrollToTop}>聯繫我們</NavLink>
+                    <NavLink to="/cn/contact#app">聯繫我們</NavLink>
                   </li>
                   <li>
                     <a href="/">English</a>

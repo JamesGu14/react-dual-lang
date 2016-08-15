@@ -27410,7 +27410,7 @@
 	                    null,
 	                    _react2.default.createElement(
 	                      _NavLink2.default,
-	                      { to: '/cn/about', onClick: this.scrollToTop },
+	                      { to: '/cn/about' },
 	                      '關於我們'
 	                    )
 	                  ),
@@ -27419,7 +27419,7 @@
 	                    null,
 	                    _react2.default.createElement(
 	                      _NavLink2.default,
-	                      { to: '/cn/products#app', onClick: this.scrollToTop },
+	                      { to: '/cn/products#app' },
 	                      '產品'
 	                    )
 	                  ),
@@ -27428,7 +27428,7 @@
 	                    null,
 	                    _react2.default.createElement(
 	                      _NavLink2.default,
-	                      { to: '/cn/partner#app', onClick: this.scrollToTop },
+	                      { to: '/cn/partner#app' },
 	                      '合作商家'
 	                    )
 	                  ),
@@ -27437,7 +27437,7 @@
 	                    null,
 	                    _react2.default.createElement(
 	                      _NavLink2.default,
-	                      { to: '/cn/payment#app', onClick: this.scrollToTop },
+	                      { to: '/cn/payment#app' },
 	                      '服務'
 	                    ),
 	                    _react2.default.createElement(
@@ -27448,7 +27448,7 @@
 	                        null,
 	                        _react2.default.createElement(
 	                          _NavLink2.default,
-	                          { to: '/cn/payment#app', onClick: this.scrollToTop },
+	                          { to: '/cn/payment#app' },
 	                          '在線支付'
 	                        )
 	                      ),
@@ -27457,7 +27457,7 @@
 	                        null,
 	                        _react2.default.createElement(
 	                          _NavLink2.default,
-	                          { to: '/cn/tracking#app', onClick: this.scrollToTop },
+	                          { to: '/cn/tracking#app' },
 	                          '包裹追蹤'
 	                        )
 	                      )
@@ -27468,7 +27468,7 @@
 	                    null,
 	                    _react2.default.createElement(
 	                      _NavLink2.default,
-	                      { to: '/cn/contact#app', onClick: this.scrollToTop },
+	                      { to: '/cn/contact#app' },
 	                      '聯繫我們'
 	                    )
 	                  ),
@@ -27529,13 +27529,21 @@
 	  function NavLink() {
 	    _classCallCheck(this, NavLink);
 
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(NavLink).apply(this, arguments));
+	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(NavLink).call(this));
+
+	    _this.scrollToTop = _this.scrollToTop.bind(_this);
+	    return _this;
 	  }
 
 	  _createClass(NavLink, [{
+	    key: 'scrollToTop',
+	    value: function scrollToTop() {
+	      jQuery('html, body').animate({ scrollTop: 0 }, 'slow');
+	    }
+	  }, {
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_reactRouter.Link, _extends({}, this.props, { activeClassName: 'active' }));
+	      return _react2.default.createElement(_reactRouter.Link, _extends({}, this.props, { activeClassName: 'active', onClick: this.scrollToTop }));
 	    }
 	  }]);
 
@@ -38253,10 +38261,18 @@
 	  function Header() {
 	    _classCallCheck(this, Header);
 
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Header).apply(this, arguments));
+	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Header).call(this));
+
+	    _this.scrollToTop = _this.scrollToTop.bind(_this);
+	    return _this;
 	  }
 
 	  _createClass(Header, [{
+	    key: 'scrollToTop',
+	    value: function scrollToTop() {
+	      jQuery('html, body').animate({ scrollTop: 0 }, 'slow');
+	    }
+	  }, {
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
@@ -38303,8 +38319,8 @@
 	                      'li',
 	                      null,
 	                      _react2.default.createElement(
-	                        _NavLink2.default,
-	                        { to: '/cn' },
+	                        _reactRouter.IndexLink,
+	                        { to: '/cn/', activeClassName: 'active', onClick: this.scrollToTop },
 	                        '首頁'
 	                      )
 	                    ),
@@ -38324,6 +38340,15 @@
 	                        _NavLink2.default,
 	                        { to: '/cn/products' },
 	                        '產品'
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      'li',
+	                      null,
+	                      _react2.default.createElement(
+	                        _NavLink2.default,
+	                        { to: '/cn/partner' },
+	                        '合作夥伴'
 	                      )
 	                    ),
 	                    _react2.default.createElement(
@@ -38452,7 +38477,7 @@
 	                    null,
 	                    _react2.default.createElement(
 	                      _reactRouter.IndexLink,
-	                      { to: '/cn/', activeClassName: 'active' },
+	                      { to: '/cn/', activeClassName: 'active', onClick: this.scrollToTop },
 	                      '首頁'
 	                    )
 	                  ),
@@ -38472,6 +38497,15 @@
 	                      _NavLink2.default,
 	                      { to: '/cn/products' },
 	                      '產品'
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      _NavLink2.default,
+	                      { to: '/cn/partner' },
+	                      '合作夥伴'
 	                    )
 	                  ),
 	                  _react2.default.createElement(
