@@ -22,8 +22,7 @@ export default class LinePartners extends Component {
       <div className="row">
         {this.props.partners.map(function (item, i) {
           return (
-            <SinglePartner image={item.image} name={item.name}
-              description={item.description} key={item.key} />
+            <SinglePartner {...item} />
           )
         })}
       </div>
