@@ -38,24 +38,24 @@ export default class NavBar extends Component {
                     <NavLink to="/cn/about">關於我們</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/cn/products#app">產品</NavLink>
+                    <NavLink to="/cn/products">產品</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/cn/partner#app">合作商家</NavLink>
+                    <NavLink to="/cn/partner">合作商家</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/cn/payment#app">服務</NavLink>
+                    <NavLink to="/cn/payment">服務</NavLink>
                     <ul className="trd-dropdown-menu">
                       <li>
-                        <NavLink to="/cn/payment#app">在線支付</NavLink>
+                        <NavLink to="/cn/payment">在線支付</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/cn/tracking#app">包裹追蹤</NavLink>
+                        <NavLink to="/cn/tracking">包裹追蹤</NavLink>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <NavLink to="/cn/contact#app">聯繫我們</NavLink>
+                    <NavLink to="/cn/contact">聯繫我們</NavLink>
                   </li>
                   <li>
                     <a href="/">English</a>

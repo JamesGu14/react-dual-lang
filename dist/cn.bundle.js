@@ -27419,7 +27419,7 @@
 	                    null,
 	                    _react2.default.createElement(
 	                      _NavLink2.default,
-	                      { to: '/cn/products#app' },
+	                      { to: '/cn/products' },
 	                      '產品'
 	                    )
 	                  ),
@@ -27428,7 +27428,7 @@
 	                    null,
 	                    _react2.default.createElement(
 	                      _NavLink2.default,
-	                      { to: '/cn/partner#app' },
+	                      { to: '/cn/partner' },
 	                      '合作商家'
 	                    )
 	                  ),
@@ -27437,7 +27437,7 @@
 	                    null,
 	                    _react2.default.createElement(
 	                      _NavLink2.default,
-	                      { to: '/cn/payment#app' },
+	                      { to: '/cn/payment' },
 	                      '服務'
 	                    ),
 	                    _react2.default.createElement(
@@ -27448,7 +27448,7 @@
 	                        null,
 	                        _react2.default.createElement(
 	                          _NavLink2.default,
-	                          { to: '/cn/payment#app' },
+	                          { to: '/cn/payment' },
 	                          '在線支付'
 	                        )
 	                      ),
@@ -27457,7 +27457,7 @@
 	                        null,
 	                        _react2.default.createElement(
 	                          _NavLink2.default,
-	                          { to: '/cn/tracking#app' },
+	                          { to: '/cn/tracking' },
 	                          '包裹追蹤'
 	                        )
 	                      )
@@ -27468,7 +27468,7 @@
 	                    null,
 	                    _react2.default.createElement(
 	                      _NavLink2.default,
-	                      { to: '/cn/contact#app' },
+	                      { to: '/cn/contact' },
 	                      '聯繫我們'
 	                    )
 	                  ),
