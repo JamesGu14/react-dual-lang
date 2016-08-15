@@ -38993,9 +38993,9 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _SinglePartner = __webpack_require__(254);
+	var _LinePartners = __webpack_require__(275);
 
-	var _SinglePartner2 = _interopRequireDefault(_SinglePartner);
+	var _LinePartners2 = _interopRequireDefault(_LinePartners);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -39035,43 +39035,103 @@
 	              { className: 'trd-page-contents' },
 	              _react2.default.createElement(
 	                'div',
-	                { className: 'trd-blog-post-wrapper', style: { position: 'relative', height: '2754px' } },
-	                _react2.default.createElement(_SinglePartner2.default, { left: '0px', top: '0px', image: '../../content/images/blog-img-3.jpg', name: 'Arnotts（雅乐思）',
-	                  description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係' }),
-	                _react2.default.createElement(_SinglePartner2.default, { left: '390px', top: '0px', image: '../../content/images/blog-img-7.jpg', name: 'Nippys',
-	                  description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係' }),
-	                _react2.default.createElement(_SinglePartner2.default, { left: '780px', top: '0px', image: '../../content/images/blog-img-9.jpg', name: 'Cadbury（吉百利）',
-	                  description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係' }),
-	                _react2.default.createElement(_SinglePartner2.default, { left: '0px', top: '459px', image: '../../content/images/blog-img-3.jpg', name: 'Kit-Kat（奇巧）',
-	                  description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係' }),
-	                _react2.default.createElement(_SinglePartner2.default, { left: '390px', top: '459px', image: '../../content/images/blog-img-7.jpg', name: 'Lindts（瑞士莲）',
-	                  description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係' }),
-	                _react2.default.createElement(_SinglePartner2.default, { left: '780px', top: '459px', image: '../../content/images/blog-img-9.jpg', name: 'Kelloggs（家乐氏）',
-	                  description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係' }),
-	                _react2.default.createElement(_SinglePartner2.default, { left: '0px', top: '918px', image: '../../content/images/blog-img-3.jpg', name: 'Sanitarium（新康立）',
-	                  description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係' }),
-	                _react2.default.createElement(_SinglePartner2.default, { left: '390px', top: '918px', image: '../../content/images/blog-img-7.jpg', name: 'Morningfresh（洗涤生活用品）',
-	                  description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係' }),
-	                _react2.default.createElement(_SinglePartner2.default, { left: '780px', top: '918px', image: '../../content/images/blog-img-9.jpg', name: 'Beerenberg（百伦堡）',
-	                  description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係' }),
-	                _react2.default.createElement(_SinglePartner2.default, { left: '0px', top: '1377px', image: '../../content/images/blog-img-3.jpg', name: 'Brita（碧然德）',
-	                  description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係' }),
-	                _react2.default.createElement(_SinglePartner2.default, { left: '390px', top: '1377px', image: '../../content/images/blog-img-7.jpg', name: 'Heinz（亨氏）',
-	                  description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係' }),
-	                _react2.default.createElement(_SinglePartner2.default, { left: '780px', top: '1377px', image: '../../content/images/blog-img-9.jpg', name: 'Devondale（德运奶粉）',
-	                  description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係' }),
-	                _react2.default.createElement(_SinglePartner2.default, { left: '0px', top: '1836px', image: '../../content/images/blog-img-3.jpg', name: 'A2奶粉',
-	                  description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係' }),
-	                _react2.default.createElement(_SinglePartner2.default, { left: '390px', top: '1836px', image: '../../content/images/blog-img-7.jpg', name: 'Bellamy’s（贝拉米）',
-	                  description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係' }),
-	                _react2.default.createElement(_SinglePartner2.default, { left: '780px', top: '1836px', image: '../../content/images/blog-img-9.jpg', name: 'Karicare（可瑞康）',
-	                  description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係' }),
-	                _react2.default.createElement(_SinglePartner2.default, { left: '0px', top: '2295px', image: '../../content/images/blog-img-3.jpg', name: 'Rafferty’s Garden',
-	                  description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係' }),
-	                _react2.default.createElement(_SinglePartner2.default, { left: '390px', top: '2295px', image: '../../content/images/blog-img-7.jpg', name: 'Farex',
-	                  description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係' }),
-	                _react2.default.createElement(_SinglePartner2.default, { left: '780px', top: '2295px', image: '../../content/images/blog-img-9.jpg', name: 'Gaia',
-	                  description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係' })
+	                { className: 'trd-blog-post-wrapper' },
+	                _react2.default.createElement(_LinePartners2.default, { partners: [{
+	                    key: 1,
+	                    image: '../../content/images/blog-img-3.jpg',
+	                    name: 'Arnotts（雅乐思）',
+	                    description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係'
+	                  }, {
+	                    key: 2,
+	                    image: '../../content/images/blog-img-7.jpg',
+	                    name: 'Nippys',
+	                    description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係'
+	                  }, {
+	                    key: 3,
+	                    image: '../../content/images/blog-img-9.jpg',
+	                    name: 'Cadbury（吉百利）',
+	                    description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係'
+	                  }] }),
+	                _react2.default.createElement(_LinePartners2.default, { partners: [{
+	                    key: 4,
+	                    image: '../../content/images/blog-img-3.jpg',
+	                    name: 'Kit-Kat（奇巧）',
+	                    description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係'
+	                  }, {
+	                    key: 5,
+	                    image: '../../content/images/blog-img-7.jpg',
+	                    name: 'Lindts（瑞士莲）',
+	                    description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係'
+	                  }, {
+	                    key: 6,
+	                    image: '../../content/images/blog-img-9.jpg',
+	                    name: 'Kelloggs（家乐氏）',
+	                    description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係'
+	                  }] }),
+	                _react2.default.createElement(_LinePartners2.default, { partners: [{
+	                    key: 7,
+	                    image: '../../content/images/blog-img-3.jpg',
+	                    name: 'Sanitarium（新康立）',
+	                    description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係'
+	                  }, {
+	                    key: 8,
+	                    image: '../../content/images/blog-img-7.jpg',
+	                    name: 'Morningfresh（洗涤生活用品）',
+	                    description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係'
+	                  }, {
+	                    key: 9,
+	                    image: '../../content/images/blog-img-9.jpg',
+	                    name: 'Beerenberg（百伦堡）',
+	                    description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係'
+	                  }] }),
+	                _react2.default.createElement(_LinePartners2.default, { partners: [{
+	                    key: 10,
+	                    image: '../../content/images/blog-img-3.jpg',
+	                    name: 'Brita（碧然德）',
+	                    description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係'
+	                  }, {
+	                    key: 11,
+	                    image: '../../content/images/blog-img-7.jpg',
+	                    name: 'Heinz（亨氏）',
+	                    description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係'
+	                  }, {
+	                    key: 12,
+	                    image: '../../content/images/blog-img-9.jpg',
+	                    name: 'Devondale（德运奶粉）',
+	                    description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係'
+	                  }] }),
+	                _react2.default.createElement(_LinePartners2.default, { partners: [{
+	                    key: 13,
+	                    image: '../../content/images/blog-img-3.jpg',
+	                    name: 'A2奶粉',
+	                    description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係'
+	                  }, {
+	                    key: 14,
+	                    image: '../../content/images/blog-img-7.jpg',
+	                    name: 'Bellamy’s（贝拉米）',
+	                    description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係'
+	                  }, {
+	                    key: 15,
+	                    image: '../../content/images/blog-img-9.jpg',
+	                    name: 'Karicare（可瑞康）',
+	                    description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係'
+	                  }] }),
+	                _react2.default.createElement(_LinePartners2.default, { partners: [{
+	                    key: 16,
+	                    image: '../../content/images/blog-img-3.jpg',
+	                    name: 'Rafferty’s Garden',
+	                    description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係'
+	                  }, {
+	                    key: 17,
+	                    image: '../../content/images/blog-img-7.jpg',
+	                    name: 'Farex',
+	                    description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係'
+	                  }, {
+	                    key: 18,
+	                    image: '../../content/images/blog-img-9.jpg',
+	                    name: 'Gaia',
+	                    description: '雅樂思是一個非常有名的公司，並且和我們有著密切的合作關係'
+	                  }] })
 	              )
 	            )
 	          )
@@ -39086,77 +39146,7 @@
 	exports.default = Partner;
 
 /***/ },
-/* 254 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-	var SinglePartner = function (_Component) {
-	  _inherits(SinglePartner, _Component);
-
-	  function SinglePartner() {
-	    _classCallCheck(this, SinglePartner);
-
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(SinglePartner).apply(this, arguments));
-	  }
-
-	  _createClass(SinglePartner, [{
-	    key: 'render',
-	    value: function render() {
-	      return _react2.default.createElement(
-	        'div',
-	        { className: 'trd-blog-posts col-md-4 col-sm-4 col-xs-12', style: { position: 'absolute', left: this.props.left, top: this.props.top } },
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'trd-post-img-wrapper' },
-	          _react2.default.createElement('img', { src: this.props.image, alt: 'Blog Post Image' })
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'trd-post-excerpts' },
-	          _react2.default.createElement(
-	            'h3',
-	            null,
-	            _react2.default.createElement(
-	              'a',
-	              { href: '#' },
-	              this.props.name
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'p',
-	            null,
-	            this.props.description
-	          )
-	        )
-	      );
-	    }
-	  }]);
-
-	  return SinglePartner;
-	}(_react.Component);
-
-	exports.default = SinglePartner;
-
-/***/ },
+/* 254 */,
 /* 255 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -39554,6 +39544,116 @@
 	}(_react.Component);
 
 	exports.default = NoMatch;
+
+/***/ },
+/* 259 */,
+/* 260 */,
+/* 261 */,
+/* 262 */,
+/* 263 */,
+/* 264 */,
+/* 265 */,
+/* 266 */,
+/* 267 */,
+/* 268 */,
+/* 269 */,
+/* 270 */,
+/* 271 */,
+/* 272 */,
+/* 273 */,
+/* 274 */,
+/* 275 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var SinglePartner = function (_Component) {
+	  _inherits(SinglePartner, _Component);
+
+	  function SinglePartner() {
+	    _classCallCheck(this, SinglePartner);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(SinglePartner).apply(this, arguments));
+	  }
+
+	  _createClass(SinglePartner, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'col-md-4', style: { marginBottom: '40px' } },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'trd-post-img-wrapper' },
+	          _react2.default.createElement('img', { src: this.props.image, alt: 'Blog Post Image' })
+	        ),
+	        _react2.default.createElement('br', null),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'trd-post-excerpts' },
+	          _react2.default.createElement(
+	            'h5',
+	            null,
+	            this.props.name
+	          ),
+	          _react2.default.createElement(
+	            'p',
+	            null,
+	            this.props.description
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return SinglePartner;
+	}(_react.Component);
+
+	var LinePartners = function (_Component2) {
+	  _inherits(LinePartners, _Component2);
+
+	  function LinePartners() {
+	    _classCallCheck(this, LinePartners);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(LinePartners).apply(this, arguments));
+	  }
+
+	  _createClass(LinePartners, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'row' },
+	        this.props.partners.map(function (item, i) {
+	          return _react2.default.createElement(SinglePartner, { image: item.image, name: item.name,
+	            description: item.description, key: item.key });
+	        })
+	      );
+	    }
+	  }]);
+
+	  return LinePartners;
+	}(_react.Component);
+
+	exports.default = LinePartners;
 
 /***/ }
 /******/ ]);
