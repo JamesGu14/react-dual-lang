@@ -39605,12 +39605,11 @@
 	          { className: 'trd-post-img-wrapper' },
 	          _react2.default.createElement('img', { src: this.props.image, alt: 'Blog Post Image' })
 	        ),
-	        _react2.default.createElement('br', null),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'trd-post-excerpts' },
+	          { className: 'trd-post-excerpts', style: { padding: '25px', border: '1px solid #eee', borderTop: 'none' } },
 	          _react2.default.createElement(
-	            'h5',
+	            'h4',
 	            null,
 	            this.props.name
 	          ),
