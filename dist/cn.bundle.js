@@ -54,35 +54,35 @@
 
 	var _reactRouter = __webpack_require__(175);
 
-	var _App = __webpack_require__(254);
+	var _App = __webpack_require__(238);
 
 	var _App2 = _interopRequireDefault(_App);
 
-	var _Home = __webpack_require__(258);
+	var _Home = __webpack_require__(242);
 
 	var _Home2 = _interopRequireDefault(_Home);
 
-	var _About = __webpack_require__(264);
+	var _About = __webpack_require__(248);
 
 	var _About2 = _interopRequireDefault(_About);
 
-	var _Products = __webpack_require__(265);
+	var _Products = __webpack_require__(249);
 
 	var _Products2 = _interopRequireDefault(_Products);
 
-	var _Payment = __webpack_require__(266);
+	var _Payment = __webpack_require__(250);
 
 	var _Payment2 = _interopRequireDefault(_Payment);
 
-	var _Tracking = __webpack_require__(267);
+	var _Tracking = __webpack_require__(251);
 
 	var _Tracking2 = _interopRequireDefault(_Tracking);
 
-	var _Contact = __webpack_require__(268);
+	var _Contact = __webpack_require__(252);
 
 	var _Contact2 = _interopRequireDefault(_Contact);
 
-	var _NoMatch = __webpack_require__(269);
+	var _NoMatch = __webpack_require__(253);
 
 	var _NoMatch2 = _interopRequireDefault(_NoMatch);
 
@@ -27101,23 +27101,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 238 */,
-/* 239 */,
-/* 240 */,
-/* 241 */,
-/* 242 */,
-/* 243 */,
-/* 244 */,
-/* 245 */,
-/* 246 */,
-/* 247 */,
-/* 248 */,
-/* 249 */,
-/* 250 */,
-/* 251 */,
-/* 252 */,
-/* 253 */,
-/* 254 */
+/* 238 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27132,19 +27116,19 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _TopBar = __webpack_require__(255);
+	var _TopBar = __webpack_require__(239);
 
 	var _TopBar2 = _interopRequireDefault(_TopBar);
 
-	var _NavBar = __webpack_require__(256);
+	var _NavBar = __webpack_require__(240);
 
 	var _NavBar2 = _interopRequireDefault(_NavBar);
 
-	var _Home = __webpack_require__(258);
+	var _Home = __webpack_require__(242);
 
 	var _Home2 = _interopRequireDefault(_Home);
 
-	var _Footer = __webpack_require__(263);
+	var _Footer = __webpack_require__(247);
 
 	var _Footer2 = _interopRequireDefault(_Footer);
 
@@ -27189,7 +27173,7 @@
 	exports.default = App;
 
 /***/ },
-/* 255 */
+/* 239 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -27320,7 +27304,7 @@
 	exports.default = TopBar;
 
 /***/ },
-/* 256 */
+/* 240 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27337,7 +27321,7 @@
 
 	var _reactRouter = __webpack_require__(175);
 
-	var _NavLink = __webpack_require__(257);
+	var _NavLink = __webpack_require__(241);
 
 	var _NavLink2 = _interopRequireDefault(_NavLink);
 
@@ -27486,7 +27470,7 @@
 	exports.default = NavBar;
 
 /***/ },
-/* 257 */
+/* 241 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27535,7 +27519,7 @@
 	exports.default = NavLink;
 
 /***/ },
-/* 258 */
+/* 242 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27550,19 +27534,19 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Banner = __webpack_require__(259);
+	var _Banner = __webpack_require__(243);
 
 	var _Banner2 = _interopRequireDefault(_Banner);
 
-	var _BannerCard = __webpack_require__(260);
+	var _BannerCard = __webpack_require__(244);
 
 	var _BannerCard2 = _interopRequireDefault(_BannerCard);
 
-	var _SectionOne = __webpack_require__(261);
+	var _SectionOne = __webpack_require__(245);
 
 	var _SectionOne2 = _interopRequireDefault(_SectionOne);
 
-	var _SectionTwo = __webpack_require__(262);
+	var _SectionTwo = __webpack_require__(246);
 
 	var _SectionTwo2 = _interopRequireDefault(_SectionTwo);
 
@@ -27603,7 +27587,7 @@
 	exports.default = Home;
 
 /***/ },
-/* 259 */
+/* 243 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -27695,7 +27679,7 @@
 	exports.default = Banner;
 
 /***/ },
-/* 260 */
+/* 244 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27710,7 +27694,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _NavLink = __webpack_require__(257);
+	var _NavLink = __webpack_require__(241);
 
 	var _NavLink2 = _interopRequireDefault(_NavLink);
 
@@ -27780,7 +27764,7 @@
 	exports.default = Banner;
 
 /***/ },
-/* 261 */
+/* 245 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -27868,7 +27852,7 @@
 	                _react2.default.createElement(
 	                  "p",
 	                  null,
-	                  "Checkout an enjoy the biggest do our explain to you how an demon proper management"
+	                  "公司銷售拳頭產品主要包括澳新地區嬰、幼兒配方奶；澳新地區、幼兒配方奶粉、孕婦奶粉、成人奶粉； 暢銷保健品；美容護膚產品；澳洲零食；天然蜂蜜產品；純正澳洲燕麥；南澳巴洛薩區產紅酒； 澳洲高品質牛羊肉以及各式各樣的澳洲日常用品等。"
 	                )
 	              )
 	            ),
@@ -27895,7 +27879,7 @@
 	                _react2.default.createElement(
 	                  "p",
 	                  null,
-	                  "Checkout an enjoy the biggest do our explain to you how an demon proper management"
+	                  "公司擁有南澳州首府阿德萊德（Adelaide)市中心最老牌的IGA連鎖超市（IGA HUTT STREET)和多家便利店， 超市上架貨品一萬多種，並且還擁有澳洲著名獨立供貨商Metcash的供貨渠道， 其旗下運營的IGA連鎖超市更是遍及世界的獨立運營超市。"
 	                )
 	              )
 	            ),
@@ -27922,7 +27906,7 @@
 	                _react2.default.createElement(
 	                  "p",
 	                  null,
-	                  "Checkout an enjoy the biggest do our explain to you how an demon proper management"
+	                  "位於南澳州市中心中國城OZ Healthy Choice (Wright Street) 佔地面積400余平方米， 是集產品展示，產品銷售，包裹打包，國際空運派送，客服中心為一體的大型綜合性五六場館。"
 	                )
 	              )
 	            )
@@ -27938,7 +27922,7 @@
 	exports.default = SectionOne;
 
 /***/ },
-/* 262 */
+/* 246 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28014,7 +27998,7 @@
 	                  _react2.default.createElement(
 	                    "div",
 	                    { className: "trd-image-wrapper" },
-	                    _react2.default.createElement("img", { src: "/content/images/imgbox-img-1.jpg", alt: "Success Image" })
+	                    _react2.default.createElement("img", { src: "/content/images/testimonials/iga.png", alt: "IGA" })
 	                  ),
 	                  _react2.default.createElement(
 	                    "div",
@@ -28046,7 +28030,7 @@
 	                  _react2.default.createElement(
 	                    "div",
 	                    { className: "trd-image-wrapper" },
-	                    _react2.default.createElement("img", { src: "/content/images/category-img-3.jpg", alt: "Success Image" })
+	                    _react2.default.createElement("img", { src: "/content/images/testimonials/arnotts.png", alt: "Arnotts" })
 	                  ),
 	                  _react2.default.createElement(
 	                    "div",
@@ -28057,7 +28041,7 @@
 	                      _react2.default.createElement(
 	                        "a",
 	                        { href: "#" },
-	                        "Large Company"
+	                        "Arnotts"
 	                      )
 	                    ),
 	                    _react2.default.createElement(
@@ -28078,7 +28062,7 @@
 	                  _react2.default.createElement(
 	                    "div",
 	                    { className: "trd-image-wrapper" },
-	                    _react2.default.createElement("img", { src: "/content/images/imgbox-img-3.jpg", alt: "Success Image" })
+	                    _react2.default.createElement("img", { src: "/content/images/testimonials/karicare.png", alt: "Karicare" })
 	                  ),
 	                  _react2.default.createElement(
 	                    "div",
@@ -28089,7 +28073,7 @@
 	                      _react2.default.createElement(
 	                        "a",
 	                        { href: "#" },
-	                        "Another Large Company"
+	                        "Karicare"
 	                      )
 	                    ),
 	                    _react2.default.createElement(
@@ -28113,7 +28097,7 @@
 	exports.default = SectionTwo;
 
 /***/ },
-/* 263 */
+/* 247 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28130,19 +28114,19 @@
 
 	var _reactRouter = __webpack_require__(175);
 
-	var _NavLink = __webpack_require__(257);
+	var _NavLink = __webpack_require__(241);
 
 	var _NavLink2 = _interopRequireDefault(_NavLink);
 
-	var _TopBar = __webpack_require__(255);
+	var _TopBar = __webpack_require__(239);
 
 	var _TopBar2 = _interopRequireDefault(_TopBar);
 
-	var _NavBar = __webpack_require__(256);
+	var _NavBar = __webpack_require__(240);
 
 	var _NavBar2 = _interopRequireDefault(_NavBar);
 
-	var _Home = __webpack_require__(258);
+	var _Home = __webpack_require__(242);
 
 	var _Home2 = _interopRequireDefault(_Home);
 
@@ -28446,7 +28430,7 @@
 	exports.default = Header;
 
 /***/ },
-/* 264 */
+/* 248 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28510,7 +28494,7 @@
 	exports.default = About;
 
 /***/ },
-/* 265 */
+/* 249 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28574,7 +28558,7 @@
 	exports.default = Products;
 
 /***/ },
-/* 266 */
+/* 250 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28638,7 +28622,7 @@
 	exports.default = Payment;
 
 /***/ },
-/* 267 */
+/* 251 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28697,7 +28681,7 @@
 	exports.default = Tracking;
 
 /***/ },
-/* 268 */
+/* 252 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28761,7 +28745,7 @@
 	exports.default = Contact;
 
 /***/ },
-/* 269 */
+/* 253 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
