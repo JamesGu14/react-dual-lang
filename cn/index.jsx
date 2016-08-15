@@ -6,6 +6,7 @@ import App from './components/App.jsx'
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
 import Products from './pages/Products.jsx'
+import Partner from './pages/Partner.jsx'
 import Payment from './pages/Payment.jsx'
 import Tracking from './pages/Tracking.jsx'
 import Contact from './pages/Contact.jsx'
@@ -19,6 +20,7 @@ render((
 
       <Route path="/cn/about" component={About}></Route>
       <Route path="/cn/products" component={Products}></Route>
+      <Route path="/cn/partner" component={Partner}></Route>
       <Route path="/cn/payment" component={Payment}></Route>
       <Route path="/cn/tracking" component={Tracking}></Route>
       <Route path="/cn/contact" component={Contact}></Route>

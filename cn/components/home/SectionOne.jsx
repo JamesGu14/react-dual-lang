@@ -26,8 +26,10 @@ export default class SectionOne extends Component {
                 <h3>
                   <a href="#">澳洲商品</a>
                 </h3>
-
-                <p>Checkout an enjoy the biggest do our explain to you how an demon proper management</p>
+                <p>公司銷售拳頭產品主要包括澳新地區嬰、幼兒配方奶；澳新地區、幼兒配方奶粉、孕婦奶粉、成人奶粉；
+                  暢銷保健品；美容護膚產品；澳洲零食；天然蜂蜜產品；純正澳洲燕麥；南澳巴洛薩區產紅酒；
+                  澳洲高品質牛羊肉以及各式各樣的澳洲日常用品等。
+                </p>
               </div>
             </div>
             {/* End */}
@@ -43,7 +45,10 @@ export default class SectionOne extends Component {
                   <a href="#">零售連鎖</a>
                 </h3>
 
-                <p>Checkout an enjoy the biggest do our explain to you how an demon proper management</p>
+                <p>公司擁有南澳州首府阿德萊德（Adelaide)市中心最老牌的IGA連鎖超市（IGA HUTT STREET)和多家便利店，
+                  超市上架貨品一萬多種，並且還擁有澳洲著名獨立供貨商Metcash的供貨渠道，
+                  其旗下運營的IGA連鎖超市更是遍及世界的獨立運營超市。
+                </p>
               </div>
             </div>
             {/* End */}
@@ -59,7 +64,9 @@ export default class SectionOne extends Component {
                   <a href="#">國際物流業務</a>
                 </h3>
 
-                <p>Checkout an enjoy the biggest do our explain to you how an demon proper management</p>
+                <p>位於南澳州市中心中國城OZ Healthy Choice (Wright Street) 佔地面積400余平方米，
+                  是集產品展示，產品銷售，包裹打包，國際空運派送，客服中心為一體的大型綜合性五六場館。
+                </p>
               </div>
             </div>
             {/* End */}

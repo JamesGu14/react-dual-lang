@@ -33,10 +33,10 @@ export default class SectionTwo extends Component {
 
               {/* Imagebox with details */}
               <div className="col-md-4 col-sm-4 col-xs-12 trd-imagebox-with-text-wrapper appear fadeIn" data-wow-duration="1s" data-wow-delay=".5s"
-                style={{visibility: 'visible', animationDuration: '1s', animationDelay: '0.5s', animationName: 'fadeIn'}}>
+                style={{ visibility: 'visible', animationDuration: '1s', animationDelay: '0.5s', animationName: 'fadeIn' }}>
                 <div className="trd-imagebox-with-text">
                   <div className="trd-image-wrapper">
-                    <img src="/content/images/category-img-3.jpg" alt="Success Image"/>
+                    <img src="/content/images/testimonials/arnotts.png" alt="Success Image"/>
                   </div>
 
                   <div className="trd-imagebox-details">
@@ -51,10 +51,10 @@ export default class SectionTwo extends Component {
 
               {/* Imagebox with details */}
               <div className="col-md-4 col-sm-4 col-xs-12 trd-imagebox-with-text-wrapper appear fadeIn" data-wow-duration="1s" data-wow-delay=".7s"
-                style={{visibility: 'visible', animationDuration: '1s', animationDelay: '0.7s', animationName: 'fadeIn'}}>
+                style={{ visibility: 'visible', animationDuration: '1s', animationDelay: '0.7s', animationName: 'fadeIn' }}>
                 <div className="trd-imagebox-with-text">
                   <div className="trd-image-wrapper">
-                    <img src="/content/images/imgbox-img-3.jpg" alt="Success Image" />
+                    <img src="/content/images/testimonials/karicare.png" alt="Success Image" />
                   </div>
 
                   <div className="trd-imagebox-details">

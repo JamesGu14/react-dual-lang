@@ -54,35 +54,35 @@
 
 	var _reactRouter = __webpack_require__(175);
 
-	var _App = __webpack_require__(238);
+	var _App = __webpack_require__(259);
 
 	var _App2 = _interopRequireDefault(_App);
 
-	var _Home = __webpack_require__(242);
+	var _Home = __webpack_require__(263);
 
 	var _Home2 = _interopRequireDefault(_Home);
 
-	var _About = __webpack_require__(248);
+	var _About = __webpack_require__(269);
 
 	var _About2 = _interopRequireDefault(_About);
 
-	var _Products = __webpack_require__(249);
+	var _Products = __webpack_require__(270);
 
 	var _Products2 = _interopRequireDefault(_Products);
 
-	var _Payment = __webpack_require__(250);
+	var _Payment = __webpack_require__(271);
 
 	var _Payment2 = _interopRequireDefault(_Payment);
 
-	var _Tracking = __webpack_require__(251);
+	var _Tracking = __webpack_require__(272);
 
 	var _Tracking2 = _interopRequireDefault(_Tracking);
 
-	var _Contact = __webpack_require__(252);
+	var _Contact = __webpack_require__(273);
 
 	var _Contact2 = _interopRequireDefault(_Contact);
 
-	var _NoMatch = __webpack_require__(253);
+	var _NoMatch = __webpack_require__(274);
 
 	var _NoMatch2 = _interopRequireDefault(_NoMatch);
 
@@ -27101,7 +27101,28 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 238 */
+/* 238 */,
+/* 239 */,
+/* 240 */,
+/* 241 */,
+/* 242 */,
+/* 243 */,
+/* 244 */,
+/* 245 */,
+/* 246 */,
+/* 247 */,
+/* 248 */,
+/* 249 */,
+/* 250 */,
+/* 251 */,
+/* 252 */,
+/* 253 */,
+/* 254 */,
+/* 255 */,
+/* 256 */,
+/* 257 */,
+/* 258 */,
+/* 259 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27116,19 +27137,19 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _TopBar = __webpack_require__(239);
+	var _TopBar = __webpack_require__(260);
 
 	var _TopBar2 = _interopRequireDefault(_TopBar);
 
-	var _NavBar = __webpack_require__(240);
+	var _NavBar = __webpack_require__(261);
 
 	var _NavBar2 = _interopRequireDefault(_NavBar);
 
-	var _Home = __webpack_require__(242);
+	var _Home = __webpack_require__(263);
 
 	var _Home2 = _interopRequireDefault(_Home);
 
-	var _Footer = __webpack_require__(247);
+	var _Footer = __webpack_require__(268);
 
 	var _Footer2 = _interopRequireDefault(_Footer);
 
@@ -27173,7 +27194,7 @@
 	exports.default = App;
 
 /***/ },
-/* 239 */
+/* 260 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -27304,7 +27325,7 @@
 	exports.default = TopBar;
 
 /***/ },
-/* 240 */
+/* 261 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27321,7 +27342,7 @@
 
 	var _reactRouter = __webpack_require__(175);
 
-	var _NavLink = __webpack_require__(241);
+	var _NavLink = __webpack_require__(262);
 
 	var _NavLink2 = _interopRequireDefault(_NavLink);
 
@@ -27470,7 +27491,7 @@
 	exports.default = NavBar;
 
 /***/ },
-/* 241 */
+/* 262 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27519,7 +27540,7 @@
 	exports.default = NavLink;
 
 /***/ },
-/* 242 */
+/* 263 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27534,19 +27555,19 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Banner = __webpack_require__(243);
+	var _Banner = __webpack_require__(264);
 
 	var _Banner2 = _interopRequireDefault(_Banner);
 
-	var _BannerCard = __webpack_require__(244);
+	var _BannerCard = __webpack_require__(265);
 
 	var _BannerCard2 = _interopRequireDefault(_BannerCard);
 
-	var _SectionOne = __webpack_require__(245);
+	var _SectionOne = __webpack_require__(266);
 
 	var _SectionOne2 = _interopRequireDefault(_SectionOne);
 
-	var _SectionTwo = __webpack_require__(246);
+	var _SectionTwo = __webpack_require__(267);
 
 	var _SectionTwo2 = _interopRequireDefault(_SectionTwo);
 
@@ -27587,7 +27608,7 @@
 	exports.default = Home;
 
 /***/ },
-/* 243 */
+/* 264 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -27679,7 +27700,7 @@
 	exports.default = Banner;
 
 /***/ },
-/* 244 */
+/* 265 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -27755,7 +27776,7 @@
 	exports.default = Banner;
 
 /***/ },
-/* 245 */
+/* 266 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -27919,7 +27940,7 @@
 	exports.default = SectionOne;
 
 /***/ },
-/* 246 */
+/* 267 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28027,7 +28048,7 @@
 	                  _react2.default.createElement(
 	                    "div",
 	                    { className: "trd-image-wrapper" },
-	                    _react2.default.createElement("img", { src: "/content/images/category-img-3.jpg", alt: "Success Image" })
+	                    _react2.default.createElement("img", { src: "/content/images/testimonials/arnotts.png", alt: "Success Image" })
 	                  ),
 	                  _react2.default.createElement(
 	                    "div",
@@ -28059,7 +28080,7 @@
 	                  _react2.default.createElement(
 	                    "div",
 	                    { className: "trd-image-wrapper" },
-	                    _react2.default.createElement("img", { src: "/content/images/imgbox-img-3.jpg", alt: "Success Image" })
+	                    _react2.default.createElement("img", { src: "/content/images/testimonials/karicare.png", alt: "Success Image" })
 	                  ),
 	                  _react2.default.createElement(
 	                    "div",
@@ -28094,7 +28115,7 @@
 	exports.default = SectionTwo;
 
 /***/ },
-/* 247 */
+/* 268 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28111,19 +28132,19 @@
 
 	var _reactRouter = __webpack_require__(175);
 
-	var _NavLink = __webpack_require__(241);
+	var _NavLink = __webpack_require__(262);
 
 	var _NavLink2 = _interopRequireDefault(_NavLink);
 
-	var _TopBar = __webpack_require__(239);
+	var _TopBar = __webpack_require__(260);
 
 	var _TopBar2 = _interopRequireDefault(_TopBar);
 
-	var _NavBar = __webpack_require__(240);
+	var _NavBar = __webpack_require__(261);
 
 	var _NavBar2 = _interopRequireDefault(_NavBar);
 
-	var _Home = __webpack_require__(242);
+	var _Home = __webpack_require__(263);
 
 	var _Home2 = _interopRequireDefault(_Home);
 
@@ -28418,7 +28439,7 @@
 	exports.default = Header;
 
 /***/ },
-/* 248 */
+/* 269 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28482,7 +28503,7 @@
 	exports.default = About;
 
 /***/ },
-/* 249 */
+/* 270 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28546,7 +28567,7 @@
 	exports.default = Products;
 
 /***/ },
-/* 250 */
+/* 271 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28610,7 +28631,7 @@
 	exports.default = Payment;
 
 /***/ },
-/* 251 */
+/* 272 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28669,7 +28690,7 @@
 	exports.default = Tracking;
 
 /***/ },
-/* 252 */
+/* 273 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28733,7 +28754,7 @@
 	exports.default = Contact;
 
 /***/ },
-/* 253 */
+/* 274 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
