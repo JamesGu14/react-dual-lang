@@ -7,6 +7,13 @@ import NavBar from './NavBar.jsx'
 import Home from '../pages/Home.jsx'
 
 export default class Header extends Component {
+  constructor() {
+    super()
+    this.scrollToTop = this.scrollToTop.bind(this)
+  }
+  scrollToTop () { 
+    jQuery('html, body').animate({ scrollTop: 0 }, 'slow') 
+  }
   render() {
     return (
       <footer>
@@ -26,9 +33,10 @@ export default class Header extends Component {
 
                 <div className="trd-footer-widget-content">
                   <ul>
-                    <li><NavLink to="/cn">首頁</NavLink></li>
+                    <li><IndexLink to="/cn/" activeClassName="active" onClick={this.scrollToTop}>首頁</IndexLink></li>
                     <li><NavLink to="/cn/about">關於我們</NavLink></li>
                     <li><NavLink to="/cn/products">產品</NavLink></li>
+                    <li><NavLink to="/cn/partner">合作夥伴</NavLink></li>
                     <li><NavLink to="/cn/payment">在線支付</NavLink></li>
                     <li><NavLink to="/cn/tracking">包裹追蹤</NavLink></li>
                     <li><NavLink to="/cn/contact">聯繫我們</NavLink></li>
@@ -78,13 +86,16 @@ export default class Header extends Component {
               <div className="trd-footer-menu">
                 <ul>
                   <li>
-                    <IndexLink to="/cn/" activeClassName="active">首頁</IndexLink>
+                    <IndexLink to="/cn/" activeClassName="active" onClick={this.scrollToTop}>首頁</IndexLink>
                   </li>
                   <li>
                     <NavLink to="/cn/about">關於我們</NavLink>
                   </li>
                   <li>
                     <NavLink to="/cn/products">產品</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/cn/partner">合作夥伴</NavLink>
                   </li>
                   <li>
                     <NavLink to="/cn/payment">在線支付</NavLink>
