@@ -9,7 +9,11 @@ export default class NavBar extends Component {
     this.scrollToTop = this.scrollToTop.bind(this)
   }
   scrollToTop () { 
-    jQuery('html, body').animate({ scrollTop: 0 }, 'slow') 
+    // Extra for main menu. To collapse in mobile view
+    if ($(document).width() < 768) {
+      jQuery('.navbar-toggle').click()
+    }
+    jQuery('html, body').animate({ scrollTop: 0 }, 'slow')
   }
   render () {
     return (
@@ -35,27 +39,27 @@ export default class NavBar extends Component {
                     <IndexLink to="/cn/" activeClassName="active" onClick={this.scrollToTop}>首頁</IndexLink>
                   </li>
                   <li>
-                    <NavLink to="/cn/about">關於我們</NavLink>
+                    <NavLink to="/cn/about" collapse={true}>關於我們</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/cn/products">產品</NavLink>
+                    <NavLink to="/cn/products" collapse={true}>產品</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/cn/partner">合作商家</NavLink>
+                    <NavLink to="/cn/partner" collapse={true}>合作商家</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/cn/payment">服務</NavLink>
+                    <NavLink to="/cn/payment" collapse={true}>服務</NavLink>
                     <ul className="trd-dropdown-menu">
                       <li>
-                        <NavLink to="/cn/payment">在線支付</NavLink>
+                        <NavLink to="/cn/payment" collapse={true}>在線支付</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/cn/tracking">包裹追蹤</NavLink>
+                        <NavLink to="/cn/tracking" collapse={true}>包裹追蹤</NavLink>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <NavLink to="/cn/contact">聯繫我們</NavLink>
+                    <NavLink to="/cn/contact" collapse={true}>聯繫我們</NavLink>
                   </li>
                   <li>
                     <a href="/">English</a>
