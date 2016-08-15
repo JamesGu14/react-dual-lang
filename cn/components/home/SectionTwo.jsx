@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import NavLink from '../NavLink.jsx'
 
 export default class SectionTwo extends Component {
   render() {
@@ -8,7 +9,7 @@ export default class SectionTwo extends Component {
           <div className="row">
             <div className="trd-section-title-wrapper col-md-12 col-sm-12 col-xs-12">
               <h1 className="trd-section-tittle">查看我們的 <span className="trd-highlight-text">商業夥伴</span></h1>
-              <a href="#" className="trd-details-link">查看所有</a>
+              <NavLink to="/cn/partner" className="trd-details-link">查看所有</NavLink>
             </div>
 
             <div className="trd-key-to-success">

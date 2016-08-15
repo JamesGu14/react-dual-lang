@@ -1,8 +1,16 @@
 import React, { Component } from 'react'
 import { Link, IndexLink } from 'react-router'
 import NavLink from './NavLink.jsx'
+import jQuery from 'jquery'
 
 export default class NavBar extends Component {
+  constructor() {
+    super()
+    this.scrollToTop = this.scrollToTop.bind(this)
+  }
+  scrollToTop () { 
+    jQuery('html, body').animate({ scrollTop: 0 }, 'slow') 
+  }
   render () {
     return (
       <div className="trd-header-bottombar">
@@ -24,27 +32,30 @@ export default class NavBar extends Component {
               <div id="nav-menu" className="navbar-collapse trd-menu-wrapper collapse" role="navigation" style={{ maxHeight: '846px' }}>
                 <ul className="nav navbar-nav trd-menus">
                   <li>
-                    <IndexLink to="/cn/" activeClassName="active">首頁</IndexLink>
+                    <IndexLink to="/cn/" activeClassName="active" onClick={this.scrollToTop}>首頁</IndexLink>
                   </li>
                   <li>
-                    <NavLink to="/cn/about">關於我們</NavLink>
+                    <NavLink to="/cn/about" onClick={this.scrollToTop}>關於我們</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/cn/products">產品</NavLink>
+                    <NavLink to="/cn/products#app" onClick={this.scrollToTop}>產品</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/cn/payment">服務</NavLink>
+                    <NavLink to="/cn/partner#app" onClick={this.scrollToTop}>合作商家</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/cn/payment#app" onClick={this.scrollToTop}>服務</NavLink>
                     <ul className="trd-dropdown-menu">
                       <li>
-                        <NavLink to="/cn/payment">在線支付</NavLink>
+                        <NavLink to="/cn/payment#app" onClick={this.scrollToTop}>在線支付</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/cn/tracking">包裹追蹤</NavLink>
+                        <NavLink to="/cn/tracking#app" onClick={this.scrollToTop}>包裹追蹤</NavLink>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <NavLink to="/cn/contact">聯繫我們</NavLink>
+                    <NavLink to="/cn/contact#app" onClick={this.scrollToTop}>聯繫我們</NavLink>
                   </li>
                   <li>
                     <a href="/">English</a>
