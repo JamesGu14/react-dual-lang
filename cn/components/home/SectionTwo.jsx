@@ -24,7 +24,7 @@ export default class SectionTwo extends Component {
 
                   <div className="trd-imagebox-details">
                     <h3>
-                      <a href="#">IGA Australia</a>
+                      <a href="#">Arnotts（雅樂思）</a>
                     </h3>
                     <p>Checkout and enjoy the biggest explain to you how is mistaken</p>
                   </div>
@@ -42,7 +42,7 @@ export default class SectionTwo extends Component {
 
                   <div className="trd-imagebox-details">
                     <h3>
-                      <a href="#">Arnotts</a>
+                      <a href="#">Cadbury（吉百利）</a>
                     </h3>
                     <p>Checkout and enjoy the biggest explain to you how is mistaken</p>
                   </div>
@@ -60,7 +60,7 @@ export default class SectionTwo extends Component {
 
                   <div className="trd-imagebox-details">
                     <h3>
-                      <a href="#">Karicare</a>
+                      <a href="#">Kit-Kat（奇巧）</a>
                     </h3>
                     <p>Checkout and enjoy the biggest explain to you how is mistaken</p>
                   </div>
