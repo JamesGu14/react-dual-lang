@@ -9,10 +9,9 @@ export default class SectionOne extends Component {
             {/* About Section */}
             <div className="col-md-3 col-sm-3 col-xs-12 trd-about-section">
               <h1 className="trd-section-tittle">我們致力於帶來<br /><span className="trd-highlight-text">更優質的</span>生活</h1>
-              <p>随着中澳贸易自由往来的加深，澳洲飞扬投资有限公司致力于国际进出口业务，
-                把原本澳洲优良的传统零售业务逐渐向中国消费市场拓展，将澳洲最优质的产品，
-                以同行业最高的标准、最优惠的价格，让国内广大同胞能够在足不出户的家里安全、
-                便携、放心、快速地享受到与澳洲当地人同样的生活品质。</p>
+              <p>日前，隨著中澳貿易自由往來的加深，澳洲飛揚國際貿易有限公司致力於國際進出口業務，
+              把原本澳洲優良的傳統零售業務逐漸面向中國消費市場拓展，將澳洲最優質的產品，以同行業最高的標準以及最優惠的價格，
+              讓國內廣大同胞能夠在足不出戶的家裏安全便攜放心快速地享受到與澳洲當地人同樣的生活品質。</p>
             </div>
             {/* End */}
 
