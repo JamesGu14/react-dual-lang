@@ -27424,7 +27424,56 @@
 	                    _react2.default.createElement(
 	                      _NavLink2.default,
 	                      { to: '/cn/products', collapse: true },
-	                      '產品'
+	                      '我们的業務'
+	                    ),
+	                    _react2.default.createElement(
+	                      'ul',
+	                      { className: 'trd-dropdown-menu' },
+	                      _react2.default.createElement(
+	                        'li',
+	                        null,
+	                        _react2.default.createElement(
+	                          _NavLink2.default,
+	                          { to: '/cn/products', collapse: true },
+	                          '不動產投資和管理'
+	                        )
+	                      ),
+	                      _react2.default.createElement(
+	                        'li',
+	                        null,
+	                        _react2.default.createElement(
+	                          _NavLink2.default,
+	                          { to: '/cn/products', collapse: true },
+	                          '連鎖超市'
+	                        )
+	                      ),
+	                      _react2.default.createElement(
+	                        'li',
+	                        null,
+	                        _react2.default.createElement(
+	                          _NavLink2.default,
+	                          { to: '/cn/products', collapse: true },
+	                          '護膚保健品專營店'
+	                        )
+	                      ),
+	                      _react2.default.createElement(
+	                        'li',
+	                        null,
+	                        _react2.default.createElement(
+	                          _NavLink2.default,
+	                          { to: '/cn/products', collapse: true },
+	                          '飛揚海外淘'
+	                        )
+	                      ),
+	                      _react2.default.createElement(
+	                        'li',
+	                        null,
+	                        _react2.default.createElement(
+	                          _NavLink2.default,
+	                          { to: '/cn/products', collapse: true },
+	                          '飛揚國際物流'
+	                        )
+	                      )
 	                    )
 	                  ),
 	                  _react2.default.createElement(
@@ -54982,7 +55031,7 @@
 	                      _react2.default.createElement(
 	                        _NavLink2.default,
 	                        { to: '/cn/products' },
-	                        '產品'
+	                        '我们的業務'
 	                      )
 	                    ),
 	                    _react2.default.createElement(
@@ -55139,7 +55188,7 @@
 	                    _react2.default.createElement(
 	                      _NavLink2.default,
 	                      { to: '/cn/products' },
-	                      '產品'
+	                      '我们的業務'
 	                    )
 	                  ),
 	                  _react2.default.createElement(
@@ -55604,7 +55653,7 @@
 	        _react2.default.createElement(
 	          'h1',
 	          null,
-	          '我們的產品'
+	          '我們的業務'
 	        ),
 	        _react2.default.createElement(
 	          'h2',
@@ -55720,12 +55769,12 @@
 	                    key: 8,
 	                    image: '../../content/images/testimonials/morning-fresh.png',
 	                    name: 'Morningfresh（洗涤生活用品）',
-	                    description: 'Morningfresh（洗涤生活用品）是一個非常有名的公司，並且和我們有著密切的合作關係'
+	                    description: 'Morning Fresh的品牌擁有者是世界注明的PZ Cussons（匹茲.卡森），一個超過200年的跨國企業。\n                      PZ Cussons生產和銷售一些世界上最熟為人知的家居品牌，從Imprial Lwether到Cussons Baby（加信氏），\n                      Morning Fresh到St. Tropez。主營五大類產品：個人護理，化妝美容，家庭護理，食物營養和電器類。在非洲、歐洲、\n                      亞洲和北美洲雇傭了6500的員工。1980年Morning Fresh投放澳洲市場，連續30多年澳洲市場銷量第一。\n                      作為澳洲洗潔精的第一品牌，幾乎無人不曉。'
 	                  }, {
 	                    key: 9,
 	                    image: '../../content/images/testimonials/beerenburg.jpg',
 	                    name: 'Beerenberg（百伦堡）',
-	                    description: 'Beerenberg（百伦堡）是一個非常有名的公司，並且和我們有著密切的合作關係'
+	                    description: '創立於1838年的Beerenberg Farm為德國家族經營代代相傳的品牌。澳大利亞不少知名餐廳均指定使用\n                      Beerenberg Farm的產品，其品質有多出色，可想而知。Beerenberg公司已出口至23個國家。目前，在亞太地區超過300家\n                      四星級和五星級賓館，包括香格里拉、瑞士酒店管理旗下的酒店，提供本產品。Beerenberg是澳洲著名品牌，高貴大方，\n                      十分適合作婚禮回禮禮物之用，要準備結婚的新人除了要為自己扮靚靚及安排婚禮程式外，還要花點心思去回謝親友的祝賀。'
 	                  }] }),
 	                _react2.default.createElement(_LinePartners2.default, { partners: [{
 	                    key: 10,
