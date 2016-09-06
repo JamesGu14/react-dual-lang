@@ -35,7 +35,7 @@ export default class Header extends Component {
                   <ul>
                     <li><IndexLink to="/cn/" activeClassName="active" onClick={this.scrollToTop}>首頁</IndexLink></li>
                     <li><NavLink to="/cn/about">關於我們</NavLink></li>
-                    <li><NavLink to="/cn/products">產品</NavLink></li>
+                    <li><NavLink to="/cn/products">我们的業務</NavLink></li>
                     <li><NavLink to="/cn/partner">合作夥伴</NavLink></li>
                     <li><NavLink to="/cn/payment">在線支付</NavLink></li>
                     <li><NavLink to="/cn/tracking">包裹追蹤</NavLink></li>
@@ -92,7 +92,7 @@ export default class Header extends Component {
                     <NavLink to="/cn/about">關於我們</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/cn/products">產品</NavLink>
+                    <NavLink to="/cn/products">我们的業務</NavLink>
                   </li>
                   <li>
                     <NavLink to="/cn/partner">合作夥伴</NavLink>

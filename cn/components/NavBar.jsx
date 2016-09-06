@@ -42,7 +42,24 @@ export default class NavBar extends Component {
                     <NavLink to="/cn/about" collapse={true}>關於我們</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/cn/products" collapse={true}>產品</NavLink>
+                    <NavLink to="/cn/products" collapse={true}>我们的業務</NavLink>
+                    <ul className="trd-dropdown-menu">
+                      <li>
+                        <NavLink to="/cn/products" collapse={true}>不動產投資和管理</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to="/cn/products" collapse={true}>連鎖超市</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to="/cn/products" collapse={true}>護膚保健品專營店</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to="/cn/products" collapse={true}>飛揚海外淘</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to="/cn/products" collapse={true}>飛揚國際物流</NavLink>
+                      </li>
+                    </ul>
                   </li>
                   <li>
                     <NavLink to="/cn/partner" collapse={true}>合作商家</NavLink>
