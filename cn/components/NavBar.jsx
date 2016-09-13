@@ -78,9 +78,11 @@ export default class NavBar extends Component {
                   <li>
                     <NavLink to="/cn/contact" collapse={true}>聯繫我們</NavLink>
                   </li>
+                  {/* 
                   <li>
                     <a href="/">English</a>
                   </li>
+                   */} 
                 </ul>
               </div>
             </div>

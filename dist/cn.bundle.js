@@ -27524,15 +27524,6 @@
 	                      { to: '/cn/contact', collapse: true },
 	                      '聯繫我們'
 	                    )
-	                  ),
-	                  _react2.default.createElement(
-	                    'li',
-	                    null,
-	                    _react2.default.createElement(
-	                      'a',
-	                      { href: '/' },
-	                      'English'
-	                    )
 	                  )
 	                )
 	              )
@@ -54981,7 +54972,7 @@
 	              { className: 'trd-footer-top' },
 	              _react2.default.createElement(
 	                'div',
-	                { className: 'col-md-3 col-sm-6 col-xs-12 trd-footer-widget trd-about-widget' },
+	                { className: 'col-md-4 col-sm-6 col-xs-12 trd-footer-widget trd-about-widget' },
 	                _react2.default.createElement(
 	                  'div',
 	                  { className: 'trd-logo-wrapper' },
@@ -55075,7 +55066,7 @@
 	              ),
 	              _react2.default.createElement(
 	                'div',
-	                { className: 'col-md-3 col-sm-6 col-xs-12 trd-footer-widget trd-recent-post-widget' },
+	                { className: 'col-md-5 col-sm-6 col-xs-12 trd-footer-widget trd-recent-post-widget' },
 	                _react2.default.createElement(
 	                  'h3',
 	                  { className: 'trd-footer-widget-title' },
@@ -55122,34 +55113,6 @@
 	                        { className: 'trd-post-date' },
 	                        'August 15, 2016'
 	                      )
-	                    )
-	                  )
-	                )
-	              ),
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'col-md-3 col-sm-6 col-xs-12 trd-footer-widget trd-subscribe-widget' },
-	                _react2.default.createElement(
-	                  'h3',
-	                  { className: 'trd-footer-widget-title' },
-	                  '訂閱我們'
-	                ),
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'trd-footer-widget-content' },
-	                  _react2.default.createElement(
-	                    'p',
-	                    null,
-	                    '訂閱我們的最新消息，以及各種優惠的商業活動 '
-	                  ),
-	                  _react2.default.createElement(
-	                    'form',
-	                    { action: '#' },
-	                    _react2.default.createElement('input', { type: 'email', name: 'trd-subscription', id: 'trd-subscription', placeholder: '您的郵箱' }),
-	                    _react2.default.createElement(
-	                      'button',
-	                      { type: 'submit', className: 'trd-btn' },
-	                      '訂閱郵件'
 	                    )
 	                  )
 	                )
@@ -56137,33 +56100,7 @@
 	            { className: "row" },
 	            _react2.default.createElement(
 	              "div",
-	              { className: "trd-contact-form-wrapper col-md-6 col-sm-6 col-xs-12" },
-	              _react2.default.createElement(
-	                "h1",
-	                { className: "trd-section-tittle" },
-	                "聯繫 ",
-	                _react2.default.createElement(
-	                  "span",
-	                  { className: "trd-highlight-text" },
-	                  "我們"
-	                )
-	              ),
-	              _react2.default.createElement(
-	                "form",
-	                { action: "#" },
-	                _react2.default.createElement("input", { type: "text", name: "trd-name", id: "trd-name", placeholder: "姓名" }),
-	                _react2.default.createElement("input", { type: "email", name: "trd-email", id: "trd-email", placeholder: "電子郵件" }),
-	                _react2.default.createElement("textarea", { name: "trd-message", id: "trd-message", cols: "30", rows: "7", placeholder: "聯繫內容" }),
-	                _react2.default.createElement(
-	                  "button",
-	                  { type: "submit", className: "trd-btn" },
-	                  "提交"
-	                )
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "trd-office-addresses-wrapper col-md-6 col-sm-6 col-xs-12" },
+	              { className: "trd-office-addresses-wrapper col-md-6 col-md-offset-3 col-sm-6 col-xs-12" },
 	              _react2.default.createElement(
 	                "div",
 	                { className: "trd-column col-md-6 col-sm-12 col-xs-12" },
