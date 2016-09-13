@@ -8,6 +8,7 @@ export default class Contact extends Component {
         <div className="container">
           <div className="row">
             {/*  Contact Form  */}
+            {/*
             <div className="trd-contact-form-wrapper col-md-6 col-sm-6 col-xs-12">
               <h1 className="trd-section-tittle">聯繫 <span className="trd-highlight-text">我們</span></h1>
 
@@ -19,10 +20,11 @@ export default class Contact extends Component {
                 <button type="submit" className="trd-btn">提交</button>
               </form>
             </div>
+            */}
             {/*  END  */}
 
             {/*  ADDRESSES WRAPPER  */}
-            <div className="trd-office-addresses-wrapper col-md-6 col-sm-6 col-xs-12">
+            <div className="trd-office-addresses-wrapper col-md-6 col-md-offset-3 col-sm-6 col-xs-12">
 
               <div className="trd-column col-md-6 col-sm-12 col-xs-12">
                 {/*  ADDRESSES  */}
