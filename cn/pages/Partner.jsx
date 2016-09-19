@@ -15,7 +15,7 @@ export default class Partner extends Component {
                 <LinePartners partners={[
                   { 
                     key: 1,
-                    image: '../../content/images/testimonials/iga.png',
+                    image: '../../content/images/testimonials/netcash.png',
                     name: 'Metcash',
                     description: `Metcash Limited (ASX:MTS)是壹家澳大利亞公司，從事雜貨、
                     酒類及相關產品的批發分銷和營銷。產品涵蓋食品飲料、母嬰用品、營養保健及美顏個護四大品類、

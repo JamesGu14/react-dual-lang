@@ -19,15 +19,16 @@ export default class SectionTwo extends Component {
                 style={{ visibility: 'visible', animationDuration: '1s', animationDelay: '0.3s', animationName: 'fadeIn' }}>
                 <div className="trd-imagebox-with-text">
                   <div className="trd-image-wrapper">
-                    <img src="/content/images/testimonials/arnotts.png" alt="arnotts" />
+                    <img src="/content/images/testimonials/netcash.png" alt="arnotts" />
                   </div>
 
                   <div className="trd-imagebox-details">
                     <h3>
-                      <a href="#">Arnotts（雅樂思）</a>
+                      <a href="#">Metcash</a>
                     </h3>
-                    <p>雅樂思成立於1865年，至今已有150多年的歷史。其主要產品為面包，豌豆，脆博餅。
-                      多年來一直深受澳洲本地人士喜愛。 尤其是澳洲標誌性零食Tim Tam。</p>
+                    <p>Metcash Limited (ASX:MTS)是壹家澳大利亞公司，從事雜貨、 酒類及相關產品的批發分銷和營銷。
+                    產品涵蓋食品飲料、母嬰用品、營養保健及美顏個護四大品類近百種產品。
+                    </p>
                     <br />
                   </div>
                 </div>
@@ -64,11 +65,10 @@ export default class SectionTwo extends Component {
 
                   <div className="trd-imagebox-details">
                     <h3>
-                      <a href="#">Nippys</a>
+                      <a href="#">Arnotts（雅樂思）</a>
                     </h3>
-                    <p>Nippy企業時代經營優質飲料，廣受認可。
-                      作為南澳洲的標誌企業之一，Nippy希望可以傳承70年的家族歷史，繼續南澳洲最知名的新鮮果汁廠的傳統。
-                    </p>
+                    <p>雅樂思成立於1865年，至今已有150多年的歷史。其主要產品為面包，豌豆，脆博餅。
+                      多年來一直深受澳洲本地人士喜愛。 尤其是澳洲標誌性零食Tim Tam。</p>
                     <br />
                   </div>
                 </div>
