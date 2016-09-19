@@ -17,7 +17,7 @@ export default class NavBar extends Component {
                 </button>
 
                 <a className="navbar-brand" href="index.html">
-                  <img className="logo" src="/content/images/logo-header.png" alt="TRADE" />
+                  <img className="logo" src="/content/images/foryoung-logo.png" alt="TRADE" />
                 </a>
               </div>
 

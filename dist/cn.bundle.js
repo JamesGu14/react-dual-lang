@@ -27391,7 +27391,7 @@
 	                _react2.default.createElement(
 	                  'a',
 	                  { className: 'navbar-brand', href: 'index.html' },
-	                  _react2.default.createElement('img', { className: 'logo', src: '/content/images/logo-header.png', alt: 'TRADE' })
+	                  _react2.default.createElement('img', { className: 'logo', src: '/content/images/foryoung-logo.png', alt: 'TRADE' })
 	                )
 	              ),
 	              _react2.default.createElement(
