@@ -31,47 +31,12 @@ export default class Contact extends Component {
                 <div className="trd-office-address">
                   <h3 className="trd-office-title">阿德萊德</h3>
                   <ul>
-                    <li className="trd-office-location">Road 3, West side lane Texas, USA</li>
-                    <li className="trd-office-phone">0632 0152 001</li>
-                    <li className="trd-office-email">mail @gmail.com</li>
+                    <li className="trd-office-location">232 Hutt St, Adelaide SA 5000</li>
+                    <li className="trd-office-phone">(08) 8223 3114</li>
                   </ul>
                 </div>
                 {/*  END  */}
 
-                {/*  ADDRESSES  */}
-                <div className="trd-office-address">
-                  <h3 className="trd-office-title">墨爾本</h3>
-                  <ul>
-                    <li className="trd-office-location">Road 3, West side lane Texas, USA</li>
-                    <li className="trd-office-phone">0632 0152 001</li>
-                    <li className="trd-office-email">mail @gmail.com</li>
-                  </ul>
-                </div>
-                {/*  END  */}
-              </div>
-
-              <div className="trd-column col-md-6 col-sm-6 col-xs-12">
-                {/*  ADDRESSES  */}
-                <div className="trd-office-address">
-                  <h3 className="trd-office-title">新加坡</h3>
-                  <ul>
-                    <li className="trd-office-location">Road 3, West side lane Texas, USA</li>
-                    <li className="trd-office-phone">0632 0152 001</li>
-                    <li className="trd-office-email">mail @gmail.com</li>
-                  </ul>
-                </div>
-                {/*  END  */}
-
-                {/*  ADDRESSES  */}
-                <div className="trd-office">
-                  <h3 className="trd-office-title">北京</h3>
-                  <ul>
-                    <li className="trd-office-location">Road 3, West side lane Texas, USA</li>
-                    <li className="trd-office-phone">0632 0152 001</li>
-                    <li className="trd-office-email">mail @gmail.com</li>
-                  </ul>
-                </div>
-                {/*  END  */}
               </div>
             </div>
             {/*  End  */}
