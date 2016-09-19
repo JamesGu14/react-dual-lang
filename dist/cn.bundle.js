@@ -55731,18 +55731,18 @@
 	                _react2.default.createElement(_LinePartners2.default, { partners: [{
 	                    key: 1,
 	                    image: '../../content/images/testimonials/iga.png',
+	                    name: 'Metcash',
+	                    description: 'Metcash Limited (ASX:MTS)是壹家澳大利亞公司，從事雜貨、\n                    酒類及相關產品的批發分銷和營銷。產品涵蓋食品飲料、母嬰用品、營養保健及美顏個護四大品類、\n                    近百種產品，同時，Metcash旗下多個自有品牌也將隨之進入中國消費者的視線。\n                    所有商品的引進均以中國消費者慣有的生活習慣、消費偏好為依據，順應大環境對健康、潮流生活方式的渴求，\n                    致力於提供兼具卓越品質及實惠價格的最優之選。'
+	                  }, {
+	                    key: 2,
+	                    image: '../../content/images/testimonials/iga.png',
 	                    name: 'IGA',
 	                    description: 'IGA（英語：Independent Grocers Alliance，意思為：獨立雜貨商聯盟）\n                      是一個以特許經營方式營運的超級市場品牌，已在全球超過30多個國家設有5,000間零售店舖。\n                      成立於1926年，集團總部位於美國芝加哥奧黑爾。'
 	                  }, {
-	                    key: 2,
+	                    key: 3,
 	                    image: '../../content/images/testimonials/arnotts.png',
 	                    name: 'Arnotts（雅樂思）',
 	                    description: '雅樂思成立於1865年，至今已有150多年的歷史。其主要產品為面包，豌豆，脆博餅。\n                      多年來一直深受澳洲本地人士喜愛。 尤其是澳洲標誌性零食Tim Tam。'
-	                  }, {
-	                    key: 3,
-	                    image: '../../content/images/testimonials/nippys.png',
-	                    name: 'Nippys',
-	                    description: 'Nippy企業時代經營優質飲料，廣受認可。\n                      作為南澳洲的標誌企業之一，Nippy希望可以傳承70年的家族歷史，繼續南澳洲最知名的新鮮果汁廠的傳統。\n                      我們的產品範圍包括優質新鮮橙汁、檸檬汁、橘汁、葡萄汁和橘柚汁，鮮榨果汁、調味乳飲料和瓶裝水。\n                      Nippy是全澳唯一一家澳洲獨有的橫向橘類加工企業，從業務包含從種植到消費者桌上的成品。\n                      農場生產，家族制作。'
 	                  }] }),
 	                _react2.default.createElement(_LinePartners2.default, { partners: [{
 	                    key: 4,
@@ -55756,9 +55756,9 @@
 	                    description: '瑞士蓮史賓利公司始於1845年，史賓利父子在蘇黎世創立了自己的巧克力商店。\n                      自那時起，公司經歷了不同的歷史時期，但企業家精神以及創作高品質巧克力的熱情從未褪去。\n                      目前她已經被業界公認為極具創新力的高檔巧克力制造商，在世界100多個國家均有銷售，\n                      在全球4大洲均設有銷售公司。'
 	                  }, {
 	                    key: 6,
-	                    image: '../../content/images/testimonials/kellogg.png',
-	                    name: 'Kelloggs（家乐氏）',
-	                    description: 'Kellogg‘s （家樂氏） 公司為全球知名谷物早餐和零食制造商。其產品包括谷物早餐，\n                      餅幹，烘烤點心，冷凍烘餅，餡餅殼，及冰淇筒。公司的品牌包括Kellogg\'s，Keebler，\n                      Pop- Tarts，Eggo，Cheez-It，Nutri-Grain，Rice Krispies，Special K, \n                      Murray，Austin，Morningstar Farms，Famous Amos，Carr\'s，Plantation，\n                      Ready Crust等。 截止到2013年，Kellogg已有107年歷史，在全球超過180個國家和地區銷售。'
+	                    image: '../../content/images/testimonials/nippys.png',
+	                    name: 'Nippys',
+	                    description: 'Nippy企業時代經營優質飲料，廣受認可。\n                      作為南澳洲的標誌企業之一，Nippy希望可以傳承70年的家族歷史，繼續南澳洲最知名的新鮮果汁廠的傳統。\n                      我們的產品範圍包括優質新鮮橙汁、檸檬汁、橘汁、葡萄汁和橘柚汁，鮮榨果汁、調味乳飲料和瓶裝水。\n                      Nippy是全澳唯一一家澳洲獨有的橫向橘類加工企業，從業務包含從種植到消費者桌上的成品。\n                      農場生產，家族制作。'
 	                  }] }),
 	                _react2.default.createElement(_LinePartners2.default, { partners: [{
 	                    key: 7,
@@ -55772,9 +55772,9 @@
 	                    description: 'Morning Fresh的品牌擁有者是世界注明的PZ Cussons（匹茲.卡森），一個超過200年的跨國企業。\n                      PZ Cussons生產和銷售一些世界上最熟為人知的家居品牌，從Imprial Lwether到Cussons Baby（加信氏），\n                      Morning Fresh到St. Tropez。主營五大類產品：個人護理，化妝美容，家庭護理，食物營養和電器類。在非洲、歐洲、\n                      亞洲和北美洲雇傭了6500的員工。1980年Morning Fresh投放澳洲市場，連續30多年澳洲市場銷量第一。\n                      作為澳洲洗潔精的第一品牌，幾乎無人不曉。'
 	                  }, {
 	                    key: 9,
-	                    image: '../../content/images/testimonials/beerenburg.jpg',
-	                    name: 'Beerenberg（百伦堡）',
-	                    description: '創立於1838年的Beerenberg Farm為德國家族經營代代相傳的品牌。澳大利亞不少知名餐廳均指定使用\n                      Beerenberg Farm的產品，其品質有多出色，可想而知。Beerenberg公司已出口至23個國家。目前，在亞太地區超過300家\n                      四星級和五星級賓館，包括香格里拉、瑞士酒店管理旗下的酒店，提供本產品。Beerenberg是澳洲著名品牌，高貴大方，\n                      十分適合作婚禮回禮禮物之用，要準備結婚的新人除了要為自己扮靚靚及安排婚禮程式外，還要花點心思去回謝親友的祝賀。'
+	                    image: '../../content/images/testimonials/kellogg.png',
+	                    name: 'Kelloggs（家乐氏）',
+	                    description: 'Kellogg‘s （家樂氏） 公司為全球知名谷物早餐和零食制造商。其產品包括谷物早餐，\n                      餅幹，烘烤點心，冷凍烘餅，餡餅殼，及冰淇筒。公司的品牌包括Kellogg\'s，Keebler，\n                      Pop- Tarts，Eggo，Cheez-It，Nutri-Grain，Rice Krispies，Special K, \n                      Murray，Austin，Morningstar Farms，Famous Amos，Carr\'s，Plantation，\n                      Ready Crust等。 截止到2013年，Kellogg已有107年歷史，在全球超過180個國家和地區銷售。'
 	                  }] }),
 	                _react2.default.createElement(_LinePartners2.default, { partners: [{
 	                    key: 10,
@@ -55839,6 +55839,12 @@
 	                    image: '../../content/images/testimonials/thompson.png',
 	                    name: 'THOMPSON\'S GROUP',
 	                    description: 'THOMPSON\'S GROUP 成立於1951年，至今已有六十多年歷史，是紐西蘭最大的保健生產商。\n                      於2009年和Integria Healthcare (NZ) Ltd合並，擁有更龐大的專業研究員團隊，具權威的醫學博士及完備的生產設施。 \n                      Integria Healthcare (NZ) Ltd是紐西蘭食品安全局(New Zealand Food and Safety Authority，\n                      簡稱NZFSA)轄下風險管理項目(Risk Management Programme，簡稱RMP)的註冊成員，所有產品均受嚴格監管。\n                      Integria Healthcare (NZ) Ltd的保健品符合GMP(優良藥品制藥作業規範)和TGA的嚴格標準。 THOMPSON\'S \n                      保健產品通過嚴格6項嚴格檢測，獲得由香港標準及檢定中心頒發的優質「正」印商標。'
+	                  }] }),
+	                _react2.default.createElement(_LinePartners2.default, { partners: [{
+	                    key: 22,
+	                    image: '../../content/images/testimonials/beerenburg.jpg',
+	                    name: 'Beerenberg（百伦堡）',
+	                    description: '創立於1838年的Beerenberg Farm為德國家族經營代代相傳的品牌。澳大利亞不少知名餐廳均指定使用\n                      Beerenberg Farm的產品，其品質有多出色，可想而知。Beerenberg公司已出口至23個國家。目前，在亞太地區超過300家\n                      四星級和五星級賓館，包括香格里拉、瑞士酒店管理旗下的酒店，提供本產品。Beerenberg是澳洲著名品牌，高貴大方，\n                      十分適合作婚禮回禮禮物之用，要準備結婚的新人除了要為自己扮靚靚及安排婚禮程式外，還要花點心思去回謝親友的祝賀。'
 	                  }] })
 	              )
 	            )
