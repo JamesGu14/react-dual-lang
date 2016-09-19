@@ -29,7 +29,7 @@ export default class NavBar extends Component {
                 </button>
 
                 <a className="navbar-brand" href="index.html">
-                  <img className="logo" src="/content/images/logo-header.png" alt="TRADE" />
+                  <img className="logo" src="/content/images/foryoung-logo.png" style={{widht: '132px', height: '48px'}} alt="TRADE" />
                 </a>
               </div>
 
@@ -78,9 +78,11 @@ export default class NavBar extends Component {
                   <li>
                     <NavLink to="/cn/contact" collapse={true}>聯繫我們</NavLink>
                   </li>
+                  {/* 
                   <li>
                     <a href="/">English</a>
                   </li>
+                   */} 
                 </ul>
               </div>
             </div>

@@ -20,9 +20,9 @@ export default class Header extends Component {
         <div className="container">
           <div className="row">
             <div className="trd-footer-top">
-              <div className="col-md-3 col-sm-6 col-xs-12 trd-footer-widget trd-about-widget">
+              <div className="col-md-4 col-sm-6 col-xs-12 trd-footer-widget trd-about-widget">
                 <div className="trd-logo-wrapper">
-                  <img src="/content/images/logo-footer.png" alt="Trade" />
+                  <img src="/content/images/foryoung-logo.png" style={{height: '48px', width: '132px'}} alt="Trade" />
                 </div>
 
                 <p>澳洲飛揚投資有限公司（For Young Investments  Pty  Ltd， ACN 609 081 932) 是位於澳大利亞南澳州首府阿德萊德（Adelaide）的著名公司。</p>
@@ -44,7 +44,7 @@ export default class Header extends Component {
                 </div>
               </div>
 
-              <div className="col-md-3 col-sm-6 col-xs-12 trd-footer-widget trd-recent-post-widget">
+              <div className="col-md-5 col-sm-6 col-xs-12 trd-footer-widget trd-recent-post-widget">
                 <h3 className="trd-footer-widget-title">最近更新</h3>
 
                 <div className="trd-footer-widget-content">
@@ -67,7 +67,7 @@ export default class Header extends Component {
                   </div>
                 </div>
               </div>
-
+              {/*
               <div className="col-md-3 col-sm-6 col-xs-12 trd-footer-widget trd-subscribe-widget">
                 <h3 className="trd-footer-widget-title">訂閱我們</h3>
 
@@ -80,6 +80,7 @@ export default class Header extends Component {
                   </form>
                 </div>
               </div>
+              */}
             </div>
 
             <div className="trd-footer-bottom">
