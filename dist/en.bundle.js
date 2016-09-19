@@ -27249,7 +27249,7 @@
 	                _react2.default.createElement(
 	                  "li",
 	                  { className: "trd-header-info-phn" },
-	                  "08 8888 8888"
+	                  "08 8223 3114"
 	                ),
 	                _react2.default.createElement(
 	                  "li",
@@ -27257,7 +27257,7 @@
 	                  _react2.default.createElement(
 	                    "a",
 	                    { href: "#", target: "_blank" },
-	                    "North Terrace, SA 5000"
+	                    "232 HUTT STREET, ADELAIDE SA 5000"
 	                  )
 	                )
 	              )
@@ -27393,7 +27393,7 @@
 	                _react2.default.createElement(
 	                  'a',
 	                  { className: 'navbar-brand', href: 'index.html' },
-	                  _react2.default.createElement('img', { className: 'logo', src: '/content/images/foryoung-logo.png', alt: 'TRADE' })
+	                  _react2.default.createElement('img', { className: 'logo', style: { height: '48px', width: '132px' }, src: '/content/images/foryoung-logo.png', alt: 'TRADE' })
 	                )
 	              ),
 	              _react2.default.createElement(

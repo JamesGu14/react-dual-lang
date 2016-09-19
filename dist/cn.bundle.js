@@ -27231,7 +27231,7 @@
 	                _react2.default.createElement(
 	                  "li",
 	                  { className: "trd-header-info-phn" },
-	                  "08 8888 8888"
+	                  "08 8223 3114"
 	                ),
 	                _react2.default.createElement(
 	                  "li",
@@ -27239,7 +27239,7 @@
 	                  _react2.default.createElement(
 	                    "a",
 	                    { href: "#", target: "_blank" },
-	                    "North Terrace, SA 5000"
+	                    "232 HUTT STREET, ADELAIDE SA 5000"
 	                  )
 	                )
 	              )
@@ -27391,7 +27391,7 @@
 	                _react2.default.createElement(
 	                  'a',
 	                  { className: 'navbar-brand', href: 'index.html' },
-	                  _react2.default.createElement('img', { className: 'logo', src: '/content/images/foryoung-logo.png', alt: 'TRADE' })
+	                  _react2.default.createElement('img', { className: 'logo', src: '/content/images/foryoung-logo.png', style: { widht: '132px', height: '48px' }, alt: 'TRADE' })
 	                )
 	              ),
 	              _react2.default.createElement(
@@ -54976,7 +54976,7 @@
 	                _react2.default.createElement(
 	                  'div',
 	                  { className: 'trd-logo-wrapper' },
-	                  _react2.default.createElement('img', { src: '/content/images/logo-footer.png', alt: 'Trade' })
+	                  _react2.default.createElement('img', { src: '/content/images/foryoung-logo.png', style: { height: '48px', width: '132px' }, alt: 'Trade' })
 	                ),
 	                _react2.default.createElement(
 	                  'p',
@@ -56118,105 +56118,12 @@
 	                    _react2.default.createElement(
 	                      "li",
 	                      { className: "trd-office-location" },
-	                      "Road 3, West side lane Texas, USA"
+	                      "232 Hutt St, Adelaide SA 5000"
 	                    ),
 	                    _react2.default.createElement(
 	                      "li",
 	                      { className: "trd-office-phone" },
-	                      "0632 0152 001"
-	                    ),
-	                    _react2.default.createElement(
-	                      "li",
-	                      { className: "trd-office-email" },
-	                      "mail @gmail.com"
-	                    )
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  "div",
-	                  { className: "trd-office-address" },
-	                  _react2.default.createElement(
-	                    "h3",
-	                    { className: "trd-office-title" },
-	                    "墨爾本"
-	                  ),
-	                  _react2.default.createElement(
-	                    "ul",
-	                    null,
-	                    _react2.default.createElement(
-	                      "li",
-	                      { className: "trd-office-location" },
-	                      "Road 3, West side lane Texas, USA"
-	                    ),
-	                    _react2.default.createElement(
-	                      "li",
-	                      { className: "trd-office-phone" },
-	                      "0632 0152 001"
-	                    ),
-	                    _react2.default.createElement(
-	                      "li",
-	                      { className: "trd-office-email" },
-	                      "mail @gmail.com"
-	                    )
-	                  )
-	                )
-	              ),
-	              _react2.default.createElement(
-	                "div",
-	                { className: "trd-column col-md-6 col-sm-6 col-xs-12" },
-	                _react2.default.createElement(
-	                  "div",
-	                  { className: "trd-office-address" },
-	                  _react2.default.createElement(
-	                    "h3",
-	                    { className: "trd-office-title" },
-	                    "新加坡"
-	                  ),
-	                  _react2.default.createElement(
-	                    "ul",
-	                    null,
-	                    _react2.default.createElement(
-	                      "li",
-	                      { className: "trd-office-location" },
-	                      "Road 3, West side lane Texas, USA"
-	                    ),
-	                    _react2.default.createElement(
-	                      "li",
-	                      { className: "trd-office-phone" },
-	                      "0632 0152 001"
-	                    ),
-	                    _react2.default.createElement(
-	                      "li",
-	                      { className: "trd-office-email" },
-	                      "mail @gmail.com"
-	                    )
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  "div",
-	                  { className: "trd-office" },
-	                  _react2.default.createElement(
-	                    "h3",
-	                    { className: "trd-office-title" },
-	                    "北京"
-	                  ),
-	                  _react2.default.createElement(
-	                    "ul",
-	                    null,
-	                    _react2.default.createElement(
-	                      "li",
-	                      { className: "trd-office-location" },
-	                      "Road 3, West side lane Texas, USA"
-	                    ),
-	                    _react2.default.createElement(
-	                      "li",
-	                      { className: "trd-office-phone" },
-	                      "0632 0152 001"
-	                    ),
-	                    _react2.default.createElement(
-	                      "li",
-	                      { className: "trd-office-email" },
-	                      "mail @gmail.com"
+	                      "(08) 8223 3114"
 	                    )
 	                  )
 	                )
