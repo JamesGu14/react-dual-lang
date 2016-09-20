@@ -8,7 +8,7 @@ export default class NavBar extends Component {
     super()
     this.scrollToTop = this.scrollToTop.bind(this)
   }
-  scrollToTop () { 
+  scrollToTop () {
     // Extra for main menu. To collapse in mobile view
     if ($(document).width() < 768) {
       jQuery('.navbar-toggle').click()
@@ -28,7 +28,7 @@ export default class NavBar extends Component {
                   <span className="icon-bar"></span>
                 </button>
 
-                <a className="navbar-brand" href="index.html">
+                <a className="navbar-brand" href="/cn">
                   <img className="logo" src="/content/images/foryoung-logo.png" style={{widht: '132px', height: '48px'}} alt="TRADE" />
                 </a>
               </div>
@@ -78,11 +78,11 @@ export default class NavBar extends Component {
                   <li>
                     <NavLink to="/cn/contact" collapse={true}>聯繫我們</NavLink>
                   </li>
-                  {/* 
+                  {/*
                   <li>
                     <a href="/">English</a>
                   </li>
-                   */} 
+                   */}
                 </ul>
               </div>
             </div>
