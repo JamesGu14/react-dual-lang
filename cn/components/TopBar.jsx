@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import NavLink from './NavLink.jsx'
 
 export default class TopBar extends Component {
   render() {
@@ -10,37 +11,7 @@ export default class TopBar extends Component {
               <ul>
                 <li className="trd-header-info-phn">08 8223 3114</li>
                 <li className="trd-header-info-location">
-                  <a href="#" target="_blank">232 HUTT STREET, ADELAIDE SA 5000</a>
-                </li>
-              </ul>
-            </div>
-
-            <div className="trd-social-links">
-              <ul>
-                <li className="trd-fb-icon">
-                  <a href="#">
-                    <i className="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li className="trd-twitter-icon">
-                  <a href="#">
-                    <i className="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li className="trd-behance-icon">
-                  <a href="#">
-                    <i className="fa fa-behance"></i>
-                  </a>
-                </li>
-                <li className="trd-dribbble-icon">
-                  <a href="#">
-                    <i className="fa fa-dribbble"></i>
-                  </a>
-                </li>
-                <li className="trd-vimeo-icon">
-                  <a href="#">
-                    <i className="fa fa-vimeo"></i>
-                  </a>
+                  <NavLink to="/cn/contact">232 HUTT STREET, ADELAIDE SA 5000</NavLink>
                 </li>
               </ul>
             </div>
