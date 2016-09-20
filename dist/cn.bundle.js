@@ -56061,7 +56061,7 @@
 	              _react2.default.createElement(
 	                "div",
 	                null,
-	                _react2.default.createElement("iframe", { width: "100%", height: "400", frameBorder: "0", src: "http://www.bing.com/maps/embed/viewer.aspx?v=3&cp=-34.933102~138.612537&lvl=17&sty=r&typ=d&pp=~~-34.933093~138.612440&ps=&dir=0&mkt=en-us&src=SHELL&form=BMEMJS" })
+	                _react2.default.createElement("iframe", { width: "100%", height: "400", frameBorder: "0", src: "http://www.bing.com/maps/embed/viewer.aspx?v=3&cp=-34.933102~138.612537&lvl=12&sty=r&typ=d&pp=~~-34.933093~138.612440&ps=&dir=0&mkt=en-us&src=SHELL&form=BMEMJS" })
 	              )
 	            ),
 	            _react2.default.createElement(

@@ -27,7 +27,7 @@ export default class Contact extends Component {
             <div className="trd-contact-form-wrapper col-md-6 col-sm-6 col-xs-12">
 
 
-              <div><iframe width="100%" height="400" frameBorder="0" src="http://www.bing.com/maps/embed/viewer.aspx?v=3&amp;cp=-34.933102~138.612537&amp;lvl=17&amp;sty=r&amp;typ=d&amp;pp=~~-34.933093~138.612440&amp;ps=&amp;dir=0&amp;mkt=en-us&amp;src=SHELL&amp;form=BMEMJS"></iframe></div>
+              <div><iframe width="100%" height="400" frameBorder="0" src="http://www.bing.com/maps/embed/viewer.aspx?v=3&amp;cp=-34.933102~138.612537&amp;lvl=12&amp;sty=r&amp;typ=d&amp;pp=~~-34.933093~138.612440&amp;ps=&amp;dir=0&amp;mkt=en-us&amp;src=SHELL&amp;form=BMEMJS"></iframe></div>
             </div>
 
 
