@@ -82,13 +82,37 @@
 
 	var _Tracking2 = _interopRequireDefault(_Tracking);
 
-	var _Contact = __webpack_require__(259);
+	var _NoMatch = __webpack_require__(259);
+
+	var _NoMatch2 = _interopRequireDefault(_NoMatch);
+
+	var _Contact = __webpack_require__(277);
 
 	var _Contact2 = _interopRequireDefault(_Contact);
 
-	var _NoMatch = __webpack_require__(260);
+	var _Join = __webpack_require__(278);
 
-	var _NoMatch2 = _interopRequireDefault(_NoMatch);
+	var _Join2 = _interopRequireDefault(_Join);
+
+	var _Health = __webpack_require__(280);
+
+	var _Health2 = _interopRequireDefault(_Health);
+
+	var _IGA = __webpack_require__(281);
+
+	var _IGA2 = _interopRequireDefault(_IGA);
+
+	var _Investments = __webpack_require__(282);
+
+	var _Investments2 = _interopRequireDefault(_Investments);
+
+	var _Logistics = __webpack_require__(283);
+
+	var _Logistics2 = _interopRequireDefault(_Logistics);
+
+	var _Overseas = __webpack_require__(284);
+
+	var _Overseas2 = _interopRequireDefault(_Overseas);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -105,6 +129,12 @@
 	    _react2.default.createElement(_reactRouter.Route, { path: '/cn/payment', component: _Payment2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/cn/tracking', component: _Tracking2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/cn/contact', component: _Contact2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/cn/join', component: _Join2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/cn/health', component: _Health2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/cn/IGA', component: _IGA2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/cn/investments', component: _Investments2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/cn/logistics', component: _Logistics2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/cn/overseas', component: _Overseas2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '*', component: _NoMatch2.default })
 	  )
 	), document.getElementById('app'));
@@ -27125,7 +27155,7 @@
 
 	var _TopBar2 = _interopRequireDefault(_TopBar);
 
-	var _NavBar = __webpack_require__(240);
+	var _NavBar = __webpack_require__(243);
 
 	var _NavBar2 = _interopRequireDefault(_NavBar);
 
@@ -27193,7 +27223,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _NavLink = __webpack_require__(241);
+	var _NavLink = __webpack_require__(240);
 
 	var _NavLink2 = _interopRequireDefault(_NavLink);
 
@@ -27269,237 +27299,6 @@
 	  value: true
 	});
 
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _reactRouter = __webpack_require__(175);
-
-	var _NavLink = __webpack_require__(241);
-
-	var _NavLink2 = _interopRequireDefault(_NavLink);
-
-	var _jquery = __webpack_require__(244);
-
-	var _jquery2 = _interopRequireDefault(_jquery);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-	var NavBar = function (_Component) {
-	  _inherits(NavBar, _Component);
-
-	  function NavBar() {
-	    _classCallCheck(this, NavBar);
-
-	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(NavBar).call(this));
-
-	    _this.scrollToTop = _this.scrollToTop.bind(_this);
-	    return _this;
-	  }
-
-	  _createClass(NavBar, [{
-	    key: 'scrollToTop',
-	    value: function scrollToTop() {
-	      // Extra for main menu. To collapse in mobile view
-	      if ($(document).width() < 768) {
-	        (0, _jquery2.default)('.navbar-toggle').click();
-	      }
-	      (0, _jquery2.default)('html, body').animate({ scrollTop: 0 }, 'slow');
-	    }
-	  }, {
-	    key: 'render',
-	    value: function render() {
-	      return _react2.default.createElement(
-	        'div',
-	        { className: 'trd-header-bottombar' },
-	        _react2.default.createElement(
-	          'nav',
-	          { className: 'navbar trd-main-menu', role: 'navigation' },
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'container' },
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'row' },
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'navbar-header' },
-	                _react2.default.createElement(
-	                  'button',
-	                  { type: 'button', className: 'navbar-toggle', 'data-toggle': 'collapse', 'data-target': '.navbar-collapse' },
-	                  _react2.default.createElement('span', { className: 'icon-bar' }),
-	                  _react2.default.createElement('span', { className: 'icon-bar' }),
-	                  _react2.default.createElement('span', { className: 'icon-bar' })
-	                ),
-	                _react2.default.createElement(
-	                  'a',
-	                  { className: 'navbar-brand', href: '/cn' },
-	                  _react2.default.createElement('img', { className: 'logo', src: '/content/images/foryoung-logo.png', style: { widht: '132px', height: '48px' }, alt: 'TRADE' })
-	                )
-	              ),
-	              _react2.default.createElement(
-	                'div',
-	                { id: 'nav-menu', className: 'navbar-collapse trd-menu-wrapper collapse', role: 'navigation', style: { maxHeight: '846px' } },
-	                _react2.default.createElement(
-	                  'ul',
-	                  { className: 'nav navbar-nav trd-menus' },
-	                  _react2.default.createElement(
-	                    'li',
-	                    null,
-	                    _react2.default.createElement(
-	                      _reactRouter.IndexLink,
-	                      { to: '/cn/', activeClassName: 'active', onClick: this.scrollToTop },
-	                      '首頁'
-	                    )
-	                  ),
-	                  _react2.default.createElement(
-	                    'li',
-	                    null,
-	                    _react2.default.createElement(
-	                      _NavLink2.default,
-	                      { to: '/cn/about', collapse: true },
-	                      '關於我們'
-	                    )
-	                  ),
-	                  _react2.default.createElement(
-	                    'li',
-	                    null,
-	                    _react2.default.createElement(
-	                      _NavLink2.default,
-	                      { to: '/cn/products', collapse: true },
-	                      '我们的業務'
-	                    ),
-	                    _react2.default.createElement(
-	                      'ul',
-	                      { className: 'trd-dropdown-menu' },
-	                      _react2.default.createElement(
-	                        'li',
-	                        null,
-	                        _react2.default.createElement(
-	                          _NavLink2.default,
-	                          { to: '/cn/products', collapse: true },
-	                          '不動產投資和管理'
-	                        )
-	                      ),
-	                      _react2.default.createElement(
-	                        'li',
-	                        null,
-	                        _react2.default.createElement(
-	                          _NavLink2.default,
-	                          { to: '/cn/products', collapse: true },
-	                          '連鎖超市'
-	                        )
-	                      ),
-	                      _react2.default.createElement(
-	                        'li',
-	                        null,
-	                        _react2.default.createElement(
-	                          _NavLink2.default,
-	                          { to: '/cn/products', collapse: true },
-	                          '護膚保健品專營店'
-	                        )
-	                      ),
-	                      _react2.default.createElement(
-	                        'li',
-	                        null,
-	                        _react2.default.createElement(
-	                          _NavLink2.default,
-	                          { to: '/cn/products', collapse: true },
-	                          '飛揚海外淘'
-	                        )
-	                      ),
-	                      _react2.default.createElement(
-	                        'li',
-	                        null,
-	                        _react2.default.createElement(
-	                          _NavLink2.default,
-	                          { to: '/cn/products', collapse: true },
-	                          '飛揚國際物流'
-	                        )
-	                      )
-	                    )
-	                  ),
-	                  _react2.default.createElement(
-	                    'li',
-	                    null,
-	                    _react2.default.createElement(
-	                      _NavLink2.default,
-	                      { to: '/cn/partner', collapse: true },
-	                      '合作商家'
-	                    )
-	                  ),
-	                  _react2.default.createElement(
-	                    'li',
-	                    null,
-	                    _react2.default.createElement(
-	                      _NavLink2.default,
-	                      { to: '/cn/payment', collapse: true },
-	                      '服務'
-	                    ),
-	                    _react2.default.createElement(
-	                      'ul',
-	                      { className: 'trd-dropdown-menu' },
-	                      _react2.default.createElement(
-	                        'li',
-	                        null,
-	                        _react2.default.createElement(
-	                          _NavLink2.default,
-	                          { to: '/cn/payment', collapse: true },
-	                          '在線支付'
-	                        )
-	                      ),
-	                      _react2.default.createElement(
-	                        'li',
-	                        null,
-	                        _react2.default.createElement(
-	                          _NavLink2.default,
-	                          { to: '/cn/tracking', collapse: true },
-	                          '包裹追蹤'
-	                        )
-	                      )
-	                    )
-	                  ),
-	                  _react2.default.createElement(
-	                    'li',
-	                    null,
-	                    _react2.default.createElement(
-	                      _NavLink2.default,
-	                      { to: '/cn/contact', collapse: true },
-	                      '聯繫我們'
-	                    )
-	                  )
-	                )
-	              )
-	            )
-	          )
-	        )
-	      );
-	    }
-	  }]);
-
-	  return NavBar;
-	}(_react.Component);
-
-	exports.default = NavBar;
-
-/***/ },
-/* 241 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -27510,7 +27309,7 @@
 
 	var _reactRouter = __webpack_require__(175);
 
-	var _lodash = __webpack_require__(242);
+	var _lodash = __webpack_require__(241);
 
 	var _lodash2 = _interopRequireDefault(_lodash);
 
@@ -27561,7 +27360,7 @@
 	exports.default = NavLink;
 
 /***/ },
-/* 242 */
+/* 241 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(global, module) {/**
@@ -44172,10 +43971,10 @@
 	  }
 	}.call(this));
 
-	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(243)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(242)(module)))
 
 /***/ },
-/* 243 */
+/* 242 */
 /***/ function(module, exports) {
 
 	module.exports = function(module) {
@@ -44189,6 +43988,237 @@
 		return module;
 	}
 
+
+/***/ },
+/* 243 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactRouter = __webpack_require__(175);
+
+	var _NavLink = __webpack_require__(240);
+
+	var _NavLink2 = _interopRequireDefault(_NavLink);
+
+	var _jquery = __webpack_require__(244);
+
+	var _jquery2 = _interopRequireDefault(_jquery);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var NavBar = function (_Component) {
+	  _inherits(NavBar, _Component);
+
+	  function NavBar() {
+	    _classCallCheck(this, NavBar);
+
+	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(NavBar).call(this));
+
+	    _this.scrollToTop = _this.scrollToTop.bind(_this);
+	    return _this;
+	  }
+
+	  _createClass(NavBar, [{
+	    key: 'scrollToTop',
+	    value: function scrollToTop() {
+	      // Extra for main menu. To collapse in mobile view
+	      if ($(document).width() < 768) {
+	        (0, _jquery2.default)('.navbar-toggle').click();
+	      }
+	      (0, _jquery2.default)('html, body').animate({ scrollTop: 0 }, 'slow');
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'trd-header-bottombar' },
+	        _react2.default.createElement(
+	          'nav',
+	          { className: 'navbar trd-main-menu', role: 'navigation' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'container' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'row' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'navbar-header' },
+	                _react2.default.createElement(
+	                  'button',
+	                  { type: 'button', className: 'navbar-toggle', 'data-toggle': 'collapse', 'data-target': '.navbar-collapse' },
+	                  _react2.default.createElement('span', { className: 'icon-bar' }),
+	                  _react2.default.createElement('span', { className: 'icon-bar' }),
+	                  _react2.default.createElement('span', { className: 'icon-bar' })
+	                ),
+	                _react2.default.createElement(
+	                  'a',
+	                  { className: 'navbar-brand', href: '/cn' },
+	                  _react2.default.createElement('img', { className: 'logo', src: '/content/images/foryoung-logo.png', style: { widht: '132px', height: '48px' }, alt: 'TRADE' })
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { id: 'nav-menu', className: 'navbar-collapse trd-menu-wrapper collapse', role: 'navigation', style: { maxHeight: '846px' } },
+	                _react2.default.createElement(
+	                  'ul',
+	                  { className: 'nav navbar-nav trd-menus' },
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      _reactRouter.IndexLink,
+	                      { to: '/cn/', activeClassName: 'active', onClick: this.scrollToTop },
+	                      '首頁'
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      _NavLink2.default,
+	                      { to: '/cn/about', collapse: true },
+	                      '關於我們'
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      _NavLink2.default,
+	                      { to: '/cn/investments', collapse: true },
+	                      '我们的業務'
+	                    ),
+	                    _react2.default.createElement(
+	                      'ul',
+	                      { className: 'trd-dropdown-menu' },
+	                      _react2.default.createElement(
+	                        'li',
+	                        null,
+	                        _react2.default.createElement(
+	                          _NavLink2.default,
+	                          { to: '/cn/investments', collapse: true },
+	                          '不動產投資和管理'
+	                        )
+	                      ),
+	                      _react2.default.createElement(
+	                        'li',
+	                        null,
+	                        _react2.default.createElement(
+	                          _NavLink2.default,
+	                          { to: '/cn/IGA', collapse: true },
+	                          '連鎖超市'
+	                        )
+	                      ),
+	                      _react2.default.createElement(
+	                        'li',
+	                        null,
+	                        _react2.default.createElement(
+	                          _NavLink2.default,
+	                          { to: '/cn/health', collapse: true },
+	                          '護膚保健品專營店'
+	                        )
+	                      ),
+	                      _react2.default.createElement(
+	                        'li',
+	                        null,
+	                        _react2.default.createElement(
+	                          _NavLink2.default,
+	                          { to: '/cn/overseas', collapse: true },
+	                          '飛揚海外淘'
+	                        )
+	                      ),
+	                      _react2.default.createElement(
+	                        'li',
+	                        null,
+	                        _react2.default.createElement(
+	                          _NavLink2.default,
+	                          { to: '/cn/logistics', collapse: true },
+	                          '飛揚國際物流'
+	                        )
+	                      )
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      _NavLink2.default,
+	                      { to: '/cn/payment', collapse: true },
+	                      '服務'
+	                    ),
+	                    _react2.default.createElement(
+	                      'ul',
+	                      { className: 'trd-dropdown-menu' },
+	                      _react2.default.createElement(
+	                        'li',
+	                        null,
+	                        _react2.default.createElement(
+	                          _NavLink2.default,
+	                          { to: '/cn/payment', collapse: true },
+	                          '在線支付'
+	                        )
+	                      ),
+	                      _react2.default.createElement(
+	                        'li',
+	                        null,
+	                        _react2.default.createElement(
+	                          _NavLink2.default,
+	                          { to: '/cn/tracking', collapse: true },
+	                          '包裹追蹤'
+	                        )
+	                      )
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      _NavLink2.default,
+	                      { to: '/cn/join', collapse: true },
+	                      '加盟我們'
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      _NavLink2.default,
+	                      { to: '/cn/contact', collapse: true },
+	                      '聯繫我們'
+	                    )
+	                  )
+	                )
+	              )
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return NavBar;
+	}(_react.Component);
+
+	exports.default = NavBar;
 
 /***/ },
 /* 244 */
@@ -54302,6 +54332,10 @@
 
 	var _SectionTwo2 = _interopRequireDefault(_SectionTwo);
 
+	var _SideLink = __webpack_require__(279);
+
+	var _SideLink2 = _interopRequireDefault(_SideLink);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -54327,8 +54361,7 @@
 	        null,
 	        _react2.default.createElement(_Banner2.default, null),
 	        _react2.default.createElement(_BannerCard2.default, null),
-	        _react2.default.createElement(_SectionOne2.default, null),
-	        _react2.default.createElement(_SectionTwo2.default, null)
+	        _react2.default.createElement(_SectionOne2.default, null)
 	      );
 	    }
 	  }]);
@@ -54445,7 +54478,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _NavLink = __webpack_require__(241);
+	var _NavLink = __webpack_require__(240);
 
 	var _NavLink2 = _interopRequireDefault(_NavLink);
 
@@ -54682,7 +54715,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _NavLink = __webpack_require__(241);
+	var _NavLink = __webpack_require__(240);
 
 	var _NavLink2 = _interopRequireDefault(_NavLink);
 
@@ -54865,7 +54898,7 @@
 
 	var _reactRouter = __webpack_require__(175);
 
-	var _NavLink = __webpack_require__(241);
+	var _NavLink = __webpack_require__(240);
 
 	var _NavLink2 = _interopRequireDefault(_NavLink);
 
@@ -54873,7 +54906,7 @@
 
 	var _TopBar2 = _interopRequireDefault(_TopBar);
 
-	var _NavBar = __webpack_require__(240);
+	var _NavBar = __webpack_require__(243);
 
 	var _NavBar2 = _interopRequireDefault(_NavBar);
 
@@ -56010,6 +56043,84 @@
 /* 259 */
 /***/ function(module, exports, __webpack_require__) {
 
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var divStyle = {
+	  width: '600px',
+	  margin: '200px auto 200px auto',
+	  textAlign: 'center'
+	};
+
+	var NoMatch = function (_Component) {
+	  _inherits(NoMatch, _Component);
+
+	  function NoMatch() {
+	    _classCallCheck(this, NoMatch);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(NoMatch).apply(this, arguments));
+	  }
+
+	  _createClass(NoMatch, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        { style: divStyle },
+	        _react2.default.createElement(
+	          'h2',
+	          null,
+	          '對不起，您所訪問的頁面不存在'
+	        ),
+	        _react2.default.createElement('br', null),
+	        _react2.default.createElement('br', null)
+	      );
+	    }
+	  }]);
+
+	  return NoMatch;
+	}(_react.Component);
+
+	exports.default = NoMatch;
+
+/***/ },
+/* 260 */,
+/* 261 */,
+/* 262 */,
+/* 263 */,
+/* 264 */,
+/* 265 */,
+/* 266 */,
+/* 267 */,
+/* 268 */,
+/* 269 */,
+/* 270 */,
+/* 271 */,
+/* 272 */,
+/* 273 */,
+/* 274 */,
+/* 275 */,
+/* 276 */,
+/* 277 */
+/***/ function(module, exports, __webpack_require__) {
+
 	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
@@ -56103,10 +56214,10 @@
 	exports.default = Contact;
 
 /***/ },
-/* 260 */
+/* 278 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -56126,42 +56237,618 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var divStyle = {
-	  width: '600px',
-	  margin: '200px auto 200px auto',
-	  textAlign: 'center'
-	};
+	var Join = function (_Component) {
+	  _inherits(Join, _Component);
 
-	var NoMatch = function (_Component) {
-	  _inherits(NoMatch, _Component);
+	  function Join() {
+	    _classCallCheck(this, Join);
 
-	  function NoMatch() {
-	    _classCallCheck(this, NoMatch);
-
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(NoMatch).apply(this, arguments));
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Join).apply(this, arguments));
 	  }
 
-	  _createClass(NoMatch, [{
-	    key: 'render',
+	  _createClass(Join, [{
+	    key: "render",
 	    value: function render() {
 	      return _react2.default.createElement(
-	        'div',
-	        { style: divStyle },
+	        "section",
+	        { className: "gl-page-content-section trd-section" },
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement("br", null),
 	        _react2.default.createElement(
-	          'h2',
-	          null,
-	          '對不起，您所訪問的頁面不存在'
-	        ),
-	        _react2.default.createElement('br', null),
-	        _react2.default.createElement('br', null)
+	          "div",
+	          { className: "container" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "row" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "trd-office-addresses-wrapper col-md-3 col-md-offset-1 col-sm-6 col-xs-12" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "trd-office-address" },
+	                _react2.default.createElement(
+	                  "h3",
+	                  { className: "trd-office-title" },
+	                  "请联系：Nic Li"
+	                ),
+	                _react2.default.createElement(
+	                  "ul",
+	                  null,
+	                  _react2.default.createElement(
+	                    "li",
+	                    { className: "trd-office-phone" },
+	                    "(08) 8223 3114"
+	                  )
+	                )
+	              )
+	            )
+	          )
+	        )
 	      );
 	    }
 	  }]);
 
-	  return NoMatch;
+	  return Join;
 	}(_react.Component);
 
-	exports.default = NoMatch;
+	exports.default = Join;
+
+/***/ },
+/* 279 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _NavLink = __webpack_require__(240);
+
+	var _NavLink2 = _interopRequireDefault(_NavLink);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var SideLink = function (_Component) {
+	  _inherits(SideLink, _Component);
+
+	  function SideLink() {
+	    _classCallCheck(this, SideLink);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(SideLink).apply(this, arguments));
+	  }
+
+	  _createClass(SideLink, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'sidelink-container' },
+	        _react2.default.createElement(
+	          'ul',
+	          null,
+	          _react2.default.createElement(
+	            'li',
+	            { className: 'dropdown' },
+	            _react2.default.createElement(
+	              'a',
+	              { href: '#', 'data-toggle': 'dropdown' },
+	              'First Menu ',
+	              _react2.default.createElement('i', { className: 'icon-arrow' })
+	            ),
+	            _react2.default.createElement(
+	              'ul',
+	              { className: 'dropdown-menu' },
+	              _react2.default.createElement(
+	                'li',
+	                null,
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'Home'
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'li',
+	                null,
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'About Us'
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'li',
+	                null,
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'Services'
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'li',
+	                null,
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'Contact'
+	                )
+	              ),
+	              _react2.default.createElement(
+	                _NavLink2.default,
+	                { to: '/cn/contact', className: 'trd-btn trd-btn-alt' },
+	                '聯繫我們'
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement('script', { src: '/content/js/vendors/sidelink.js' })
+	      );
+	    }
+	  }]);
+
+	  return SideLink;
+	}(_react.Component);
+
+	exports.default = SideLink;
+
+/***/ },
+/* 280 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Health = function (_Component) {
+	  _inherits(Health, _Component);
+
+	  function Health() {
+	    _classCallCheck(this, Health);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Health).apply(this, arguments));
+	  }
+
+	  _createClass(Health, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        { className: "trd-about-us-details-section trd-section" },
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "container" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "row" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "trd-inner-section" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "trd-left-half" },
+	                _react2.default.createElement(
+	                  "h2",
+	                  { className: "trd-content-inner-title" },
+	                  "保健品专营店"
+	                ),
+	                _react2.default.createElement(
+	                  "p",
+	                  null,
+	                  "OZ Healthy Choice的開業照片 授權書（是眾多澳洲化妝品 及保健品知名企業給予我們的信任和支持  Swisse Blackmores Healthy care betlife Oz farm GM Sukin 蜂毒系列 ）OZ 作為飛揚國際的子公司致 力於服務當地華人及本土local 總投資金額超余200萬RMB 在其創立之初便收到了當地人群的擁護和喜愛   更是作為飛揚國際最為重要的重要物資倉儲及物流集運點 目前日均銷售額超過6萬元RMB "
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "trd-right-half" },
+	                _react2.default.createElement(
+	                  "div",
+	                  { className: "trd-image-wrapper" },
+	                  _react2.default.createElement("img", { src: "../../../content/images/imgbox-img-10.jpg", alt: "About us" })
+	                )
+	              )
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Health;
+	}(_react.Component);
+
+	exports.default = Health;
+
+/***/ },
+/* 281 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Health = function (_Component) {
+	  _inherits(Health, _Component);
+
+	  function Health() {
+	    _classCallCheck(this, Health);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Health).apply(this, arguments));
+	  }
+
+	  _createClass(Health, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        { className: "trd-about-us-details-section trd-section" },
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "container" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "row" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "trd-inner-section" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "trd-left-half" },
+	                _react2.default.createElement(
+	                  "h2",
+	                  { className: "trd-content-inner-title" },
+	                  "IGA"
+	                ),
+	                _react2.default.createElement(
+	                  "p",
+	                  null,
+	                  "IGA超市上架產品共有產品1萬余種 飛揚國際正在以每周50種的速度推廣給國內的消費群體 銷售成果非常可觀  截止發稿日 共向國內消費者推出了1000余種當地產品 讓國內的消費者可以足不出戶的享受到和澳洲本土人群壹樣高質  量的生活用品，食品，以及保健產品"
+	                ),
+	                _react2.default.createElement("br", null)
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "trd-right-half" },
+	                _react2.default.createElement(
+	                  "div",
+	                  { className: "trd-image-wrapper" },
+	                  _react2.default.createElement("img", { src: "../../../content/images/imgbox-img-10.jpg", alt: "About us" })
+	                )
+	              )
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Health;
+	}(_react.Component);
+
+	exports.default = Health;
+
+/***/ },
+/* 282 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Investments = function (_Component) {
+	  _inherits(Investments, _Component);
+
+	  function Investments() {
+	    _classCallCheck(this, Investments);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Investments).apply(this, arguments));
+	  }
+
+	  _createClass(Investments, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        { className: "trd-about-us-details-section trd-section" },
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "container" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "row" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "trd-inner-section" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "trd-left-half" },
+	                _react2.default.createElement(
+	                  "div",
+	                  { className: "trd-image-wrapper" },
+	                  _react2.default.createElement("img", { src: "../../../content/images/category-img-2.jpg", alt: "About us" })
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "trd-right-half" },
+	                _react2.default.createElement(
+	                  "h2",
+	                  { className: "trd-content-inner-title" },
+	                  "不動產投資"
+	                ),
+	                _react2.default.createElement(
+	                  "p",
+	                  null,
+	                  "商業地產投資 232 Hutt St Adelaide 飛揚國際擁有飛揚國際總部IGA 所在商業地產 於2014年投資完畢  總投資金額超1000萬RMB與澳洲優秀銀行NAB以及聞名全澳的貸款公司RAMS建立了良好的合作關系"
+	                ),
+	                _react2.default.createElement("br", null),
+	                _react2.default.createElement(
+	                  "p",
+	                  null,
+	                  "海外投資（分個人投資 和開發商海外投資） 飛揚國際致力於幫助有想法 有遠見的國人進行海外自住房和投資 房進行完善的投資和管理，我們擁有優秀的團隊為澳洲本土人群，海外開發商，和個人團體投資進行項目策劃到後 期推廣的全方位頂級服務"
+	                )
+	              )
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Investments;
+	}(_react.Component);
+
+	exports.default = Investments;
+
+/***/ },
+/* 283 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Logistics = function (_Component) {
+	  _inherits(Logistics, _Component);
+
+	  function Logistics() {
+	    _classCallCheck(this, Logistics);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Logistics).apply(this, arguments));
+	  }
+
+	  _createClass(Logistics, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        { className: "trd-about-us-details-section trd-section" },
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "container" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "row" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "trd-inner-section" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "trd-left-half" },
+	                _react2.default.createElement(
+	                  "h2",
+	                  { className: "trd-content-inner-title" },
+	                  "飞扬国际物流"
+	                ),
+	                _react2.default.createElement(
+	                  "p",
+	                  null,
+	                  "飛揚國際物流（For Young Investments Pty Ltd),作為飛揚國際總部分公司建立於2015年12月份， 正式投入使用於2016年10月，籌備時間達壹年之久，洽談對象包括中外著名企業如澳大利亞郵政（AU POST）， DHL，TNT，順豐速遞，圓通速遞，韻達速遞，EMS，並與廣州諸多具有優異實力的清關公司建立了長久合作的戰 略合作關系。作為澳洲本土直郵市場的後來者，飛揚國際速遞擁有自己獨立完善的物流後臺系統，倉儲管理系統， 零售系統，航空訂艙系統，全自動流水線。飛揚國際物流作為澳洲位數不多能做到國內獨立關口清關的物流公司， 有能力承運進出口大宗訂艙，貨物配送，機場轉運，報關清關，國內優質物流轉運配送，全程無憂售後服務等壹系列配套服務。"
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "trd-right-half" },
+	                _react2.default.createElement(
+	                  "div",
+	                  { className: "trd-image-wrapper" },
+	                  _react2.default.createElement("img", { src: "../../../content/images/about-us.jpg", alt: "About us" })
+	                )
+	              )
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Logistics;
+	}(_react.Component);
+
+	exports.default = Logistics;
+
+/***/ },
+/* 284 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Overseas = function (_Component) {
+	  _inherits(Overseas, _Component);
+
+	  function Overseas() {
+	    _classCallCheck(this, Overseas);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Overseas).apply(this, arguments));
+	  }
+
+	  _createClass(Overseas, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        { className: "trd-about-us-details-section trd-section" },
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "container" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "row" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "trd-inner-section" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "trd-left-half" },
+	                _react2.default.createElement(
+	                  "div",
+	                  { className: "trd-image-wrapper" },
+	                  _react2.default.createElement("img", { src: "../../../content/images/blog-img-9.jpg", alt: "About us" })
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "trd-right-half" },
+	                _react2.default.createElement(
+	                  "h2",
+	                  { className: "trd-content-inner-title" },
+	                  "飞扬海外淘 该板块业务"
+	                ),
+	                _react2.default.createElement(
+	                  "p",
+	                  null,
+	                  "飛揚國際唯壹指定客服微信 OZ Healthy Choice門店電話飛揚海外淘成立已有2年的時間 兩年時間來 深收國人喜愛 並且在2015年中旬與鄰裏盡致商城，有贊商城建立深度合作，已服務消費群體約十萬人之多， “物美價廉”已經成為了飛揚海外淘在國人心目中的代名詞 日前 在售產品達2000種之多， 並與國內各大省市主要城市40余家實體店進行合作。"
+	                ),
+	                _react2.default.createElement("br", null),
+	                _react2.default.createElement(
+	                  "p",
+	                  null,
+	                  "並且，與國內各大電商平臺淘寶建立合作，並籌備開通海外倉儲，以便實現從供貨，海外倉儲，運輸，終端服務， 並且將面對國內企業，提供集團采購，供貨平臺，保管運輸等壹系列壹站式服務。"
+	                )
+	              )
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Overseas;
+	}(_react.Component);
+
+	exports.default = Overseas;
 
 /***/ }
 /******/ ]);
