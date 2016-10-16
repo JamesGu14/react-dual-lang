@@ -42,28 +42,25 @@ export default class NavBar extends Component {
                     <NavLink to="/cn/about" collapse={true}>關於我們</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/cn/products" collapse={true}>我们的業務</NavLink>
+                    <NavLink to="/cn/investments" collapse={true}>我们的業務</NavLink>
                     <ul className="trd-dropdown-menu">
                       <li>
-                        <NavLink to="/cn/products" collapse={true}>不動產投資和管理</NavLink>
+                        <NavLink to="/cn/investments" collapse={true}>不動產投資和管理</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/cn/products" collapse={true}>連鎖超市</NavLink>
+                        <NavLink to="/cn/IGA" collapse={true}>連鎖超市</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/cn/products" collapse={true}>護膚保健品專營店</NavLink>
+                        <NavLink to="/cn/health" collapse={true}>護膚保健品專營店</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/cn/products" collapse={true}>飛揚海外淘</NavLink>
+                        <NavLink to="/cn/overseas" collapse={true}>飛揚海外淘</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/cn/products" collapse={true}>飛揚國際物流</NavLink>
+                        <NavLink to="/cn/logistics" collapse={true}>飛揚國際物流</NavLink>
                       </li>
                     </ul>
-                  </li>
-                  <li>
-                    <NavLink to="/cn/partner" collapse={true}>合作商家</NavLink>
-                  </li>
+                  </li> 
                   <li>
                     <NavLink to="/cn/payment" collapse={true}>服務</NavLink>
                     <ul className="trd-dropdown-menu">
@@ -76,8 +73,12 @@ export default class NavBar extends Component {
                     </ul>
                   </li>
                   <li>
+                    <NavLink to="/cn/join" collapse={true}>加盟我們</NavLink>
+                  </li>
+                  <li>
                     <NavLink to="/cn/contact" collapse={true}>聯繫我們</NavLink>
                   </li>
+                  
                   {/*
                   <li>
                     <a href="/">English</a>

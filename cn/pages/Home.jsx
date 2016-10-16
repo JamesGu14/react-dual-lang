@@ -4,6 +4,7 @@ import Banner from '../components/home/Banner.jsx'
 import BannerCard from '../components/home/BannerCard.jsx'
 import SectionOne from '../components/home/SectionOne.jsx' 
 import SectionTwo from '../components/home/SectionTwo.jsx' 
+import SideLink from '../components/home/SideLink.jsx'
 
 export default class Home extends Component {
   render() {
@@ -12,7 +13,6 @@ export default class Home extends Component {
         <Banner />
         <BannerCard />
         <SectionOne />
-        <SectionTwo />
       </div>
     )
   }
