@@ -62,55 +62,55 @@
 
 	var _Home2 = _interopRequireDefault(_Home);
 
-	var _About = __webpack_require__(251);
+	var _About = __webpack_require__(252);
 
 	var _About2 = _interopRequireDefault(_About);
 
-	var _Products = __webpack_require__(254);
+	var _Products = __webpack_require__(255);
 
 	var _Products2 = _interopRequireDefault(_Products);
 
-	var _Partner = __webpack_require__(255);
+	var _Partner = __webpack_require__(256);
 
 	var _Partner2 = _interopRequireDefault(_Partner);
 
-	var _Payment = __webpack_require__(257);
+	var _Payment = __webpack_require__(258);
 
 	var _Payment2 = _interopRequireDefault(_Payment);
 
-	var _Tracking = __webpack_require__(258);
+	var _Tracking = __webpack_require__(259);
 
 	var _Tracking2 = _interopRequireDefault(_Tracking);
 
-	var _NoMatch = __webpack_require__(259);
+	var _NoMatch = __webpack_require__(260);
 
 	var _NoMatch2 = _interopRequireDefault(_NoMatch);
 
-	var _Contact = __webpack_require__(277);
+	var _Contact = __webpack_require__(261);
 
 	var _Contact2 = _interopRequireDefault(_Contact);
 
-	var _Join = __webpack_require__(278);
+	var _Join = __webpack_require__(262);
 
 	var _Join2 = _interopRequireDefault(_Join);
 
-	var _Health = __webpack_require__(280);
+	var _Health = __webpack_require__(263);
 
 	var _Health2 = _interopRequireDefault(_Health);
 
-	var _IGA = __webpack_require__(281);
+	var _IGA = __webpack_require__(264);
 
 	var _IGA2 = _interopRequireDefault(_IGA);
 
-	var _Investments = __webpack_require__(282);
+	var _Investments = __webpack_require__(265);
 
 	var _Investments2 = _interopRequireDefault(_Investments);
 
-	var _Logistics = __webpack_require__(283);
+	var _Logistics = __webpack_require__(266);
 
 	var _Logistics2 = _interopRequireDefault(_Logistics);
 
-	var _Overseas = __webpack_require__(284);
+	var _Overseas = __webpack_require__(267);
 
 	var _Overseas2 = _interopRequireDefault(_Overseas);
 
@@ -27163,7 +27163,7 @@
 
 	var _Home2 = _interopRequireDefault(_Home);
 
-	var _Footer = __webpack_require__(250);
+	var _Footer = __webpack_require__(251);
 
 	var _Footer2 = _interopRequireDefault(_Footer);
 
@@ -54332,7 +54332,7 @@
 
 	var _SectionTwo2 = _interopRequireDefault(_SectionTwo);
 
-	var _SideLink = __webpack_require__(279);
+	var _SideLink = __webpack_require__(250);
 
 	var _SideLink2 = _interopRequireDefault(_SideLink);
 
@@ -54361,7 +54361,8 @@
 	        null,
 	        _react2.default.createElement(_Banner2.default, null),
 	        _react2.default.createElement(_BannerCard2.default, null),
-	        _react2.default.createElement(_SectionOne2.default, null)
+	        _react2.default.createElement(_SectionOne2.default, null),
+	        _react2.default.createElement(_SideLink2.default, null)
 	      );
 	    }
 	  }]);
@@ -54896,6 +54897,143 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
+	var _NavLink = __webpack_require__(240);
+
+	var _NavLink2 = _interopRequireDefault(_NavLink);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var SideLink = function (_Component) {
+	  _inherits(SideLink, _Component);
+
+	  function SideLink() {
+	    _classCallCheck(this, SideLink);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(SideLink).apply(this, arguments));
+	  }
+
+	  _createClass(SideLink, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'sidelink-container' },
+	        _react2.default.createElement(
+	          'ul',
+	          null,
+	          _react2.default.createElement(
+	            'li',
+	            { className: 'sidelink-dropdown' },
+	            _react2.default.createElement(
+	              'a',
+	              { href: '#', className: 'hide-link', id: 'hide-sidelink' },
+	              '  隐藏'
+	            ),
+	            _react2.default.createElement(
+	              'a',
+	              { href: '#', 'data-toggle': 'sidelink-dropdown' },
+	              '快速联系'
+	            ),
+	            _react2.default.createElement(
+	              'ul',
+	              { className: 'sidelink-dropdown-menu show' },
+	              _react2.default.createElement(
+	                'li',
+	                null,
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: '#' },
+	                  '在线客服'
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'li',
+	                null,
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: '#' },
+	                  '客服电话'
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'li',
+	                null,
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: '#' },
+	                  '官方二维码'
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'li',
+	                null,
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: '#' },
+	                  '活动新闻'
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'li',
+	                null,
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: '#' },
+	                  '商业客户'
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'li',
+	                null,
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: '#' },
+	                  '网点联系'
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'li',
+	                null,
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: '#', className: 'sidelink-footer' },
+	                  '返回顶部'
+	                )
+	              )
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return SideLink;
+	}(_react.Component);
+
+	exports.default = SideLink;
+
+/***/ },
+/* 251 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
 	var _reactRouter = __webpack_require__(175);
 
 	var _NavLink = __webpack_require__(240);
@@ -55212,7 +55350,7 @@
 	exports.default = Header;
 
 /***/ },
-/* 251 */
+/* 252 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -55227,11 +55365,11 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Banner = __webpack_require__(252);
+	var _Banner = __webpack_require__(253);
 
 	var _Banner2 = _interopRequireDefault(_Banner);
 
-	var _SectionOne = __webpack_require__(253);
+	var _SectionOne = __webpack_require__(254);
 
 	var _SectionOne2 = _interopRequireDefault(_SectionOne);
 
@@ -55270,7 +55408,7 @@
 	exports.default = About;
 
 /***/ },
-/* 252 */
+/* 253 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -55331,7 +55469,7 @@
 	exports.default = Banner;
 
 /***/ },
-/* 253 */
+/* 254 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -55553,7 +55691,7 @@
 	exports.default = About;
 
 /***/ },
-/* 254 */
+/* 255 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -55617,7 +55755,7 @@
 	exports.default = Products;
 
 /***/ },
-/* 255 */
+/* 256 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -55632,7 +55770,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _LinePartners = __webpack_require__(256);
+	var _LinePartners = __webpack_require__(257);
 
 	var _LinePartners2 = _interopRequireDefault(_LinePartners);
 
@@ -55807,7 +55945,7 @@
 	exports.default = Partner;
 
 /***/ },
-/* 256 */
+/* 257 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -55912,7 +56050,7 @@
 	exports.default = LinePartners;
 
 /***/ },
-/* 257 */
+/* 258 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -55976,7 +56114,7 @@
 	exports.default = Payment;
 
 /***/ },
-/* 258 */
+/* 259 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -56040,7 +56178,7 @@
 	exports.default = Tracking;
 
 /***/ },
-/* 259 */
+/* 260 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -56101,24 +56239,7 @@
 	exports.default = NoMatch;
 
 /***/ },
-/* 260 */,
-/* 261 */,
-/* 262 */,
-/* 263 */,
-/* 264 */,
-/* 265 */,
-/* 266 */,
-/* 267 */,
-/* 268 */,
-/* 269 */,
-/* 270 */,
-/* 271 */,
-/* 272 */,
-/* 273 */,
-/* 274 */,
-/* 275 */,
-/* 276 */,
-/* 277 */
+/* 261 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -56214,7 +56335,7 @@
 	exports.default = Contact;
 
 /***/ },
-/* 278 */
+/* 262 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -56296,119 +56417,7 @@
 	exports.default = Join;
 
 /***/ },
-/* 279 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _NavLink = __webpack_require__(240);
-
-	var _NavLink2 = _interopRequireDefault(_NavLink);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-	var SideLink = function (_Component) {
-	  _inherits(SideLink, _Component);
-
-	  function SideLink() {
-	    _classCallCheck(this, SideLink);
-
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(SideLink).apply(this, arguments));
-	  }
-
-	  _createClass(SideLink, [{
-	    key: 'render',
-	    value: function render() {
-	      return _react2.default.createElement(
-	        'div',
-	        { className: 'sidelink-container' },
-	        _react2.default.createElement(
-	          'ul',
-	          null,
-	          _react2.default.createElement(
-	            'li',
-	            { className: 'dropdown' },
-	            _react2.default.createElement(
-	              'a',
-	              { href: '#', 'data-toggle': 'dropdown' },
-	              'First Menu ',
-	              _react2.default.createElement('i', { className: 'icon-arrow' })
-	            ),
-	            _react2.default.createElement(
-	              'ul',
-	              { className: 'dropdown-menu' },
-	              _react2.default.createElement(
-	                'li',
-	                null,
-	                _react2.default.createElement(
-	                  'a',
-	                  { href: '#' },
-	                  'Home'
-	                )
-	              ),
-	              _react2.default.createElement(
-	                'li',
-	                null,
-	                _react2.default.createElement(
-	                  'a',
-	                  { href: '#' },
-	                  'About Us'
-	                )
-	              ),
-	              _react2.default.createElement(
-	                'li',
-	                null,
-	                _react2.default.createElement(
-	                  'a',
-	                  { href: '#' },
-	                  'Services'
-	                )
-	              ),
-	              _react2.default.createElement(
-	                'li',
-	                null,
-	                _react2.default.createElement(
-	                  'a',
-	                  { href: '#' },
-	                  'Contact'
-	                )
-	              ),
-	              _react2.default.createElement(
-	                _NavLink2.default,
-	                { to: '/cn/contact', className: 'trd-btn trd-btn-alt' },
-	                '聯繫我們'
-	              )
-	            )
-	          )
-	        ),
-	        _react2.default.createElement('script', { src: '/content/js/vendors/sidelink.js' })
-	      );
-	    }
-	  }]);
-
-	  return SideLink;
-	}(_react.Component);
-
-	exports.default = SideLink;
-
-/***/ },
-/* 280 */
+/* 263 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -56494,7 +56503,7 @@
 	exports.default = Health;
 
 /***/ },
-/* 281 */
+/* 264 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -56581,7 +56590,7 @@
 	exports.default = Health;
 
 /***/ },
-/* 282 */
+/* 265 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -56673,7 +56682,7 @@
 	exports.default = Investments;
 
 /***/ },
-/* 283 */
+/* 266 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -56759,7 +56768,7 @@
 	exports.default = Logistics;
 
 /***/ },
-/* 284 */
+/* 267 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
