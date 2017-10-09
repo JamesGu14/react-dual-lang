@@ -13,6 +13,10 @@ import NoMatch from './pages/NoMatch.jsx'
 import Contact from './pages/Contact.jsx'  
 import Join from './pages/Join.jsx' 
 
+import ForyoungInvestment from './pages/Business/ForyoungInvestment.jsx'
+import ForyoungPty from './pages/Business/ForyoungPty.jsx'
+import ForyoungTrade from './pages/Business/ForyoungTrade.jsx'
+
 import Health from './pages/Products/Health.jsx'
 import IGA from './pages/Products/IGA.jsx'
 import Investments from './pages/Products/Investments.jsx'
@@ -31,10 +35,18 @@ render((
       <Route path="/cn/tracking" component={Tracking}></Route>
       <Route path="/cn/contact" component={Contact}></Route>
       <Route path="/cn/join" component={Join}></Route>
+
+      {/*
       <Route path="/cn/health" component={Health}></Route>
       <Route path="/cn/IGA" component={IGA}></Route>
       <Route path="/cn/investments" component={Investments}></Route>
       <Route path="/cn/logistics" component={Logistics}></Route>
+      */}
+
+      <Route path="/cn/foryoung-investment" component={ForyoungInvestment}></Route>
+      <Route path="/cn/foryoung-pty" component={ForyoungPty}></Route>
+      <Route path="/cn/foryoung-trade" component={ForyoungTrade}></Route>
+      
       <Route path="/cn/overseas" component={Overseas}></Route>
       <Route path="*" component={NoMatch}/>
     </Route>
