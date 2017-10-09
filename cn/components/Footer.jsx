@@ -114,7 +114,7 @@ export default class Header extends Component {
               </div>
 
               <div className="trd-copyright-info">
-                <p>Copyright © 2016 by <a href="#" className="trd-author-link">James Gu</a></p>
+                <p>Copyright © 2016 by <a href="#" className="trd-author-link">澳洲飞扬集团</a></p>
               </div>
             </div>
           </div>
