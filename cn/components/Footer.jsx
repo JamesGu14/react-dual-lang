@@ -25,21 +25,19 @@ export default class Header extends Component {
                   <img src="/content/images/foryoung-logo.png" style={{height: '48px', width: '132px'}} alt="Trade" />
                 </div>
 
-                <p>澳洲飛揚投資有限公司（For Young Investments  Pty  Ltd， ACN 609 081 932) 是位於澳大利亞南澳州首府阿德萊德（Adelaide）的著名公司。</p>
+                <p>澳洲飞扬投资有限公司（For Young Investments  Pty  Ltd， ACN 609 081 932) 是位于澳大利亚南澳州首府阿德莱德（Adelaide）的著名公司。</p>
               </div>
 
               <div className="col-md-3 col-sm-6 col-xs-12 trd-footer-widget trd-useful-link-widget">
-                <h3 className="trd-footer-widget-title">常用鏈接</h3>
+                <h3 className="trd-footer-widget-title">常用链接</h3>
 
                 <div className="trd-footer-widget-content">
                   <ul>
-                    <li><IndexLink to="/cn/" activeClassName="active" onClick={this.scrollToTop}>首頁</IndexLink></li>
-                    <li><NavLink to="/cn/about">關於我們</NavLink></li>
-                    <li><NavLink to="/cn/products">我们的業務</NavLink></li>
-                    <li><NavLink to="/cn/partner">合作夥伴</NavLink></li>
-                    <li><NavLink to="/cn/payment">在線支付</NavLink></li>
-                    <li><NavLink to="/cn/tracking">包裹追蹤</NavLink></li>
-                    <li><NavLink to="/cn/contact">聯繫我們</NavLink></li>
+                    <li><IndexLink to="/cn/" activeClassName="active" onClick={this.scrollToTop}>首页</IndexLink></li>
+                    <li><NavLink to="/cn/about">关于我们</NavLink></li>
+                    <li><NavLink to="/cn/products">我们的业务</NavLink></li>
+                    <li><NavLink to="/cn/partner">合作伙伴</NavLink></li>
+                    <li><NavLink to="/cn/contact">联系我们</NavLink></li>
                   </ul>
                 </div>
               </div>
@@ -51,7 +49,7 @@ export default class Header extends Component {
                   <div className="trd-recent-post-wrapper">
                     <div className="trd-recent-post-item">
                       <h3 className="trd-post-title">
-                        <NavLink to="/cn/about">關於澳洲飛揚投資有限公司</NavLink>
+                        <NavLink to="/cn/about">关于澳洲飞扬投资有限公司</NavLink>
                       </h3>
 
                       <span className="trd-post-date">August 12, 2016</span>
@@ -59,7 +57,7 @@ export default class Header extends Component {
 
                     <div className="trd-recent-post-item">
                       <h3 className="trd-post-title">
-                        <NavLink to="/cn/partner">我們與超過40家澳洲知名食品及日用品公司確立了長期穩定的供求關係</NavLink>
+                        <NavLink to="/cn/partner">我们与超过40家澳洲知名食品及日用品公司确立了长期稳定的供求关系</NavLink>
                       </h3>
 
                       <span className="trd-post-date">August 15, 2016</span>
@@ -87,25 +85,22 @@ export default class Header extends Component {
               <div className="trd-footer-menu">
                 <ul>
                   <li>
-                    <IndexLink to="/cn/" activeClassName="active" onClick={this.scrollToTop}>首頁</IndexLink>
+                    <IndexLink to="/cn/" activeClassName="active" onClick={this.scrollToTop}>首页</IndexLink>
                   </li>
                   <li>
-                    <NavLink to="/cn/about">關於我們</NavLink>
+                    <NavLink to="/cn/about">关于我们</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/cn/products">我们的業務</NavLink>
+                    <NavLink to="/cn/foryoung-investment">我们的业务</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/cn/partner">合作夥伴</NavLink>
+                    <NavLink to="/cn/join">加盟我们</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/cn/payment">在線支付</NavLink>
+                    <a href="http://www.fyexpress.com.au">包裹追踪</a>
                   </li>
                   <li>
-                    <NavLink to="/cn/tracking">包裹追蹤</NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/cn/contact">聯繫我們</NavLink>
+                    <NavLink to="/cn/contact">联系我们</NavLink>
                   </li>
                   <li>
                     <a href="/">English</a>

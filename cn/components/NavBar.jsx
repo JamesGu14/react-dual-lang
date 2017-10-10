@@ -36,13 +36,13 @@ export default class NavBar extends Component {
               <div id="nav-menu" className="navbar-collapse trd-menu-wrapper collapse" role="navigation" style={{ maxHeight: '846px' }}>
                 <ul className="nav navbar-nav trd-menus">
                   <li>
-                    <IndexLink to="/cn/" activeClassName="active" onClick={this.scrollToTop}>首頁</IndexLink>
+                    <IndexLink to="/cn/" activeClassName="active" onClick={this.scrollToTop}>首页</IndexLink>
                   </li>
                   <li>
-                    <NavLink to="/cn/about" collapse={true}>關於我們</NavLink>
+                    <NavLink to="/cn/about" collapse={true}>关于我们</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/cn/foryoung-investment" collapse={true}>我们的業務</NavLink>
+                    <NavLink to="/cn/foryoung-investment" collapse={true}>我们的业务</NavLink>
                     <ul className="trd-dropdown-menu">
                       <li>
                         <NavLink to="/cn/foryoung-investment" collapse={true}>澳洲飞扬投资有限公司</NavLink>
@@ -56,18 +56,21 @@ export default class NavBar extends Component {
                     </ul>
                   </li> 
                   <li>
-                    <NavLink to="/cn/payment" collapse={true}>服務</NavLink>
+                  <a href="http://www.fyexpress.com.au" collapse={true}>服务</a>
                     <ul className="trd-dropdown-menu">
                       <li>
-                        <a href="http://www.fyexpress.com.au" collapse={true}>包裹追蹤</a>
+                        <a href="http://www.fyexpress.com.au" collapse={true}>包裹追踪</a>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <NavLink to="/cn/join" collapse={true}>加盟我們</NavLink>
+                    <NavLink to="/cn/join" collapse={true}>加盟我们</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/cn/contact" collapse={true}>聯繫我們</NavLink>
+                    <NavLink to="/cn/contact" collapse={true}>联系我们</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/cn/sponsor" collapse={true}>投资赞助项目及活动</NavLink>
                   </li>
                   
                   {/*

@@ -94,6 +94,10 @@
 
 	var _Join2 = _interopRequireDefault(_Join);
 
+	var _Sponsor = __webpack_require__(295);
+
+	var _Sponsor2 = _interopRequireDefault(_Sponsor);
+
 	var _ForyoungInvestment = __webpack_require__(271);
 
 	var _ForyoungInvestment2 = _interopRequireDefault(_ForyoungInvestment);
@@ -141,6 +145,7 @@
 	    _react2.default.createElement(_reactRouter.Route, { path: '/cn/payment', component: _Payment2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/cn/tracking', component: _Tracking2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/cn/contact', component: _Contact2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/cn/sponsor', component: _Sponsor2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/cn/join', component: _Join2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/cn/foryoung-investment', component: _ForyoungInvestment2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/cn/foryoung-pty', component: _ForyoungPty2.default }),
@@ -45042,7 +45047,7 @@
 	                    _react2.default.createElement(
 	                      _reactRouter.IndexLink,
 	                      { to: '/cn/', activeClassName: 'active', onClick: this.scrollToTop },
-	                      '\u9996\u9801'
+	                      '\u9996\u9875'
 	                    )
 	                  ),
 	                  _react2.default.createElement(
@@ -45051,7 +45056,7 @@
 	                    _react2.default.createElement(
 	                      _NavLink2.default,
 	                      { to: '/cn/about', collapse: true },
-	                      '\u95DC\u65BC\u6211\u5011'
+	                      '\u5173\u4E8E\u6211\u4EEC'
 	                    )
 	                  ),
 	                  _react2.default.createElement(
@@ -45060,7 +45065,7 @@
 	                    _react2.default.createElement(
 	                      _NavLink2.default,
 	                      { to: '/cn/foryoung-investment', collapse: true },
-	                      '\u6211\u4EEC\u7684\u696D\u52D9'
+	                      '\u6211\u4EEC\u7684\u4E1A\u52A1'
 	                    ),
 	                    _react2.default.createElement(
 	                      'ul',
@@ -45098,9 +45103,9 @@
 	                    'li',
 	                    null,
 	                    _react2.default.createElement(
-	                      _NavLink2.default,
-	                      { to: '/cn/payment', collapse: true },
-	                      '\u670D\u52D9'
+	                      'a',
+	                      { href: 'http://www.fyexpress.com.au', collapse: true },
+	                      '\u670D\u52A1'
 	                    ),
 	                    _react2.default.createElement(
 	                      'ul',
@@ -45111,7 +45116,7 @@
 	                        _react2.default.createElement(
 	                          'a',
 	                          { href: 'http://www.fyexpress.com.au', collapse: true },
-	                          '\u5305\u88F9\u8FFD\u8E64'
+	                          '\u5305\u88F9\u8FFD\u8E2A'
 	                        )
 	                      )
 	                    )
@@ -45122,7 +45127,7 @@
 	                    _react2.default.createElement(
 	                      _NavLink2.default,
 	                      { to: '/cn/join', collapse: true },
-	                      '\u52A0\u76DF\u6211\u5011'
+	                      '\u52A0\u76DF\u6211\u4EEC'
 	                    )
 	                  ),
 	                  _react2.default.createElement(
@@ -45131,7 +45136,16 @@
 	                    _react2.default.createElement(
 	                      _NavLink2.default,
 	                      { to: '/cn/contact', collapse: true },
-	                      '\u806F\u7E6B\u6211\u5011'
+	                      '\u8054\u7CFB\u6211\u4EEC'
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      _NavLink2.default,
+	                      { to: '/cn/sponsor', collapse: true },
+	                      '\u6295\u8D44\u8D5E\u52A9\u9879\u76EE\u53CA\u6D3B\u52A8'
 	                    )
 	                  )
 	                )
@@ -55620,17 +55634,17 @@
 	              _react2.default.createElement(
 	                'h3',
 	                null,
-	                '\u516C\u53F8\u4E3B\u71DF\u696D\u52D9\u6DB5\u84CB\u6FB3\u6D32',
+	                '\u516C\u53F8\u4E3B\u8425\u4E1A\u52A1\u6DB5\u76D6\u6FB3\u6D32',
 	                _react2.default.createElement(
 	                  'span',
 	                  { className: 'trd-highlight-text' },
-	                  '\u672C\u5730\u9023\u7463\u8D85\u5E02\u3001\u4FBF\u5229\u5E97\uFF0C\u6FB3\u6D32\u4E0D\u52D5\u7522\u6295\u8CC7\uFF0C \u8DE8\u5883\u96FB\u5546\u4EE5\u53CA\u570B\u969B\u7269\u6D41'
+	                  '\u672C\u5730\u8FDE\u7410\u8D85\u5E02\u3001\u4FBF\u5229\u5E97\uFF0C\u6FB3\u6D32\u4E0D\u52A8\u4EA7\u6295\u8D44\uFF0C \u8DE8\u5883\u7535\u5546\u4EE5\u53CA\u56FD\u9645\u7269\u6D41'
 	                )
 	              ),
 	              _react2.default.createElement(
 	                _NavLink2.default,
 	                { to: '/cn/contact', className: 'trd-btn trd-btn-alt' },
-	                '\u806F\u7E6B\u6211\u5011'
+	                '\u8054\u7CFB\u6211\u4EEC'
 	              )
 	            )
 	          )
@@ -55695,19 +55709,19 @@
 	              _react2.default.createElement(
 	                "h1",
 	                { className: "trd-section-tittle" },
-	                "\u6211\u5011\u81F4\u529B\u65BC\u5E36\u4F86",
+	                "\u6211\u4EEC\u81F4\u529B\u4E8E\u5E26\u6765",
 	                _react2.default.createElement("br", null),
 	                _react2.default.createElement(
 	                  "span",
 	                  { className: "trd-highlight-text" },
-	                  "\u66F4\u512A\u8CEA\u7684"
+	                  "\u66F4\u4F18\u8D28\u7684"
 	                ),
 	                "\u751F\u6D3B"
 	              ),
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "\u65E5\u524D\uFF0C\u96A8\u8457\u4E2D\u6FB3\u8CBF\u6613\u81EA\u7531\u5F80\u4F86\u7684\u52A0\u6DF1\uFF0C\u6FB3\u6D32\u98DB\u63DA\u570B\u969B\u8CBF\u6613\u6709\u9650\u516C\u53F8\u81F4\u529B\u65BC\u570B\u969B\u9032\u51FA\u53E3\u696D\u52D9\uFF0C \u628A\u539F\u672C\u6FB3\u6D32\u512A\u826F\u7684\u50B3\u7D71\u96F6\u552E\u696D\u52D9\u9010\u6F38\u9762\u5411\u4E2D\u570B\u6D88\u8CBB\u5E02\u5834\u62D3\u5C55\uFF0C\u5C07\u6FB3\u6D32\u6700\u512A\u8CEA\u7684\u7522\u54C1\uFF0C\u4EE5\u540C\u884C\u696D\u6700\u9AD8\u7684\u6A19\u6E96\u4EE5\u53CA\u6700\u512A\u60E0\u7684\u50F9\u683C\uFF0C \u8B93\u570B\u5167\u5EE3\u5927\u540C\u80DE\u80FD\u5920\u5728\u8DB3\u4E0D\u51FA\u6236\u7684\u5BB6\u88CF\u5B89\u5168\u4FBF\u651C\u653E\u5FC3\u5FEB\u901F\u5730\u4EAB\u53D7\u5230\u8207\u6FB3\u6D32\u7576\u5730\u4EBA\u540C\u6A23\u7684\u751F\u6D3B\u54C1\u8CEA\u3002"
+	                "\u65E5\u524D\uFF0C\u968F\u8457\u4E2D\u6FB3\u8D38\u6613\u81EA\u7531\u5F80\u6765\u7684\u52A0\u6DF1\uFF0C\u6FB3\u6D32\u98DE\u626C\u56FD\u9645\u8D38\u6613\u6709\u9650\u516C\u53F8\u81F4\u529B\u4E8E\u56FD\u9645\u8FDB\u51FA\u53E3\u4E1A\u52A1\uFF0C \u628A\u539F\u672C\u6FB3\u6D32\u4F18\u826F\u7684\u4F20\u7EDF\u96F6\u552E\u4E1A\u52A1\u9010\u6E10\u9762\u5411\u4E2D\u56FD\u6D88\u8D39\u5E02\u573A\u62D3\u5C55\uFF0C\u5C06\u6FB3\u6D32\u6700\u4F18\u8D28\u7684\u4EA7\u54C1\uFF0C\u4EE5\u540C\u884C\u4E1A\u6700\u9AD8\u7684\u6807\u51C6\u4EE5\u53CA\u6700\u4F18\u60E0\u7684\u4EF7\u683C\uFF0C \u8BA9\u56FD\u5185\u5E7F\u5927\u540C\u80DE\u80FD\u591F\u5728\u8DB3\u4E0D\u51FA\u6237\u7684\u5BB6\u91CC\u5B89\u5168\u4FBF\u643A\u653E\u5FC3\u5FEB\u901F\u5730\u4EAB\u53D7\u5230\u4E0E\u6FB3\u6D32\u5F53\u5730\u4EBA\u540C\u6837\u7684\u751F\u6D3B\u54C1\u8D28\u3002"
 	              )
 	            ),
 	            _react2.default.createElement(
@@ -55733,7 +55747,7 @@
 	                _react2.default.createElement(
 	                  "p",
 	                  null,
-	                  "\u516C\u53F8\u92B7\u552E\u62F3\u982D\u7522\u54C1\u4E3B\u8981\u5305\u62EC\u6FB3\u65B0\u5730\u5340\u5B30\u3001\u5E7C\u5152\u914D\u65B9\u5976\uFF1B\u6FB3\u65B0\u5730\u5340\u3001\u5E7C\u5152\u914D\u65B9\u5976\u7C89\u3001\u5B55\u5A66\u5976\u7C89\u3001\u6210\u4EBA\u5976\u7C89\uFF1B \u66A2\u92B7\u4FDD\u5065\u54C1\uFF1B\u7F8E\u5BB9\u8B77\u819A\u7522\u54C1\uFF1B\u6FB3\u6D32\u96F6\u98DF\uFF1B\u5929\u7136\u8702\u871C\u7522\u54C1\uFF1B\u7D14\u6B63\u6FB3\u6D32\u71D5\u9EA5\uFF1B\u5357\u6FB3\u5DF4\u6D1B\u85A9\u5340\u7522\u7D05\u9152\uFF1B \u6FB3\u6D32\u9AD8\u54C1\u8CEA\u725B\u7F8A\u8089\u4EE5\u53CA\u5404\u5F0F\u5404\u6A23\u7684\u6FB3\u6D32\u65E5\u5E38\u7528\u54C1\u7B49\u3002"
+	                  "\u516C\u53F8\u9500\u552E\u62F3\u5934\u4EA7\u54C1\u4E3B\u8981\u5305\u62EC\u6FB3\u65B0\u5730\u533A\u5A74\u3001\u5E7C\u513F\u914D\u65B9\u5976\uFF1B\u6FB3\u65B0\u5730\u533A\u3001\u5E7C\u513F\u914D\u65B9\u5976\u7C89\u3001\u5B55\u5987\u5976\u7C89\u3001\u6210\u4EBA\u5976\u7C89\uFF1B \u7545\u9500\u4FDD\u5065\u54C1\uFF1B\u7F8E\u5BB9\u62A4\u80A4\u4EA7\u54C1\uFF1B\u6FB3\u6D32\u96F6\u98DF\uFF1B\u5929\u7136\u8702\u871C\u4EA7\u54C1\uFF1B\u7EAF\u6B63\u6FB3\u6D32\u71D5\u9EA6\uFF1B\u5357\u6FB3\u5DF4\u6D1B\u8428\u533A\u4EA7\u7EA2\u9152\uFF1B \u6FB3\u6D32\u9AD8\u54C1\u8D28\u725B\u7F8A\u8089\u4EE5\u53CA\u5404\u5F0F\u5404\u6837\u7684\u6FB3\u6D32\u65E5\u5E38\u7528\u54C1\u7B49\u3002"
 	                )
 	              )
 	            ),
@@ -55754,13 +55768,13 @@
 	                  _react2.default.createElement(
 	                    "a",
 	                    { href: "#" },
-	                    "\u96F6\u552E\u9023\u9396"
+	                    "\u96F6\u552E\u8FDE\u9501"
 	                  )
 	                ),
 	                _react2.default.createElement(
 	                  "p",
 	                  null,
-	                  "\u516C\u53F8\u64C1\u6709\u5357\u6FB3\u5DDE\u9996\u5E9C\u963F\u5FB7\u840A\u5FB7\uFF08Adelaide)\u5E02\u4E2D\u5FC3\u6700\u8001\u724C\u7684IGA\u9023\u9396\u8D85\u5E02\uFF08IGA HUTT STREET)\u548C\u591A\u5BB6\u4FBF\u5229\u5E97\uFF0C \u8D85\u5E02\u4E0A\u67B6\u8CA8\u54C1\u4E00\u842C\u591A\u7A2E\uFF0C\u4E26\u4E14\u9084\u64C1\u6709\u6FB3\u6D32\u8457\u540D\u7368\u7ACB\u4F9B\u8CA8\u5546Metcash\u7684\u4F9B\u8CA8\u6E20\u9053\uFF0C \u5176\u65D7\u4E0B\u904B\u71DF\u7684IGA\u9023\u9396\u8D85\u5E02\u66F4\u662F\u904D\u53CA\u4E16\u754C\u7684\u7368\u7ACB\u904B\u71DF\u8D85\u5E02\u3002"
+	                  "\u516C\u53F8\u62E5\u6709\u5357\u6FB3\u5DDE\u9996\u5E9C\u963F\u5FB7\u83B1\u5FB7\uFF08Adelaide)\u5E02\u4E2D\u5FC3\u6700\u8001\u724C\u7684IGA\u8FDE\u9501\u8D85\u5E02\uFF08IGA HUTT STREET)\u548C\u591A\u5BB6\u4FBF\u5229\u5E97\uFF0C \u8D85\u5E02\u4E0A\u67B6\u8D27\u54C1\u4E00\u4E07\u591A\u79CD\uFF0C\u5E76\u4E14\u8FD8\u62E5\u6709\u6FB3\u6D32\u8457\u540D\u72EC\u7ACB\u4F9B\u8D27\u5546Metcash\u7684\u4F9B\u8D27\u6E20\u9053\uFF0C \u5176\u65D7\u4E0B\u8FD0\u8425\u7684IGA\u8FDE\u9501\u8D85\u5E02\u66F4\u662F\u904D\u53CA\u4E16\u754C\u7684\u72EC\u7ACB\u8FD0\u8425\u8D85\u5E02\u3002"
 	                )
 	              )
 	            ),
@@ -55781,13 +55795,13 @@
 	                  _react2.default.createElement(
 	                    "a",
 	                    { href: "#" },
-	                    "\u570B\u969B\u7269\u6D41\u696D\u52D9"
+	                    "\u56FD\u9645\u7269\u6D41\u4E1A\u52A1"
 	                  )
 	                ),
 	                _react2.default.createElement(
 	                  "p",
 	                  null,
-	                  "\u4F4D\u65BC\u5357\u6FB3\u5DDE\u5E02\u4E2D\u5FC3\u4E2D\u570B\u57CEOZ Healthy Choice (Wright Street) \u4F54\u5730\u9762\u7A4D400\u4F59\u5E73\u65B9\u7C73\uFF0C \u662F\u96C6\u7522\u54C1\u5C55\u793A\uFF0C\u7522\u54C1\u92B7\u552E\uFF0C\u5305\u88F9\u6253\u5305\uFF0C\u570B\u969B\u7A7A\u904B\u6D3E\u9001\uFF0C\u5BA2\u670D\u4E2D\u5FC3\u70BA\u4E00\u9AD4\u7684\u5927\u578B\u7D9C\u5408\u6027\u4E94\u516D\u5834\u9928\u3002"
+	                  "\u4F4D\u4E8E\u5357\u6FB3\u5DDE\u5E02\u4E2D\u5FC3\u4E2D\u56FD\u57CEOZ Healthy Choice (Wright Street) \u4F54\u5730\u9762\u79EF400\u4F59\u5E73\u65B9\u7C73\uFF0C \u662F\u96C6\u4EA7\u54C1\u5C55\u793A\uFF0C\u4EA7\u54C1\u9500\u552E\uFF0C\u5305\u88F9\u6253\u5305\uFF0C\u56FD\u9645\u7A7A\u8FD0\u6D3E\u9001\uFF0C\u5BA2\u670D\u4E2D\u5FC3\u4E3A\u4E00\u4F53\u7684\u5927\u578B\u7EFC\u5408\u6027\u4E94\u516D\u573A\u9986\u3002"
 	                )
 	              )
 	            )
@@ -56068,7 +56082,7 @@
 	                _react2.default.createElement(
 	                  'p',
 	                  null,
-	                  '\u6FB3\u6D32\u98DB\u63DA\u6295\u8CC7\u6709\u9650\u516C\u53F8\uFF08For Young Investments  Pty  Ltd\uFF0C ACN 609 081 932) \u662F\u4F4D\u65BC\u6FB3\u5927\u5229\u4E9E\u5357\u6FB3\u5DDE\u9996\u5E9C\u963F\u5FB7\u840A\u5FB7\uFF08Adelaide\uFF09\u7684\u8457\u540D\u516C\u53F8\u3002'
+	                  '\u6FB3\u6D32\u98DE\u626C\u6295\u8D44\u6709\u9650\u516C\u53F8\uFF08For Young Investments  Pty  Ltd\uFF0C ACN 609 081 932) \u662F\u4F4D\u4E8E\u6FB3\u5927\u5229\u4E9A\u5357\u6FB3\u5DDE\u9996\u5E9C\u963F\u5FB7\u83B1\u5FB7\uFF08Adelaide\uFF09\u7684\u8457\u540D\u516C\u53F8\u3002'
 	                )
 	              ),
 	              _react2.default.createElement(
@@ -56077,7 +56091,7 @@
 	                _react2.default.createElement(
 	                  'h3',
 	                  { className: 'trd-footer-widget-title' },
-	                  '\u5E38\u7528\u93C8\u63A5'
+	                  '\u5E38\u7528\u94FE\u63A5'
 	                ),
 	                _react2.default.createElement(
 	                  'div',
@@ -56091,7 +56105,7 @@
 	                      _react2.default.createElement(
 	                        _reactRouter.IndexLink,
 	                        { to: '/cn/', activeClassName: 'active', onClick: this.scrollToTop },
-	                        '\u9996\u9801'
+	                        '\u9996\u9875'
 	                      )
 	                    ),
 	                    _react2.default.createElement(
@@ -56100,7 +56114,7 @@
 	                      _react2.default.createElement(
 	                        _NavLink2.default,
 	                        { to: '/cn/about' },
-	                        '\u95DC\u65BC\u6211\u5011'
+	                        '\u5173\u4E8E\u6211\u4EEC'
 	                      )
 	                    ),
 	                    _react2.default.createElement(
@@ -56109,7 +56123,7 @@
 	                      _react2.default.createElement(
 	                        _NavLink2.default,
 	                        { to: '/cn/products' },
-	                        '\u6211\u4EEC\u7684\u696D\u52D9'
+	                        '\u6211\u4EEC\u7684\u4E1A\u52A1'
 	                      )
 	                    ),
 	                    _react2.default.createElement(
@@ -56118,25 +56132,7 @@
 	                      _react2.default.createElement(
 	                        _NavLink2.default,
 	                        { to: '/cn/partner' },
-	                        '\u5408\u4F5C\u5925\u4F34'
-	                      )
-	                    ),
-	                    _react2.default.createElement(
-	                      'li',
-	                      null,
-	                      _react2.default.createElement(
-	                        _NavLink2.default,
-	                        { to: '/cn/payment' },
-	                        '\u5728\u7DDA\u652F\u4ED8'
-	                      )
-	                    ),
-	                    _react2.default.createElement(
-	                      'li',
-	                      null,
-	                      _react2.default.createElement(
-	                        _NavLink2.default,
-	                        { to: '/cn/tracking' },
-	                        '\u5305\u88F9\u8FFD\u8E64'
+	                        '\u5408\u4F5C\u4F19\u4F34'
 	                      )
 	                    ),
 	                    _react2.default.createElement(
@@ -56145,7 +56141,7 @@
 	                      _react2.default.createElement(
 	                        _NavLink2.default,
 	                        { to: '/cn/contact' },
-	                        '\u806F\u7E6B\u6211\u5011'
+	                        '\u8054\u7CFB\u6211\u4EEC'
 	                      )
 	                    )
 	                  )
@@ -56174,7 +56170,7 @@
 	                        _react2.default.createElement(
 	                          _NavLink2.default,
 	                          { to: '/cn/about' },
-	                          '\u95DC\u65BC\u6FB3\u6D32\u98DB\u63DA\u6295\u8CC7\u6709\u9650\u516C\u53F8'
+	                          '\u5173\u4E8E\u6FB3\u6D32\u98DE\u626C\u6295\u8D44\u6709\u9650\u516C\u53F8'
 	                        )
 	                      ),
 	                      _react2.default.createElement(
@@ -56192,7 +56188,7 @@
 	                        _react2.default.createElement(
 	                          _NavLink2.default,
 	                          { to: '/cn/partner' },
-	                          '\u6211\u5011\u8207\u8D85\u904E40\u5BB6\u6FB3\u6D32\u77E5\u540D\u98DF\u54C1\u53CA\u65E5\u7528\u54C1\u516C\u53F8\u78BA\u7ACB\u4E86\u9577\u671F\u7A69\u5B9A\u7684\u4F9B\u6C42\u95DC\u4FC2'
+	                          '\u6211\u4EEC\u4E0E\u8D85\u8FC740\u5BB6\u6FB3\u6D32\u77E5\u540D\u98DF\u54C1\u53CA\u65E5\u7528\u54C1\u516C\u53F8\u786E\u7ACB\u4E86\u957F\u671F\u7A33\u5B9A\u7684\u4F9B\u6C42\u5173\u7CFB'
 	                        )
 	                      ),
 	                      _react2.default.createElement(
@@ -56220,7 +56216,7 @@
 	                    _react2.default.createElement(
 	                      _reactRouter.IndexLink,
 	                      { to: '/cn/', activeClassName: 'active', onClick: this.scrollToTop },
-	                      '\u9996\u9801'
+	                      '\u9996\u9875'
 	                    )
 	                  ),
 	                  _react2.default.createElement(
@@ -56229,7 +56225,7 @@
 	                    _react2.default.createElement(
 	                      _NavLink2.default,
 	                      { to: '/cn/about' },
-	                      '\u95DC\u65BC\u6211\u5011'
+	                      '\u5173\u4E8E\u6211\u4EEC'
 	                    )
 	                  ),
 	                  _react2.default.createElement(
@@ -56237,8 +56233,8 @@
 	                    null,
 	                    _react2.default.createElement(
 	                      _NavLink2.default,
-	                      { to: '/cn/products' },
-	                      '\u6211\u4EEC\u7684\u696D\u52D9'
+	                      { to: '/cn/foryoung-investment' },
+	                      '\u6211\u4EEC\u7684\u4E1A\u52A1'
 	                    )
 	                  ),
 	                  _react2.default.createElement(
@@ -56246,26 +56242,17 @@
 	                    null,
 	                    _react2.default.createElement(
 	                      _NavLink2.default,
-	                      { to: '/cn/partner' },
-	                      '\u5408\u4F5C\u5925\u4F34'
+	                      { to: '/cn/join' },
+	                      '\u52A0\u76DF\u6211\u4EEC'
 	                    )
 	                  ),
 	                  _react2.default.createElement(
 	                    'li',
 	                    null,
 	                    _react2.default.createElement(
-	                      _NavLink2.default,
-	                      { to: '/cn/payment' },
-	                      '\u5728\u7DDA\u652F\u4ED8'
-	                    )
-	                  ),
-	                  _react2.default.createElement(
-	                    'li',
-	                    null,
-	                    _react2.default.createElement(
-	                      _NavLink2.default,
-	                      { to: '/cn/tracking' },
-	                      '\u5305\u88F9\u8FFD\u8E64'
+	                      'a',
+	                      { href: 'http://www.fyexpress.com.au' },
+	                      '\u5305\u88F9\u8FFD\u8E2A'
 	                    )
 	                  ),
 	                  _react2.default.createElement(
@@ -56274,7 +56261,7 @@
 	                    _react2.default.createElement(
 	                      _NavLink2.default,
 	                      { to: '/cn/contact' },
-	                      '\u806F\u7E6B\u6211\u5011'
+	                      '\u8054\u7CFB\u6211\u4EEC'
 	                    )
 	                  ),
 	                  _react2.default.createElement(
@@ -56420,7 +56407,7 @@
 	            _react2.default.createElement(
 	              "h1",
 	              { className: "trd-page-title" },
-	              "\u9032\u4E00\u6B65\u4E86\u89E3\u6211\u5011\u7684\u5546\u696D\u7BC4\u570D"
+	              "\u8FDB\u4E00\u6B65\u4E86\u89E3\u6211\u4EEC\u7684\u5546\u4E1A\u8303\u56F4"
 	            )
 	          )
 	        )
@@ -56651,17 +56638,17 @@
 	                    key: 1,
 	                    image: '../../content/images/testimonials/netcash.png',
 	                    name: 'Metcash',
-	                    description: 'Metcash Limited (ASX:MTS)\u662F\u58F9\u5BB6\u6FB3\u5927\u5229\u4E9E\u516C\u53F8\uFF0C\u5F9E\u4E8B\u96DC\u8CA8\u3001\n                    \u9152\u985E\u53CA\u76F8\u95DC\u7522\u54C1\u7684\u6279\u767C\u5206\u92B7\u548C\u71DF\u92B7\u3002\u7522\u54C1\u6DB5\u84CB\u98DF\u54C1\u98F2\u6599\u3001\u6BCD\u5B30\u7528\u54C1\u3001\u71DF\u990A\u4FDD\u5065\u53CA\u7F8E\u984F\u500B\u8B77\u56DB\u5927\u54C1\u985E\u3001\n                    \u8FD1\u767E\u7A2E\u7522\u54C1\uFF0C\u540C\u6642\uFF0CMetcash\u65D7\u4E0B\u591A\u500B\u81EA\u6709\u54C1\u724C\u4E5F\u5C07\u96A8\u4E4B\u9032\u5165\u4E2D\u570B\u6D88\u8CBB\u8005\u7684\u8996\u7DDA\u3002\n                    \u6240\u6709\u5546\u54C1\u7684\u5F15\u9032\u5747\u4EE5\u4E2D\u570B\u6D88\u8CBB\u8005\u6163\u6709\u7684\u751F\u6D3B\u7FD2\u6163\u3001\u6D88\u8CBB\u504F\u597D\u70BA\u4F9D\u64DA\uFF0C\u9806\u61C9\u5927\u74B0\u5883\u5C0D\u5065\u5EB7\u3001\u6F6E\u6D41\u751F\u6D3B\u65B9\u5F0F\u7684\u6E34\u6C42\uFF0C\n                    \u81F4\u529B\u65BC\u63D0\u4F9B\u517C\u5177\u5353\u8D8A\u54C1\u8CEA\u53CA\u5BE6\u60E0\u50F9\u683C\u7684\u6700\u512A\u4E4B\u9078\u3002'
+	                    description: 'Metcash Limited (ASX:MTS)\u662F\u4E00\u5BB6\u6FB3\u5927\u5229\u4E9A\u516C\u53F8\uFF0C\u4ECE\u4E8B\u6742\u8D27\u3001\n                    \u9152\u7C7B\u53CA\u76F8\u5173\u4EA7\u54C1\u7684\u6279\u53D1\u5206\u9500\u548C\u8425\u9500\u3002\u4EA7\u54C1\u6DB5\u76D6\u98DF\u54C1\u996E\u6599\u3001\u6BCD\u5A74\u7528\u54C1\u3001\u8425\u517B\u4FDD\u5065\u53CA\u7F8E\u989C\u4E2A\u62A4\u56DB\u5927\u54C1\u7C7B\u3001\n                    \u8FD1\u767E\u79CD\u4EA7\u54C1\uFF0C\u540C\u65F6\uFF0CMetcash\u65D7\u4E0B\u591A\u4E2A\u81EA\u6709\u54C1\u724C\u4E5F\u5C06\u968F\u4E4B\u8FDB\u5165\u4E2D\u56FD\u6D88\u8D39\u8005\u7684\u89C6\u7EBF\u3002\n                    \u6240\u6709\u5546\u54C1\u7684\u5F15\u8FDB\u5747\u4EE5\u4E2D\u56FD\u6D88\u8D39\u8005\u60EF\u6709\u7684\u751F\u6D3B\u4E60\u60EF\u3001\u6D88\u8D39\u504F\u597D\u4E3A\u4F9D\u636E\uFF0C\u987A\u5E94\u5927\u73AF\u5883\u5BF9\u5065\u5EB7\u3001\u6F6E\u6D41\u751F\u6D3B\u65B9\u5F0F\u7684\u6E34\u6C42\uFF0C\n                    \u81F4\u529B\u4E8E\u63D0\u4F9B\u517C\u5177\u5353\u8D8A\u54C1\u8D28\u53CA\u5B9E\u60E0\u4EF7\u683C\u7684\u6700\u4F18\u4E4B\u9009\u3002'
 	                  }, {
 	                    key: 2,
 	                    image: '../../content/images/testimonials/iga.png',
 	                    name: 'IGA',
-	                    description: 'IGA\uFF08\u82F1\u8A9E\uFF1AIndependent Grocers Alliance\uFF0C\u610F\u601D\u70BA\uFF1A\u7368\u7ACB\u96DC\u8CA8\u5546\u806F\u76DF\uFF09\n                      \u662F\u4E00\u500B\u4EE5\u7279\u8A31\u7D93\u71DF\u65B9\u5F0F\u71DF\u904B\u7684\u8D85\u7D1A\u5E02\u5834\u54C1\u724C\uFF0C\u5DF2\u5728\u5168\u7403\u8D85\u904E30\u591A\u500B\u570B\u5BB6\u8A2D\u67095,000\u9593\u96F6\u552E\u5E97\u8216\u3002\n                      \u6210\u7ACB\u65BC1926\u5E74\uFF0C\u96C6\u5718\u7E3D\u90E8\u4F4D\u65BC\u7F8E\u570B\u829D\u52A0\u54E5\u5967\u9ED1\u723E\u3002'
+	                    description: 'IGA\uFF08\u82F1\u8BED\uFF1AIndependent Grocers Alliance\uFF0C\u610F\u601D\u4E3A\uFF1A\u72EC\u7ACB\u6742\u8D27\u5546\u8054\u76DF\uFF09\n                    \u662F\u4E00\u4E2A\u4EE5\u7279\u8BB8\u7ECF\u8425\u65B9\u5F0F\u8425\u8FD0\u7684\u8D85\u7EA7\u5E02\u573A\u54C1\u724C\uFF0C\u5DF2\u5728\u5168\u7403\u8D85\u8FC730\u591A\u4E2A\u56FD\u5BB6\u8BBE\u67095,000\u95F4\u96F6\u552E\u5E97\u8216\u3002\n                    \u6210\u7ACB\u4E8E1926\u5E74\uFF0C\u96C6\u56E2\u603B\u90E8\u4F4D\u4E8E\u7F8E\u56FD\u829D\u52A0\u54E5\u5965\u9ED1\u5C14\u3002'
 	                  }, {
 	                    key: 3,
 	                    image: '../../content/images/testimonials/arnotts.png',
 	                    name: 'Arnotts（雅樂思）',
-	                    description: '\u96C5\u6A02\u601D\u6210\u7ACB\u65BC1865\u5E74\uFF0C\u81F3\u4ECA\u5DF2\u6709150\u591A\u5E74\u7684\u6B77\u53F2\u3002\u5176\u4E3B\u8981\u7522\u54C1\u70BA\u9762\u5305\uFF0C\u8C4C\u8C46\uFF0C\u8106\u535A\u9905\u3002\n                      \u591A\u5E74\u4F86\u4E00\u76F4\u6DF1\u53D7\u6FB3\u6D32\u672C\u5730\u4EBA\u58EB\u559C\u611B\u3002 \u5C24\u5176\u662F\u6FB3\u6D32\u6A19\u8A8C\u6027\u96F6\u98DFTim Tam\u3002'
+	                    description: '\u96C5\u4E50\u601D\u6210\u7ACB\u4E8E1865\u5E74\uFF0C\u81F3\u4ECA\u5DF2\u6709150\u591A\u5E74\u7684\u5386\u53F2\u3002\u5176\u4E3B\u8981\u4EA7\u54C1\u4E3A\u9762\u5305\uFF0C\u8C4C\u8C46\uFF0C\u8106\u535A\u997C\u3002\n                    \u591A\u5E74\u6765\u4E00\u76F4\u6DF1\u53D7\u6FB3\u6D32\u672C\u5730\u4EBA\u58EB\u559C\u7231\u3002 \u5C24\u5176\u662F\u6FB3\u6D32\u6807\u5FD7\u6027\u96F6\u98DFTim Tam\u3002'
 	                  }] }),
 	                _react2.default.createElement(_LinePartners2.default, { partners: [{
 	                    key: 4,
@@ -57059,7 +57046,7 @@
 	        _react2.default.createElement(
 	          'h2',
 	          null,
-	          '\u5C0D\u4E0D\u8D77\uFF0C\u60A8\u6240\u8A2A\u554F\u7684\u9801\u9762\u4E0D\u5B58\u5728'
+	          '\u5BF9\u4E0D\u8D77\uFF0C\u60A8\u6240\u8BBF\u95EE\u7684\u9875\u9762\u4E0D\u5B58\u5728'
 	        ),
 	        _react2.default.createElement('br', null),
 	        _react2.default.createElement('br', null)
@@ -57139,7 +57126,7 @@
 	                _react2.default.createElement(
 	                  "h3",
 	                  { className: "trd-office-title" },
-	                  "\u963F\u5FB7\u840A\u5FB7"
+	                  "\u963F\u5FB7\u83B1\u5FB7"
 	                ),
 	                _react2.default.createElement(
 	                  "ul",
@@ -57737,7 +57724,7 @@
 	                _react2.default.createElement(
 	                  "p",
 	                  null,
-	                  "OZ Healthy Choice\u7684\u958B\u696D\u7167\u7247\xA0\u6388\u6B0A\u66F8\uFF08\u662F\u773E\u591A\u6FB3\u6D32\u5316\u599D\u54C1\xA0\u53CA\u4FDD\u5065\u54C1\u77E5\u540D\u4F01\u696D\u7D66\u4E88\u6211\u5011\u7684\u4FE1\u4EFB\u548C\u652F\u6301\xA0 Swisse Blackmores Healthy care betlife Oz farm GM Sukin\xA0\u8702\u6BD2\u7CFB\u5217\xA0\uFF09OZ\xA0\u4F5C\u70BA\u98DB\u63DA\u570B\u969B\u7684\u5B50\u516C\u53F8\u81F4 \u529B\u65BC\u670D\u52D9\u7576\u5730\u83EF\u4EBA\u53CA\u672C\u571Flocal\xA0\u7E3D\u6295\u8CC7\u91D1\u984D\u8D85\u4F59200\u842CRMB\xA0\u5728\u5176\u5275\u7ACB\u4E4B\u521D\u4FBF\u6536\u5230\u4E86\u7576\u5730\u4EBA\u7FA4\u7684\u64C1\u8B77\u548C\u559C\u611B\xA0\xA0 \u66F4\u662F\u4F5C\u70BA\u98DB\u63DA\u570B\u969B\u6700\u70BA\u91CD\u8981\u7684\u91CD\u8981\u7269\u8CC7\u5009\u5132\u53CA\u7269\u6D41\u96C6\u904B\u9EDE\xA0\u76EE\u524D\u65E5\u5747\u92B7\u552E\u984D\u8D85\u904E6\u842C\u5143RMB\xA0"
+	                  "OZ Healthy Choice\u7684\u5F00\u4E1A\u7167\u7247\xA0\u6388\u6743\u4E66\uFF08\u662F\u4F17\u591A\u6FB3\u6D32\u5316\u5986\u54C1\xA0\u53CA\u4FDD\u5065\u54C1\u77E5\u540D\u4F01\u4E1A\u7ED9\u4E88\u6211\u4EEC\u7684\u4FE1\u4EFB\u548C\u652F\u6301\xA0 Swisse Blackmores Healthy care betlife Oz farm GM Sukin\xA0\u8702\u6BD2\u7CFB\u5217\xA0\uFF09OZ\xA0\u4F5C\u4E3A\u98DE\u626C\u56FD\u9645\u7684\u5B50\u516C\u53F8\u81F4 \u529B\u4E8E\u670D\u52A1\u5F53\u5730\u534E\u4EBA\u53CA\u672C\u571Flocal\xA0\u603B\u6295\u8D44\u91D1\u989D\u8D85\u4F59200\u4E07RMB\xA0\u5728\u5176\u521B\u7ACB\u4E4B\u521D\u4FBF\u6536\u5230\u4E86\u5F53\u5730\u4EBA\u7FA4\u7684\u62E5\u62A4\u548C\u559C\u7231\xA0\xA0 \u66F4\u662F\u4F5C\u4E3A\u98DE\u626C\u56FD\u9645\u6700\u4E3A\u91CD\u8981\u7684\u91CD\u8981\u7269\u8D44\u4ED3\u50A8\u53CA\u7269\u6D41\u96C6\u8FD0\u70B9\xA0\u76EE\u524D\u65E5\u5747\u9500\u552E\u989D\u8D85\u8FC76\u4E07\u5143RMB\xA0"
 	                )
 	              ),
 	              _react2.default.createElement(
@@ -57823,7 +57810,7 @@
 	                _react2.default.createElement(
 	                  "p",
 	                  null,
-	                  "IGA\u8D85\u5E02\u4E0A\u67B6\u7522\u54C1\u5171\u6709\u7522\u54C11\u842C\u4F59\u7A2E\xA0\u98DB\u63DA\u570B\u969B\u6B63\u5728\u4EE5\u6BCF\u546850\u7A2E\u7684\u901F\u5EA6\u63A8\u5EE3\u7D66\u570B\u5167\u7684\u6D88\u8CBB\u7FA4\u9AD4\xA0\u92B7\u552E\u6210\u679C\u975E\u5E38\u53EF\u89C0\xA0 \u622A\u6B62\u767C\u7A3F\u65E5\xA0\u5171\u5411\u570B\u5167\u6D88\u8CBB\u8005\u63A8\u51FA\u4E861000\u4F59\u7A2E\u7576\u5730\u7522\u54C1\xA0\u8B93\u570B\u5167\u7684\u6D88\u8CBB\u8005\u53EF\u4EE5\u8DB3\u4E0D\u51FA\u6236\u7684\u4EAB\u53D7\u5230\u548C\u6FB3\u6D32\u672C\u571F\u4EBA\u7FA4\u58F9\u6A23\u9AD8\u8CEA\xA0 \u91CF\u7684\u751F\u6D3B\u7528\u54C1\uFF0C\u98DF\u54C1\uFF0C\u4EE5\u53CA\u4FDD\u5065\u7522\u54C1"
+	                  "IGA\u8D85\u5E02\u4E0A\u67B6\u4EA7\u54C1\u5171\u6709\u4EA7\u54C11\u4E07\u4F59\u79CD\xA0\u98DE\u626C\u56FD\u9645\u6B63\u5728\u4EE5\u6BCF\u546850\u79CD\u7684\u901F\u5EA6\u63A8\u5E7F\u7ED9\u56FD\u5185\u7684\u6D88\u8D39\u7FA4\u4F53\xA0\u9500\u552E\u6210\u679C\u975E\u5E38\u53EF\u89C2\xA0 \u622A\u6B62\u53D1\u7A3F\u65E5\xA0\u5171\u5411\u56FD\u5185\u6D88\u8D39\u8005\u63A8\u51FA\u4E861000\u4F59\u79CD\u5F53\u5730\u4EA7\u54C1\xA0\u8BA9\u56FD\u5185\u7684\u6D88\u8D39\u8005\u53EF\u4EE5\u8DB3\u4E0D\u51FA\u6237\u7684\u4EAB\u53D7\u5230\u548C\u6FB3\u6D32\u672C\u571F\u4EBA\u7FA4\u4E00\u6837\u9AD8\u8D28\xA0 \u91CF\u7684\u751F\u6D3B\u7528\u54C1\uFF0C\u98DF\u54C1\uFF0C\u4EE5\u53CA\u4FDD\u5065\u4EA7\u54C1"
 	                ),
 	                _react2.default.createElement("br", null)
 	              ),
@@ -58117,6 +58104,189 @@
 	}(_react.Component);
 
 	exports.default = Overseas;
+
+/***/ }),
+/* 279 */,
+/* 280 */,
+/* 281 */,
+/* 282 */,
+/* 283 */,
+/* 284 */,
+/* 285 */,
+/* 286 */,
+/* 287 */,
+/* 288 */,
+/* 289 */,
+/* 290 */,
+/* 291 */,
+/* 292 */,
+/* 293 */,
+/* 294 */,
+/* 295 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Sponsor = function (_Component) {
+	    _inherits(Sponsor, _Component);
+
+	    function Sponsor() {
+	        _classCallCheck(this, Sponsor);
+
+	        return _possibleConstructorReturn(this, (Sponsor.__proto__ || Object.getPrototypeOf(Sponsor)).apply(this, arguments));
+	    }
+
+	    _createClass(Sponsor, [{
+	        key: "render",
+	        value: function render() {
+	            return _react2.default.createElement(
+	                "section",
+	                { className: "gl-page-content-section trd-section" },
+	                _react2.default.createElement("br", null),
+	                _react2.default.createElement("br", null),
+	                _react2.default.createElement("br", null),
+	                _react2.default.createElement("br", null),
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "container" },
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "row" },
+	                        _react2.default.createElement(
+	                            "div",
+	                            { className: "col-md-12" },
+	                            _react2.default.createElement(
+	                                "h3",
+	                                null,
+	                                "\u6FB3\u6D32\u98DE\u626C\u6295\u8D44\u6709\u9650\u516C\u53F8\u8D5E\u52A9CFC\u8DB3\u7403\u4FF1\u4E50\u90E8\u7B80\u4ECB\uFF1A"
+	                            ),
+	                            _react2.default.createElement(
+	                                "p",
+	                                null,
+	                                "\u6FB3\u6D32\u98DE\u626C\u6295\u8D44\u6709\u9650\u516C\u53F8\uFF0C\u4E3A\u4FC3\u8FDB\u4E2D\u6FB3\u6587\u5316\u7684\u4EA4\u6D41\uFF0C\u5F18\u626C\u4E2D\u534E\u4F53\u80B2\u62FC\u640F\u7CBE\u795E\uFF0C\u5C55\u793A\u65B0\u4E00\u4EE3\u534E\u4EBA\u7EFC\u5408\u7D20\u8D28\uFF0C\u4E8E2015\u5E746\u6708\u6B63\u5F0F\u4E0E\u5357\u6FB3\u534E\u4EBA\u8DB3\u7403\u534F\u4F1A\u6B63\u5F0F\u7B7E\u7EA6\uFF0C\u6210\u4E3A\u534F\u4F1ACFC\u8DB3\u7403\u4FF1\u4E50\u90E8\u51A0\u540D\u4E3B\u8D5E\u52A9\u5546\u3002"
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "row" },
+	                        _react2.default.createElement(
+	                            "div",
+	                            { className: "col-md-8 col-md-offset-2" },
+	                            _react2.default.createElement(
+	                                "table",
+	                                null,
+	                                _react2.default.createElement(
+	                                    "tr",
+	                                    null,
+	                                    _react2.default.createElement(
+	                                        "td",
+	                                        null,
+	                                        _react2.default.createElement("img", { src: "../../../content/images/sponsor-1.jpg", alt: "About us" })
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "td",
+	                                        null,
+	                                        _react2.default.createElement("img", { src: "../../../content/images/sponsor-2.jpg", alt: "About us" })
+	                                    )
+	                                ),
+	                                _react2.default.createElement(
+	                                    "tr",
+	                                    null,
+	                                    _react2.default.createElement(
+	                                        "td",
+	                                        null,
+	                                        "CFC\u8DB3\u7403\u4FF1\u4E50\u90E8\u961F\u6807"
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "td",
+	                                        null,
+	                                        "CFC\u4E3B\u573A\uFF0C\u963F\u5FB7\u83B1\u5FB7\u5E02\u533A\uFF0C\u8BBE\u65BD\u9F50\u5168\uFF0C\u4E13\u4EBA\u7EF4\u62A4"
+	                                    )
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement("br", null),
+	                    _react2.default.createElement("br", null),
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "container" },
+	                        _react2.default.createElement(
+	                            "div",
+	                            { className: "row" },
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "col-md-4" },
+	                                _react2.default.createElement("img", { src: "../../../content/images/sponsor-3.jpg", alt: "About us" }),
+	                                "CFC\u8DB3\u7403\u4FF1\u4E50\u90E8 A\u961F\u9996\u53D1\u7403\u5458\u5408\u5F71"
+	                            ),
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "col-md-4" },
+	                                _react2.default.createElement("img", { src: "../../../content/images/sponsor-4.jpg", alt: "About us" }),
+	                                "CFC\u8DB3\u7403\u4FF1\u4E50\u90E8 B\u961F\u9996\u53D1\u7403\u5458\u5408\u5F71"
+	                            ),
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "col-md-4" },
+	                                _react2.default.createElement("img", { src: "../../../content/images/sponsor-5.jpg", alt: "About us" })
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement("br", null),
+	                    _react2.default.createElement("br", null),
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "row" },
+	                        _react2.default.createElement(
+	                            "div",
+	                            { className: "col-md-12" },
+	                            _react2.default.createElement(
+	                                "p",
+	                                null,
+	                                "2017\u5E743\u670830\u65E5\uFF0C\u9996\u5C4A\u5357\u6FB3\u534E\u4EBA\u8DB3\u7403\u5609\u5E74\u534E\u6210\u529F\u4E3E\u884C\u3002\u672C\u6D3B\u52A8\u7531\u5357\u6FB3\u534E\u4EBA\u8DB3\u7403\u534F\u4F1A\u4E3B\u529E \uFF0C\u6FB3\u6D32\u98DE\u626C\u6295\u8D44\u6709\u9650\u516C\u53F8\u4EE5\u53CA\u591A\u5BB6\u672C\u5730\u4F01\u4E1A\u534F\u529E\u3002\u672C\u6B21\u6BD4\u8D5B\u7403\u5458\u4EEC\u4EE5\u5BB6\u4E61\u5730\u533A\u7EC4\u961F\uFF0C\u4E00\u5171\u516B\u652F\u7403\u961F\uFF0C\u4ED6\u4EEC\u662F\u3010\u6E56\u5357\u961F\u3011\u3010\u6CB3\u5357\u4E00\u961F\u3011\u3010\u6CB3\u5357\u9752\u5E74\u961F\u3011\u3010\u4E24\u5E7F\u961F\u3011\u3010\u5C71\u4E1C\u961F\u3011\u3010\u4E0A\u6D77\u961F\u3011\u3010\u5317\u65B9\u961F\u3011\u3010\u4E94\u6E56\u56DB\u6D77\u961F\u3011\uFF0C\u6BD4\u8D5B\u5206\u4E24\u8F6E\u8FDB\u884C\uFF0C\u7B2C\u4E00\u8F6E\u5C0F\u7EC4\u8D5B\u4EE5\u56DB\u652F\u7403\u961F\u4E3A\u4E00\u5C0F\u7EC4\u8FDB\u884C\uFF0C\u5404\u5C0F\u7EC4\u8D5B\u7684\u524D\u4E24\u540D\u8FDB\u5165\u7B2C\u4E8C\u8F6E\u7684\u6DD8\u6C70\u8D5B\uFF0C\u7ECF\u8FC7\u51E0\u8F6E\u7684\u7CBE\u5F69\u89D2\u9010\uFF0C\u6E56\u5357\u961F\u593A\u53D6\u4E86\u672C\u6B21\u6BD4\u8D5B\u7684\u51A0\u519B\u5956\u676F\u3002\u6B64\u6B21\u6BD4\u8D5B\u4E3B\u529E\u65B9\u9080\u8BF7\u4E86\u5404\u7403\u5458\u5BB6\u5EAD\u6210\u5458\u52A9\u9635\uFF0C\u589E\u8FDB\u4EA4\u6D41\u3002"
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement("br", null),
+	                    _react2.default.createElement("br", null),
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "row" },
+	                        _react2.default.createElement(
+	                            "div",
+	                            { className: "col-md-4 col-md-offset-4" },
+	                            _react2.default.createElement("img", { src: "../../../content/images/sponsor-6.jpg", alt: "About us" })
+	                        )
+	                    )
+	                )
+	            );
+	        }
+	    }]);
+
+	    return Sponsor;
+	}(_react.Component);
+
+	exports.default = Sponsor;
 
 /***/ })
 /******/ ]);

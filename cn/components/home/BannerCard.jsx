@@ -8,9 +8,9 @@ export default class Banner extends Component {
         <div className="container">
           <div className="row">
             <div className="trd-cta-wrapper">
-              <h3>公司主營業務涵蓋澳洲<span className="trd-highlight-text">本地連瑣超市、便利店，澳洲不動產投資，
-                跨境電商以及國際物流</span></h3>
-              <NavLink to="/cn/contact" className="trd-btn trd-btn-alt">聯繫我們</NavLink>
+              <h3>公司主营业务涵盖澳洲<span className="trd-highlight-text">本地连琐超市、便利店，澳洲不动产投资，
+              跨境电商以及国际物流</span></h3>
+              <NavLink to="/cn/contact" className="trd-btn trd-btn-alt">联系我们</NavLink>
             </div>
           </div>
         </div>

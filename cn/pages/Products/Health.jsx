@@ -13,10 +13,10 @@ export default class Health extends Component {
               
                 <h2 className="trd-content-inner-title">保健品专营店</h2>
                 <p>
-                  OZ Healthy Choice的開業照片 授權書（是眾多澳洲化妝品 及保健品知名企業給予我們的信任和支持 
-                  Swisse Blackmores Healthy care betlife Oz farm GM Sukin 蜂毒系列 ）OZ 作為飛揚國際的子公司致
-                  力於服務當地華人及本土local 總投資金額超余200萬RMB 在其創立之初便收到了當地人群的擁護和喜愛  
-                  更是作為飛揚國際最為重要的重要物資倉儲及物流集運點 目前日均銷售額超過6萬元RMB 
+                OZ Healthy Choice的开业照片 授权书（是众多澳洲化妆品 及保健品知名企业给予我们的信任和支持 
+                Swisse Blackmores Healthy care betlife Oz farm GM Sukin 蜂毒系列 ）OZ 作为飞扬国际的子公司致
+                力于服务当地华人及本土local 总投资金额超余200万RMB 在其创立之初便收到了当地人群的拥护和喜爱  
+                更是作为飞扬国际最为重要的重要物资仓储及物流集运点 目前日均销售额超过6万元RMB 
                 </p>
               </div>
 

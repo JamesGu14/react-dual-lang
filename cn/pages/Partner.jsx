@@ -17,26 +17,26 @@ export default class Partner extends Component {
                     key: 1,
                     image: '../../content/images/testimonials/netcash.png',
                     name: 'Metcash',
-                    description: `Metcash Limited (ASX:MTS)是壹家澳大利亞公司，從事雜貨、
-                    酒類及相關產品的批發分銷和營銷。產品涵蓋食品飲料、母嬰用品、營養保健及美顏個護四大品類、
-                    近百種產品，同時，Metcash旗下多個自有品牌也將隨之進入中國消費者的視線。
-                    所有商品的引進均以中國消費者慣有的生活習慣、消費偏好為依據，順應大環境對健康、潮流生活方式的渴求，
-                    致力於提供兼具卓越品質及實惠價格的最優之選。`
+                    description: `Metcash Limited (ASX:MTS)是一家澳大利亚公司，从事杂货、
+                    酒类及相关产品的批发分销和营销。产品涵盖食品饮料、母婴用品、营养保健及美颜个护四大品类、
+                    近百种产品，同时，Metcash旗下多个自有品牌也将随之进入中国消费者的视线。
+                    所有商品的引进均以中国消费者惯有的生活习惯、消费偏好为依据，顺应大环境对健康、潮流生活方式的渴求，
+                    致力于提供兼具卓越品质及实惠价格的最优之选。`
                   },
                   { 
                     key: 2,
                     image: '../../content/images/testimonials/iga.png',
                     name: 'IGA',
-                    description: `IGA（英語：Independent Grocers Alliance，意思為：獨立雜貨商聯盟）
-                      是一個以特許經營方式營運的超級市場品牌，已在全球超過30多個國家設有5,000間零售店舖。
-                      成立於1926年，集團總部位於美國芝加哥奧黑爾。`
+                    description: `IGA（英语：Independent Grocers Alliance，意思为：独立杂货商联盟）
+                    是一个以特许经营方式营运的超级市场品牌，已在全球超过30多个国家设有5,000间零售店舖。
+                    成立于1926年，集团总部位于美国芝加哥奥黑尔。`
                   },
                   {
                     key: 3,
                     image: '../../content/images/testimonials/arnotts.png',
                     name: 'Arnotts（雅樂思）',
-                    description: `雅樂思成立於1865年，至今已有150多年的歷史。其主要產品為面包，豌豆，脆博餅。
-                      多年來一直深受澳洲本地人士喜愛。 尤其是澳洲標誌性零食Tim Tam。`
+                    description: `雅乐思成立于1865年，至今已有150多年的历史。其主要产品为面包，豌豆，脆博饼。
+                    多年来一直深受澳洲本地人士喜爱。 尤其是澳洲标志性零食Tim Tam。`
                   }
                 ]} />
 

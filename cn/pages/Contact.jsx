@@ -36,7 +36,7 @@ export default class Contact extends Component {
 
                 {/*  ADDRESSES  */}
                 <div className="trd-office-address">
-                  <h3 className="trd-office-title">阿德萊德</h3>
+                  <h3 className="trd-office-title">阿德莱德</h3>
                   <ul>
                     <li className="trd-office-location">地址: 232 Hutt St, Adelaide SA 5000</li>
                     <li className="trd-office-phone">电话号码: (08) 8223 3114</li>

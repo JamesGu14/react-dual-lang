@@ -12,6 +12,7 @@ import Tracking from './pages/Tracking.jsx'
 import NoMatch from './pages/NoMatch.jsx'
 import Contact from './pages/Contact.jsx'  
 import Join from './pages/Join.jsx' 
+import Sponsor from './pages/Sponsor.jsx'
 
 import ForyoungInvestment from './pages/Business/ForyoungInvestment.jsx'
 import ForyoungPty from './pages/Business/ForyoungPty.jsx'
@@ -34,6 +35,7 @@ render((
       <Route path="/cn/payment" component={Payment}></Route>
       <Route path="/cn/tracking" component={Tracking}></Route>
       <Route path="/cn/contact" component={Contact}></Route>
+      <Route path="/cn/sponsor" component={Sponsor}></Route>
       <Route path="/cn/join" component={Join}></Route>
 
       {/*
