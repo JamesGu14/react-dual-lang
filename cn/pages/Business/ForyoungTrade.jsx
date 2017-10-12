@@ -6,6 +6,14 @@ export default class ForyoungTrade extends Component {
             <div className="trd-about-us-details-section trd-section">
             <br /><br /><br />
                 <div className="container">
+
+                    <div className="row">
+                        <div className="col-md-8 col-md-offset-2" style={{textAlign: 'center'}}>
+                            <h2 className="trd-content-inner-title" style={{ marginBottom: '0' }}>澳洲飞扬国际贸易有限公司</h2>
+                            <h5 className="trd-content-inner-title" style={{ fontSize: '16px' }}>(For Young International Trading Pty Ltd, ACN 608 506 592)</h5>
+                        </div>
+                    </div>
+
                     <div className="row">
 
                         <div className="col-md-12">
@@ -18,26 +26,13 @@ export default class ForyoungTrade extends Component {
                             </p>
                             <br />
                         </div>
+                    </div>
 
-
-                        {/* Image with details
-                        <div className="trd-inner-section">
-                        <div className="trd-left-half">
-                        
-                            <h2 className="trd-content-inner-title">飞扬国际物流</h2>
-                            <p>
-                            
-                            </p>
+                    <div className="row">
+                        <div className="col-md-12" style={{ textAlign: 'center' }}>
+                            <a style={{ fontSize: '20px', textDecoration: 'underline', fontWeight: 'bold'}} href="http://www.fyexpress.com.au">=== 包裹追踪 ===</a>
+                            <br /><br />
                         </div>
-            
-                        <div className="trd-right-half">
-                            <div className="trd-image-wrapper">
-                            <img src="../../../content/images/foryoung-trade-3.jpg" alt="About us" /> <br /><br />
-                            </div>
-                        </div>
-                        </div>
-                        End */}
-            
                     </div>
 
                     <div className="row">

@@ -36,9 +36,6 @@ export default class NavBar extends Component {
               <div id="nav-menu" className="navbar-collapse trd-menu-wrapper collapse" role="navigation" style={{ maxHeight: '846px' }}>
                 <ul className="nav navbar-nav trd-menus">
                   <li>
-                    <IndexLink to="/cn/" activeClassName="active" onClick={this.scrollToTop}>首页</IndexLink>
-                  </li>
-                  <li>
                     <NavLink to="/cn/about" collapse={true}>关于我们</NavLink>
                   </li>
                   <li>
@@ -55,22 +52,23 @@ export default class NavBar extends Component {
                       </li>
                     </ul>
                   </li> 
-                  <li>
-                  <a href="http://www.fyexpress.com.au" collapse={true}>服务</a>
+                  {/*<li>
+                    <a href="http://www.fyexpress.com.au" collapse={true}>服务</a>
                     <ul className="trd-dropdown-menu">
                       <li>
                         <a href="http://www.fyexpress.com.au" collapse={true}>包裹追踪</a>
                       </li>
                     </ul>
-                  </li>
-                  <li>
+                  </li>*/}
+                  {/*<li>
                     <NavLink to="/cn/join" collapse={true}>加盟我们</NavLink>
+                  </li>*/}
+                  
+                  <li>
+                    <NavLink to="/cn/sponsor" collapse={true}>投资赞助项目及活动</NavLink>
                   </li>
                   <li>
                     <NavLink to="/cn/contact" collapse={true}>联系我们</NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/cn/sponsor" collapse={true}>投资赞助项目及活动</NavLink>
                   </li>
                   
                   {/*

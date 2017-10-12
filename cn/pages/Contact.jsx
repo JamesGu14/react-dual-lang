@@ -32,14 +32,15 @@ export default class Contact extends Component {
 
 
             {/*  ADDRESSES WRAPPER  */}
-            <div className="trd-office-addresses-wrapper col-md-3 col-md-offset-1 col-sm-6 col-xs-12">
+            <div className="trd-office-addresses-wrapper col-md-4 col-md-offset-1 col-sm-6 col-xs-12">
 
                 {/*  ADDRESSES  */}
                 <div className="trd-office-address">
                   <h3 className="trd-office-title">阿德莱德</h3>
                   <ul>
-                    <li className="trd-office-location">地址: 232 Hutt St, Adelaide SA 5000</li>
-                    <li className="trd-office-phone">电话号码: (08) 8223 3114</li>
+                    <li className="trd-office-location">地址: 232 Hutt Street, Adelaide, South Australia, Australia</li>
+                    <li className="trd-office-phone">电话号码: +61 (08) 8223 3114</li>
+                    <li className="">传真号码: +61 (08) 8223 2574</li>
                     <li className="trd-office-phone">飞扬投资集团官网: www.foryoung.com.au</li>
                   </ul>
                 </div>

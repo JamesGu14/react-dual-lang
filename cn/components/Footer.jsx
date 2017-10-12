@@ -33,7 +33,7 @@ export default class Header extends Component {
 
                 <div className="trd-footer-widget-content">
                   <ul>
-                    <li><IndexLink to="/cn/" activeClassName="active" onClick={this.scrollToTop}>首页</IndexLink></li>
+                    {/*<li><IndexLink to="/cn/" activeClassName="active" onClick={this.scrollToTop}>首页</IndexLink></li>*/}
                     <li><NavLink to="/cn/about">关于我们</NavLink></li>
                     <li><NavLink to="/cn/products">我们的业务</NavLink></li>
                     <li><NavLink to="/cn/partner">合作伙伴</NavLink></li>

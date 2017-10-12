@@ -6,6 +6,15 @@ export default class ForyoungPty extends Component {
             <div className="trd-about-us-details-section trd-section">
             <br /><br /><br />
                 <div className="container">
+
+                    <div className="row">
+                        <div className="col-md-8 col-md-offset-2" style={{textAlign: 'center'}}>
+                            <h2 className="trd-content-inner-title" style={{ marginBottom: '0' }}>澳洲飞扬有限公司</h2>
+                            <h5 className="trd-content-inner-title" style={{ fontSize: '16px' }}>(For Young Pty Ltd, ACN 167 191 200)</h5>    
+                        </div>
+                    </div>
+
+
                     <div className="row">
                         {/* Image with details */}
                         <div className="trd-inner-section">
