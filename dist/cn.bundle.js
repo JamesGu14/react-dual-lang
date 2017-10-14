@@ -138,7 +138,7 @@
 	  _react2.default.createElement(
 	    _reactRouter.Route,
 	    { path: '/cn/', component: _App2.default },
-	    _react2.default.createElement(_reactRouter.IndexRoute, { component: _Home2.default }),
+	    _react2.default.createElement(_reactRouter.IndexRoute, { component: _About2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/cn/about', component: _About2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/cn/products', component: _Products2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/cn/partner', component: _Partner2.default }),
@@ -57085,7 +57085,7 @@
 	                  _react2.default.createElement(
 	                    "li",
 	                    { className: "trd-office-location" },
-	                    "\u5730\u5740: 232 Hutt Street, Adelaide, South Australia, Australia"
+	                    "\u5730\u5740: 232 Hutt Street, Adelaide, South Australia 5000, Australia"
 	                  ),
 	                  _react2.default.createElement(
 	                    "li",
@@ -57101,6 +57101,16 @@
 	                    "li",
 	                    { className: "trd-office-phone" },
 	                    "\u98DE\u626C\u6295\u8D44\u96C6\u56E2\u5B98\u7F51: www.foryoung.com.au"
+	                  ),
+	                  _react2.default.createElement(
+	                    "li",
+	                    null,
+	                    "\u516C\u53F8\u90AE\u7BB1: ",
+	                    _react2.default.createElement(
+	                      "a",
+	                      { href: "mailto:admin@foryoung.com.au", target: "_blank" },
+	                      "admin@foryoung.com.au"
+	                    )
 	                  )
 	                )
 	              )

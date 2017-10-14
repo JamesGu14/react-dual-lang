@@ -38,10 +38,11 @@ export default class Contact extends Component {
                 <div className="trd-office-address">
                   <h3 className="trd-office-title">阿德莱德</h3>
                   <ul>
-                    <li className="trd-office-location">地址: 232 Hutt Street, Adelaide, South Australia, Australia</li>
+                    <li className="trd-office-location">地址: 232 Hutt Street, Adelaide, South Australia 5000, Australia</li>
                     <li className="trd-office-phone">电话号码: +61 (08) 8223 3114</li>
                     <li className="">传真号码: +61 (08) 8223 2574</li>
                     <li className="trd-office-phone">飞扬投资集团官网: www.foryoung.com.au</li>
+                    <li>公司邮箱: <a href="mailto:admin@foryoung.com.au" target="_blank">admin@foryoung.com.au</a></li>
                   </ul>
                 </div>
                 {/*  END  */}
