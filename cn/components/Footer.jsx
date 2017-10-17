@@ -35,9 +35,10 @@ export default class Header extends Component {
                   <ul>
                     {/*<li><IndexLink to="/cn/" activeClassName="active" onClick={this.scrollToTop}>首页</IndexLink></li>*/}
                     <li><NavLink to="/cn/about">关于我们</NavLink></li>
-                    <li><NavLink to="/cn/products">我们的业务</NavLink></li>
-                    <li><NavLink to="/cn/partner">合作伙伴</NavLink></li>
+                    <li><NavLink to="/cn/foryoung-investment">我们的业务</NavLink></li>
+                    <li><NavLink to="/cn/sponsor">投资赞助项目及活动</NavLink></li>
                     <li><NavLink to="/cn/contact">联系我们</NavLink></li>
+                    <li><a href="#">English</a></li>
                   </ul>
                 </div>
               </div>
@@ -85,20 +86,12 @@ export default class Header extends Component {
               <div className="trd-footer-menu">
                 <ul>
                   <li>
-                    <IndexLink to="/cn/" activeClassName="active" onClick={this.scrollToTop}>首页</IndexLink>
-                  </li>
-                  <li>
                     <NavLink to="/cn/about">关于我们</NavLink>
                   </li>
                   <li>
                     <NavLink to="/cn/foryoung-investment">我们的业务</NavLink>
                   </li>
-                  <li>
-                    <NavLink to="/cn/join">加盟我们</NavLink>
-                  </li>
-                  <li>
-                    <a href="http://www.fyexpress.com.au">包裹追踪</a>
-                  </li>
+                  <li><NavLink to="/cn/sponsor">投资赞助项目及活动</NavLink></li> 
                   <li>
                     <NavLink to="/cn/contact">联系我们</NavLink>
                   </li>
@@ -109,7 +102,7 @@ export default class Header extends Component {
               </div>
 
               <div className="trd-copyright-info">
-                <p>Copyright © 2016 by <a href="#" className="trd-author-link">澳洲飞扬集团</a></p>
+                <p>Copyright © 2016 by <a href="#" className="trd-author-link">澳洲飞扬投资有限公司</a></p>
               </div>
             </div>
           </div>

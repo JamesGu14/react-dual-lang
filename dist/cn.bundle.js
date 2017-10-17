@@ -56073,7 +56073,7 @@
 	                      null,
 	                      _react2.default.createElement(
 	                        _NavLink2.default,
-	                        { to: '/cn/products' },
+	                        { to: '/cn/foryoung-investment' },
 	                        '\u6211\u4EEC\u7684\u4E1A\u52A1'
 	                      )
 	                    ),
@@ -56082,8 +56082,8 @@
 	                      null,
 	                      _react2.default.createElement(
 	                        _NavLink2.default,
-	                        { to: '/cn/partner' },
-	                        '\u5408\u4F5C\u4F19\u4F34'
+	                        { to: '/cn/sponsor' },
+	                        '\u6295\u8D44\u8D5E\u52A9\u9879\u76EE\u53CA\u6D3B\u52A8'
 	                      )
 	                    ),
 	                    _react2.default.createElement(
@@ -56093,6 +56093,15 @@
 	                        _NavLink2.default,
 	                        { to: '/cn/contact' },
 	                        '\u8054\u7CFB\u6211\u4EEC'
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      'li',
+	                      null,
+	                      _react2.default.createElement(
+	                        'a',
+	                        { href: '#' },
+	                        'English'
 	                      )
 	                    )
 	                  )
@@ -56165,15 +56174,6 @@
 	                    'li',
 	                    null,
 	                    _react2.default.createElement(
-	                      _reactRouter.IndexLink,
-	                      { to: '/cn/', activeClassName: 'active', onClick: this.scrollToTop },
-	                      '\u9996\u9875'
-	                    )
-	                  ),
-	                  _react2.default.createElement(
-	                    'li',
-	                    null,
-	                    _react2.default.createElement(
 	                      _NavLink2.default,
 	                      { to: '/cn/about' },
 	                      '\u5173\u4E8E\u6211\u4EEC'
@@ -56193,17 +56193,8 @@
 	                    null,
 	                    _react2.default.createElement(
 	                      _NavLink2.default,
-	                      { to: '/cn/join' },
-	                      '\u52A0\u76DF\u6211\u4EEC'
-	                    )
-	                  ),
-	                  _react2.default.createElement(
-	                    'li',
-	                    null,
-	                    _react2.default.createElement(
-	                      'a',
-	                      { href: 'http://www.fyexpress.com.au' },
-	                      '\u5305\u88F9\u8FFD\u8E2A'
+	                      { to: '/cn/sponsor' },
+	                      '\u6295\u8D44\u8D5E\u52A9\u9879\u76EE\u53CA\u6D3B\u52A8'
 	                    )
 	                  ),
 	                  _react2.default.createElement(
@@ -56236,7 +56227,7 @@
 	                  _react2.default.createElement(
 	                    'a',
 	                    { href: '#', className: 'trd-author-link' },
-	                    '\u6FB3\u6D32\u98DE\u626C\u96C6\u56E2'
+	                    '\u6FB3\u6D32\u98DE\u626C\u6295\u8D44\u6709\u9650\u516C\u53F8'
 	                  )
 	                )
 	              )
@@ -57635,10 +57626,7 @@
 	                            _react2.default.createElement(
 	                                "div",
 	                                { className: "trd-image-wrapper" },
-	                                _react2.default.createElement("img", { src: "../../../content/images/foryoung-pty-2.jpg", alt: "About us" }),
-	                                _react2.default.createElement("br", null),
-	                                _react2.default.createElement("br", null),
-	                                _react2.default.createElement("img", { src: "../../../content/images/foryoung-pty-5.jpg", alt: "About us" })
+	                                _react2.default.createElement("img", { src: "../../../content/images/foryoung-pty-2.jpg", alt: "About us" })
 	                            )
 	                        ),
 	                        _react2.default.createElement(
