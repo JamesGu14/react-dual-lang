@@ -20,7 +20,7 @@ export default class Header extends Component {
         <div className="container">
           <div className="row">
             <div className="trd-footer-top">
-              <div className="col-md-4 col-sm-6 col-xs-12 trd-footer-widget trd-about-widget">
+              <div className="col-md-3 col-sm-6 col-xs-12 trd-footer-widget trd-about-widget">
                 <div className="trd-logo-wrapper">
                   <img src="/content/images/foryoung-logo.png" style={{height: '48px', width: '132px'}} alt="Trade" />
                 </div>
@@ -28,14 +28,23 @@ export default class Header extends Component {
                 <p>澳洲飞扬投资有限公司（For Young Investments  Pty  Ltd， ACN 609 081 932) 是位于澳大利亚南澳州首府阿德莱德（Adelaide）的著名公司。</p>
               </div>
 
-              <div className="col-md-3 col-sm-6 col-xs-12 trd-footer-widget trd-useful-link-widget">
+              <div className="col-md-5 col-sm-6 col-xs-12 trd-footer-widget trd-useful-link-widget">
                 <h3 className="trd-footer-widget-title">常用链接</h3>
 
                 <div className="trd-footer-widget-content">
                   <ul>
                     {/*<li><IndexLink to="/cn/" activeClassName="active" onClick={this.scrollToTop}>首页</IndexLink></li>*/}
                     <li><NavLink to="/cn/about">关于我们</NavLink></li>
-                    <li><NavLink to="/cn/foryoung-investment">我们的业务</NavLink></li>
+                    <li>
+                      <NavLink to="/cn/foryoung-investment">澳洲飞扬投资有限公司</NavLink>
+                    </li>
+                    <li>
+                      <NavLink to="/cn/foryoung-pty">澳洲飞扬有限公司</NavLink>
+                    </li>
+                    <li>
+                      <NavLink to="/cn/foryoung-trade">澳洲飞扬国际贸易有限公司</NavLink>
+                    </li>
+                    
                     <li><NavLink to="/cn/sponsor">投资赞助项目及活动</NavLink></li>
                     <li><NavLink to="/cn/contact">联系我们</NavLink></li>
                     <li><a href="#">English</a></li>
@@ -43,7 +52,7 @@ export default class Header extends Component {
                 </div>
               </div>
 
-              <div className="col-md-5 col-sm-6 col-xs-12 trd-footer-widget trd-recent-post-widget">
+              <div className="col-md-4 col-sm-6 col-xs-12 trd-footer-widget trd-recent-post-widget">
                 <h3 className="trd-footer-widget-title">最近更新</h3>
 
                 <div className="trd-footer-widget-content">
@@ -91,7 +100,9 @@ export default class Header extends Component {
                   <li>
                     <NavLink to="/cn/foryoung-investment">我们的业务</NavLink>
                   </li>
-                  <li><NavLink to="/cn/sponsor">投资赞助项目及活动</NavLink></li> 
+                  <li>
+                    <NavLink to="/cn/sponsor">投资赞助项目及活动</NavLink>
+                  </li> 
                   <li>
                     <NavLink to="/cn/contact">联系我们</NavLink>
                   </li>
