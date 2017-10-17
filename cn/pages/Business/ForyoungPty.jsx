@@ -41,14 +41,12 @@ export default class ForyoungPty extends Component {
                             </div>
                         </div>
                         {/* End */}
-            
                     </div>
 
                     <div className="row">
                         <div className="col-md-4 col-sm-12">
                             <div className="trd-image-wrapper">
-                                <img src="../../../content/images/foryoung-pty-2.jpg" alt="About us" /><br /><br />
-                                <img src="../../../content/images/foryoung-pty-5.jpg" alt="About us" />
+                                <img src="../../../content/images/foryoung-pty-2.jpg" alt="About us" />
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-12">
