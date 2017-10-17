@@ -38,15 +38,14 @@ export default class Header extends Component {
                     <li>
                       <NavLink to="/cn/foryoung-investment">澳洲飞扬投资有限公司</NavLink>
                     </li>
+                    <li><NavLink to="/cn/sponsor">投资赞助项目及活动</NavLink></li>
                     <li>
                       <NavLink to="/cn/foryoung-pty">澳洲飞扬有限公司</NavLink>
                     </li>
+                    <li><NavLink to="/cn/contact">联系我们</NavLink></li>
                     <li>
                       <NavLink to="/cn/foryoung-trade">澳洲飞扬国际贸易有限公司</NavLink>
                     </li>
-                    
-                    <li><NavLink to="/cn/sponsor">投资赞助项目及活动</NavLink></li>
-                    <li><NavLink to="/cn/contact">联系我们</NavLink></li>
                     <li><a href="#">English</a></li>
                   </ul>
                 </div>
