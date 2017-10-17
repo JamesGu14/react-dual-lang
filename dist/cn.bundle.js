@@ -56033,7 +56033,7 @@
 	              { className: 'trd-footer-top' },
 	              _react2.default.createElement(
 	                'div',
-	                { className: 'col-md-4 col-sm-6 col-xs-12 trd-footer-widget trd-about-widget' },
+	                { className: 'col-md-3 col-sm-6 col-xs-12 trd-footer-widget trd-about-widget' },
 	                _react2.default.createElement(
 	                  'div',
 	                  { className: 'trd-logo-wrapper' },
@@ -56047,7 +56047,7 @@
 	              ),
 	              _react2.default.createElement(
 	                'div',
-	                { className: 'col-md-3 col-sm-6 col-xs-12 trd-footer-widget trd-useful-link-widget' },
+	                { className: 'col-md-5 col-sm-6 col-xs-12 trd-footer-widget trd-useful-link-widget' },
 	                _react2.default.createElement(
 	                  'h3',
 	                  { className: 'trd-footer-widget-title' },
@@ -56074,7 +56074,7 @@
 	                      _react2.default.createElement(
 	                        _NavLink2.default,
 	                        { to: '/cn/foryoung-investment' },
-	                        '\u6211\u4EEC\u7684\u4E1A\u52A1'
+	                        '\u6FB3\u6D32\u98DE\u626C\u6295\u8D44\u6709\u9650\u516C\u53F8'
 	                      )
 	                    ),
 	                    _react2.default.createElement(
@@ -56091,8 +56091,26 @@
 	                      null,
 	                      _react2.default.createElement(
 	                        _NavLink2.default,
+	                        { to: '/cn/foryoung-pty' },
+	                        '\u6FB3\u6D32\u98DE\u626C\u6709\u9650\u516C\u53F8'
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      'li',
+	                      null,
+	                      _react2.default.createElement(
+	                        _NavLink2.default,
 	                        { to: '/cn/contact' },
 	                        '\u8054\u7CFB\u6211\u4EEC'
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      'li',
+	                      null,
+	                      _react2.default.createElement(
+	                        _NavLink2.default,
+	                        { to: '/cn/foryoung-trade' },
+	                        '\u6FB3\u6D32\u98DE\u626C\u56FD\u9645\u8D38\u6613\u6709\u9650\u516C\u53F8'
 	                      )
 	                    ),
 	                    _react2.default.createElement(
@@ -56109,7 +56127,7 @@
 	              ),
 	              _react2.default.createElement(
 	                'div',
-	                { className: 'col-md-5 col-sm-6 col-xs-12 trd-footer-widget trd-recent-post-widget' },
+	                { className: 'col-md-4 col-sm-6 col-xs-12 trd-footer-widget trd-recent-post-widget' },
 	                _react2.default.createElement(
 	                  'h3',
 	                  { className: 'trd-footer-widget-title' },
