@@ -10,8 +10,8 @@ export default class Payment extends Component {
   render() {
     return (
       <div style={divStyle}>
-        <h1>Payment Online</h1>
-        <h2>Page is under constructing, please come back later.</h2>
+        <h1>在線付款</h1>
+        <h2>該功能正在建設中，歡迎稍後再來。</h2>
       </div>
     )
   }

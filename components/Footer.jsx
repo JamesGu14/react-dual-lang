@@ -3,10 +3,17 @@ import { Link, IndexLink } from 'react-router'
 import NavLink from './NavLink.jsx'
 
 import TopBar from './TopBar.jsx'
-import NavBar from './NavBar.jsx' 
+import NavBar from './NavBar.jsx'
 import Home from '../pages/Home.jsx'
 
 export default class Header extends Component {
+  constructor() {
+    super()
+    this.scrollToTop = this.scrollToTop.bind(this)
+  }
+  scrollToTop () { 
+    jQuery('html, body').animate({ scrollTop: 0 }, 'slow') 
+  }
   render() {
     return (
       <footer>
@@ -15,94 +22,97 @@ export default class Header extends Component {
             <div className="trd-footer-top">
               <div className="col-md-3 col-sm-6 col-xs-12 trd-footer-widget trd-about-widget">
                 <div className="trd-logo-wrapper">
-                  <img src="/content/images/logo-footer.png" alt="Trade" />
+                  <img src="/content/images/foryoung-logo.png" style={{height: '48px', width: '132px'}} alt="Trade" />
                 </div>
 
-                <p>Checkout and enjoy the biggest eco free explain you how an mistaken even some others me people expect better for
-                  proper management system are good idea ever made</p>
+                <p>For Young Investments Pty Ltd (ACN 609 081 932) is an outstanding company based in Adelaide, capital of South Australia.</p>
               </div>
 
-              <div className="col-md-3 col-sm-6 col-xs-12 trd-footer-widget trd-useful-link-widget">
-                <h3 className="trd-footer-widget-title">Useful Link</h3>
+              <div className="col-md-5 col-sm-6 col-xs-12 trd-footer-widget trd-useful-link-widget">
+                <h3 className="trd-footer-widget-title">Frequent Links</h3>
 
                 <div className="trd-footer-widget-content">
                   <ul>
-                    <li><NavLink to="/about">About</NavLink></li>
-                    <li><NavLink to="/products">Products</NavLink></li>
-                    <li><NavLink to="/payment">Pay Online</NavLink></li>
-                    <li><NavLink to="/contact">Contact Us</NavLink></li>
-                    <li><NavLink to="/tracking">Parcel Tracking</NavLink></li>
+                    {/*<li><IndexLink to="/" activeClassName="active" onClick={this.scrollToTop}>首页</IndexLink></li>*/}
+                    <li><NavLink to="/about">ABOUT US</NavLink></li>
+                    <li>
+                      <NavLink to="/foryoung-investment">澳洲飞扬投资有限公司</NavLink>
+                    </li>
+                    <li><NavLink to="/sponsor">INVESTMENT PROGRAMS & EVENTS</NavLink></li>
+                    <li>
+                      <NavLink to="/foryoung-pty">澳洲飞扬有限公司</NavLink>
+                    </li>
+                    <li><NavLink to="/contact">CONTACT US</NavLink></li>
+                    <li>
+                      <NavLink to="/foryoung-trade">澳洲飞扬国际贸易有限公司</NavLink>
+                    </li>
+                    <li><a href="/cn">中文</a></li>
                   </ul>
                 </div>
               </div>
 
-              <div className="col-md-3 col-sm-6 col-xs-12 trd-footer-widget trd-recent-post-widget">
-                <h3 className="trd-footer-widget-title">Recent Post</h3>
+              <div className="col-md-4 col-sm-6 col-xs-12 trd-footer-widget trd-recent-post-widget">
+                <h3 className="trd-footer-widget-title">Latest Updates</h3>
 
                 <div className="trd-footer-widget-content">
                   <div className="trd-recent-post-wrapper">
                     <div className="trd-recent-post-item">
                       <h3 className="trd-post-title">
-                        <a href="#">Financial express anounced the share list from candites</a>
+                        <NavLink to="/about">About 澳洲飞扬投资有限公司</NavLink>
                       </h3>
 
-                      <span className="trd-post-date">April 25, 2016</span>
+                      <span className="trd-post-date">August 12, 2016</span>
                     </div>
 
                     <div className="trd-recent-post-item">
                       <h3 className="trd-post-title">
-                        <a href="#">Financial express anounced the share list from candites</a>
+                        <NavLink to="/partner">We have established long-term business relationship with more than 40 well-known Australian food and consumer goods companies.</NavLink>
                       </h3>
 
-                      <span className="trd-post-date">April 25, 2016</span>
+                      <span className="trd-post-date">August 15, 2016</span>
                     </div>
                   </div>
                 </div>
               </div>
-
+              {/*
               <div className="col-md-3 col-sm-6 col-xs-12 trd-footer-widget trd-subscribe-widget">
-                <h3 className="trd-footer-widget-title">Subscribe</h3>
+                <h3 className="trd-footer-widget-title">訂閱我們</h3>
 
                 <div className="trd-footer-widget-content">
-                  <p>Checkout and enjoy the biggest eco free explain you how </p>
+                  <p>訂閱我們的最新消息，以及各種優惠的商業活動 </p>
 
                   <form action="#">
-                    <input type="email" name="trd-subscription" id="trd-subscription" placeholder="Your email" />
-                    <button type="submit" className="trd-btn">Submit</button>
+                    <input type="email" name="trd-subscription" id="trd-subscription" placeholder="您的郵箱" />
+                    <button type="submit" className="trd-btn">訂閱郵件</button>
                   </form>
                 </div>
               </div>
+              */}
             </div>
 
             <div className="trd-footer-bottom">
               <div className="trd-footer-menu">
                 <ul>
                   <li>
-                    <IndexLink to="/" activeClassName="active">Home</IndexLink>
+                    <NavLink to="/about">ABOUT US</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/about">About</NavLink>
+                    <NavLink to="/foryoung-investment">OUR BUSINESS</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/products">Products</NavLink>
+                    <NavLink to="/sponsor">INVESTMENT PROGRAMS & EVENTS</NavLink>
+                  </li> 
+                  <li>
+                    <NavLink to="/contact">CONTACT US</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/payment">Pay Online</NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/tracking">Parcel Tracking</NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/contact">Contact Us</NavLink>
-                  </li>
-                  <li>
-                    <a href="/cn">繁體中文</a>
+                    <a href="/cn">中文</a>
                   </li>
                 </ul>
               </div>
 
               <div className="trd-copyright-info">
-                <p>Copyright © 2016 by <a href="#" className="trd-author-link">James Gu</a></p>
+                <p>Copyright © 2016 by <a href="#" className="trd-author-link">澳洲飞扬投资有限公司</a></p>
               </div>
             </div>
           </div>

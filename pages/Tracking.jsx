@@ -10,7 +10,8 @@ export default class Tracking extends Component {
   render() {
     return (
       <div style={divStyle}>
-        <h2>Page is under constructing, please come back later.</h2>
+        <h1>包裹追蹤</h1>
+        <h2>該功能正在建設中，歡迎稍後再來。</h2>
       </div>
     )
   }

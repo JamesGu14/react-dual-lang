@@ -10,7 +10,7 @@ export default class NoMatch extends Component {
   render() {
     return (
       <div style={divStyle}>
-        <h2>Sorry, the page you are visiting does not exist.</h2>
+        <h2>对不起，您所访问的页面不存在</h2>
         <br /><br />
       </div>
     )

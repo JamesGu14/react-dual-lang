@@ -5,6 +5,7 @@ import BannerCard from '../components/home/BannerCard.jsx'
 import SectionOne from '../components/home/SectionOne.jsx' 
 import SectionTwo from '../components/home/SectionTwo.jsx' 
 
+
 export default class Home extends Component {
   render() {
     return (
@@ -12,7 +13,7 @@ export default class Home extends Component {
         <Banner />
         <BannerCard />
         <SectionOne />
-        <SectionTwo />
+        
       </div>
     )
   }

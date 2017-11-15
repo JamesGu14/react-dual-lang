@@ -46,7 +46,7 @@ export default class Header extends Component {
                     <li>
                       <NavLink to="/cn/foryoung-trade">澳洲飞扬国际贸易有限公司</NavLink>
                     </li>
-                    <li><a href="#">English</a></li>
+                    <li><a href="/">English</a></li>
                   </ul>
                 </div>
               </div>
