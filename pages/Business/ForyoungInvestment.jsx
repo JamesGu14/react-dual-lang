@@ -9,8 +9,8 @@ export default class ForyoungInvestment extends Component {
 
                     <div className="row">
                         <div className="col-md-8 col-md-offset-2" style={{textAlign: 'center'}}>
-                        <h2 className="trd-content-inner-title" style={{ marginBottom: '0' }}>澳洲飞扬投资有限公司</h2>
-                        <h5 className="trd-content-inner-title" style={{ fontSize: '16px' }}>(For Young Investments Pty Ltd, ACN 609 081 932)</h5>
+                        <h2 className="trd-content-inner-title" style={{ marginBottom: '0' }}>For Young Investments Pty Ltd</h2>
+                        <h5 className="trd-content-inner-title" style={{ fontSize: '16px' }}>(ACN 609 081 932)</h5>
                         </div>
                     </div>
 

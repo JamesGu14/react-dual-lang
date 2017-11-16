@@ -55356,7 +55356,7 @@
 	                        _react2.default.createElement(
 	                          _NavLink2.default,
 	                          { to: '/foryoung-investment', collapse: true },
-	                          '\u6FB3\u6D32\u98DE\u626C\u6295\u8D44\u6709\u9650\u516C\u53F8'
+	                          'For Young Investments Pty Ltd'
 	                        )
 	                      ),
 	                      _react2.default.createElement(
@@ -55365,7 +55365,7 @@
 	                        _react2.default.createElement(
 	                          _NavLink2.default,
 	                          { to: '/foryoung-pty', collapse: true },
-	                          '\u6FB3\u6D32\u98DE\u626C\u6709\u9650\u516C\u53F8'
+	                          'For Young Pty Ltd'
 	                        )
 	                      ),
 	                      _react2.default.createElement(
@@ -55374,7 +55374,7 @@
 	                        _react2.default.createElement(
 	                          _NavLink2.default,
 	                          { to: '/foryoung-trade', collapse: true },
-	                          '\u6FB3\u6D32\u98DE\u626C\u56FD\u9645\u8D38\u6613\u6709\u9650\u516C\u53F8'
+	                          'For Young International Trading Pty Ltd'
 	                        )
 	                      )
 	                    )
@@ -55395,6 +55395,15 @@
 	                      _NavLink2.default,
 	                      { to: '/contact', collapse: true },
 	                      'CONTACT US'
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      'a',
+	                      { href: '/cn' },
+	                      '\u7B80\u4F53\u4E2D\u6587'
 	                    )
 	                  )
 	                )
@@ -56104,7 +56113,7 @@
 	                      _react2.default.createElement(
 	                        _NavLink2.default,
 	                        { to: '/foryoung-investment' },
-	                        '\u6FB3\u6D32\u98DE\u626C\u6295\u8D44\u6709\u9650\u516C\u53F8'
+	                        'For Young Investments Pty Ltd'
 	                      )
 	                    ),
 	                    _react2.default.createElement(
@@ -56122,7 +56131,7 @@
 	                      _react2.default.createElement(
 	                        _NavLink2.default,
 	                        { to: '/foryoung-pty' },
-	                        '\u6FB3\u6D32\u98DE\u626C\u6709\u9650\u516C\u53F8'
+	                        'For Young Pty Ltd'
 	                      )
 	                    ),
 	                    _react2.default.createElement(
@@ -56140,7 +56149,7 @@
 	                      _react2.default.createElement(
 	                        _NavLink2.default,
 	                        { to: '/foryoung-trade' },
-	                        '\u6FB3\u6D32\u98DE\u626C\u56FD\u9645\u8D38\u6613\u6709\u9650\u516C\u53F8'
+	                        'For Young International Trading Pty Ltd'
 	                      )
 	                    ),
 	                    _react2.default.createElement(
@@ -56149,7 +56158,7 @@
 	                      _react2.default.createElement(
 	                        'a',
 	                        { href: '/cn' },
-	                        '\u4E2D\u6587'
+	                        '\u7B80\u4F53\u4E2D\u6587'
 	                      )
 	                    )
 	                  )
@@ -56178,7 +56187,7 @@
 	                        _react2.default.createElement(
 	                          _NavLink2.default,
 	                          { to: '/about' },
-	                          'About \u6FB3\u6D32\u98DE\u626C\u6295\u8D44\u6709\u9650\u516C\u53F8'
+	                          'About For Young Investments Pty Ltd'
 	                        )
 	                      ),
 	                      _react2.default.createElement(
@@ -56260,7 +56269,7 @@
 	                    _react2.default.createElement(
 	                      'a',
 	                      { href: '/cn' },
-	                      '\u4E2D\u6587'
+	                      '\u7B80\u4F53\u4E2D\u6587'
 	                    )
 	                  )
 	                )
@@ -56275,7 +56284,7 @@
 	                  _react2.default.createElement(
 	                    'a',
 	                    { href: '#', className: 'trd-author-link' },
-	                    '\u6FB3\u6D32\u98DE\u626C\u6295\u8D44\u6709\u9650\u516C\u53F8'
+	                    'For Young Investments Pty Ltd'
 	                  )
 	                )
 	              )
@@ -57468,12 +57477,12 @@
 	                            _react2.default.createElement(
 	                                "h2",
 	                                { className: "trd-content-inner-title", style: { marginBottom: '0' } },
-	                                "\u6FB3\u6D32\u98DE\u626C\u6295\u8D44\u6709\u9650\u516C\u53F8"
+	                                "For Young Investments Pty Ltd"
 	                            ),
 	                            _react2.default.createElement(
 	                                "h5",
 	                                { className: "trd-content-inner-title", style: { fontSize: '16px' } },
-	                                "(For Young Investments Pty Ltd, ACN 609 081 932)"
+	                                "(ACN 609 081 932)"
 	                            )
 	                        )
 	                    ),
@@ -57620,12 +57629,12 @@
 	                            _react2.default.createElement(
 	                                "h2",
 	                                { className: "trd-content-inner-title", style: { marginBottom: '0' } },
-	                                "\u6FB3\u6D32\u98DE\u626C\u6709\u9650\u516C\u53F8"
+	                                "For Young Pty Ltd"
 	                            ),
 	                            _react2.default.createElement(
 	                                "h5",
 	                                { className: "trd-content-inner-title", style: { fontSize: '16px' } },
-	                                "(For Young Pty Ltd, ACN 167 191 200)"
+	                                "(ACN 167 191 200)"
 	                            )
 	                        )
 	                    ),
@@ -57761,12 +57770,12 @@
 	                            _react2.default.createElement(
 	                                "h2",
 	                                { className: "trd-content-inner-title", style: { marginBottom: '0' } },
-	                                "\u6FB3\u6D32\u98DE\u626C\u56FD\u9645\u8D38\u6613\u6709\u9650\u516C\u53F8"
+	                                "For Young International Trading Pty Ltd"
 	                            ),
 	                            _react2.default.createElement(
 	                                "h5",
 	                                { className: "trd-content-inner-title", style: { fontSize: '16px' } },
-	                                "(For Young International Trading Pty Ltd, ACN 608 506 592)"
+	                                "(ACN 608 506 592)"
 	                            )
 	                        )
 	                    ),

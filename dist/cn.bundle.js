@@ -45107,6 +45107,15 @@
 	                      { to: '/cn/contact', collapse: true },
 	                      '\u8054\u7CFB\u6211\u4EEC'
 	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      'a',
+	                      { href: '/' },
+	                      'English'
+	                    )
 	                  )
 	                )
 	              )

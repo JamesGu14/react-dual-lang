@@ -36,17 +36,17 @@ export default class Header extends Component {
                     {/*<li><IndexLink to="/" activeClassName="active" onClick={this.scrollToTop}>首页</IndexLink></li>*/}
                     <li><NavLink to="/about">ABOUT US</NavLink></li>
                     <li>
-                      <NavLink to="/foryoung-investment">澳洲飞扬投资有限公司</NavLink>
+                      <NavLink to="/foryoung-investment">For Young Investments Pty Ltd</NavLink>
                     </li>
                     <li><NavLink to="/sponsor">INVESTMENT PROGRAMS & EVENTS</NavLink></li>
                     <li>
-                      <NavLink to="/foryoung-pty">澳洲飞扬有限公司</NavLink>
+                      <NavLink to="/foryoung-pty">For Young Pty Ltd</NavLink>
                     </li>
                     <li><NavLink to="/contact">CONTACT US</NavLink></li>
                     <li>
-                      <NavLink to="/foryoung-trade">澳洲飞扬国际贸易有限公司</NavLink>
+                      <NavLink to="/foryoung-trade">For Young International Trading Pty Ltd</NavLink>
                     </li>
-                    <li><a href="/cn">中文</a></li>
+                    <li><a href="/cn">简体中文</a></li>
                   </ul>
                 </div>
               </div>
@@ -58,7 +58,7 @@ export default class Header extends Component {
                   <div className="trd-recent-post-wrapper">
                     <div className="trd-recent-post-item">
                       <h3 className="trd-post-title">
-                        <NavLink to="/about">About 澳洲飞扬投资有限公司</NavLink>
+                        <NavLink to="/about">About For Young Investments Pty Ltd</NavLink>
                       </h3>
 
                       <span className="trd-post-date">August 12, 2016</span>
@@ -106,13 +106,13 @@ export default class Header extends Component {
                     <NavLink to="/contact">CONTACT US</NavLink>
                   </li>
                   <li>
-                    <a href="/cn">中文</a>
+                    <a href="/cn">简体中文</a>
                   </li>
                 </ul>
               </div>
 
               <div className="trd-copyright-info">
-                <p>Copyright © 2016 by <a href="#" className="trd-author-link">澳洲飞扬投资有限公司</a></p>
+                <p>Copyright © 2016 by <a href="#" className="trd-author-link">For Young Investments Pty Ltd</a></p>
               </div>
             </div>
           </div>

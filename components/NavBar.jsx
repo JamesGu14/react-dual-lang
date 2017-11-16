@@ -42,13 +42,13 @@ export default class NavBar extends Component {
                     <NavLink to="/foryoung-investment" collapse={true}>OUR BUSINESS</NavLink>
                     <ul className="trd-dropdown-menu">
                       <li>
-                        <NavLink to="/foryoung-investment" collapse={true}>澳洲飞扬投资有限公司</NavLink>
+                        <NavLink to="/foryoung-investment" collapse={true}>For Young Investments Pty Ltd</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/foryoung-pty" collapse={true}>澳洲飞扬有限公司</NavLink>
+                        <NavLink to="/foryoung-pty" collapse={true}>For Young Pty Ltd</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/foryoung-trade" collapse={true}>澳洲飞扬国际贸易有限公司</NavLink>
+                        <NavLink to="/foryoung-trade" collapse={true}>For Young International Trading Pty Ltd</NavLink>
                       </li>
                     </ul>
                   </li> 
@@ -71,11 +71,9 @@ export default class NavBar extends Component {
                     <NavLink to="/contact" collapse={true}>CONTACT US</NavLink>
                   </li>
                   
-                  {/*
                   <li>
-                    <a href="/">中文</a>
+                    <a href="/cn">简体中文</a>
                   </li>
-                   */}
                 </ul>
               </div>
             </div>
